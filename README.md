@@ -1,4 +1,4 @@
-# cpp-automatic-unit-test
+# cpp-automatic-unit-test-with-fuzzing
 
 index.ts : make g++ compile command and show result 
 
