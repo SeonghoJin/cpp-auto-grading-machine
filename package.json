@@ -1,0 +1,16 @@
+{
+  "name": "cpp-test",
+  "version": "1.0.0",
+  "scripts": {
+    "test:all": "ts-node index.ts"
+  },
+  "author": "",
+  "private": true,
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  },
+  "os": [
+    "Mac"
+  ]
+}
