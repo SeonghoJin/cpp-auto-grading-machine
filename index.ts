@@ -60,8 +60,8 @@ const tryCatchAsyncWrap = <T extends PromiseFunction>(callback: T): TryCatchAsyn
 }
 
 const run = promisify(exec);
-const errAccess = tryCatchAsyncWrap(access);
-const errMkdir = tryCatchAsyncWrap(mkdir);
+const tryAccess = tryCatchAsyncWrap(access);
+const tryMkdir = tryCatchAsyncWrap(mkdir);
 const DEFAULT_TEST_DIRECTORY = '__test__';
 const DEFAULT_TEST_FILE = 'test';
 const br = () => console.log('========================================');
@@ -87,12 +87,12 @@ const removeExt = (fileName: string) => {
     return fileNameRemovedExt;
 }
 
-const makeFolderIfNotExists = async (folderName: string) => {
-    const { err } = await errAccess(folderName);
+const tryMakeFolder = async (folderName: string) => {
+    const { err } = await tryAccess(folderName);
     if (err === null) {
         return;
     }
-    await errMkdir(folderName);
+    await tryMkdir(folderName);
 }
 
 const readTestDirectory = async (testDirectory: string) => {
@@ -125,20 +125,20 @@ const test = async (filename: string) => {
     const testFileName = join(DEFAULT_TEST_DIRECTORY, filename);
     const UNSAFE__command = `cd ${UNSAFE__FOLDER__NAME__HARD__CODE} && ${compile} ${args} ${mainTestFile} ${testFileName} && ${buildFilename}`;
 
-    await makeFolderIfNotExists(`${UNSAFE__FOLDER__NAME__HARD__CODE}/build`);
+    await tryMakeFolder(`${UNSAFE__FOLDER__NAME__HARD__CODE}/build`);
     const result = await run(UNSAFE__command);
 
     return result;
 }
 
-const wrapErrTest = tryCatchAsyncWrap(test);
+const tryTest = tryCatchAsyncWrap(test);
 
 const main = async () => {
     const testFiles = await readTestDirectory(UNSAFE__FOLDER__NAME__HARD__CODE);
 
     const results = await Promise.all(
         testFiles.map(async (testFile) => {
-            const { err, result } = await wrapErrTest(testFile);
+            const { err, result } = await tryTest(testFile);
             return {
                 testFile,
                 err,
