@@ -2,7 +2,26 @@
 
 index.ts : make g++ compile command and show result 
 
-# prototype
+
+# env
+
+#### os 
+macOS Big Sur 11.4
+
+#### C++ Compiler
+Apple clang version 13.0.0 (clang-1300.0.29.30)
+Target: arm64-apple-darwin20.5.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+#### goggle test
+- version: 1.12.1
+- https://github.com/google/googletest
+- Operating Systems: Linux, macOs, Windows
+- Compilers: gcc 5.0+, clang5.0+, MSVC 2015+
+- macOS users: Xcode 9.3+ provides clang 5.0+.
+- warning: not support c++11, require at least C++14.
+
 
 # result
 
