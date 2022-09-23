@@ -1,1 +1,4 @@
 node_modules
+*.mission
+*.mission.zip
+.DS_Store
