@@ -1,7 +1,9 @@
+
 import { makeTry } from "ts-try-catch-wrap";
-import { access, mkdir, readdir, rmdir, rm, rename } from 'fs/promises';
+import { access, mkdir, readdir, rmdir, rm, rename, readFile } from 'fs/promises';
 import { exec } from "node:child_process";
 import { promisify } from "node:util";
+import { config } from './config';
 import AdmZip from 'adm-zip';
 import glob from 'glob';
 
@@ -12,6 +14,7 @@ export const tryMkdir = makeTry(mkdir);
 export const removeFile = makeTry(rm);
 export const moveFile = makeTry(rename);
 export const tryRm = makeTry(rm);
+export const read = makeTry(readFile);
 export const br = () => console.log('========================================');
 
 export const isOnlineTextFolder = (filename: string) => {
@@ -94,7 +97,7 @@ export const removeAllFolders = makeTry(async (foldername) => {
         const items = await readdir(folderPath);
 
         await Promise.allSettled(items.map(async (item) => {
-            if (!isCppFile(item)) {
+            if (!isCppFile(item) && isAssignSubmissionFile(folderPath)) {
                 const path = `${folderPath}/${item}`;
                 console.log('remove ' + path);
                 const { hasError, err } = await tryRm(`${path}`, {
@@ -119,7 +122,7 @@ export const buildCpp = makeTry(async (foldername) => {
     }
 
     const compiler = 'g++';
-    const buildFilename = `${foldername}/build`
+    const buildFilename = `${foldername}/${config.BUILD_EXE_FILE}`
     const args = `-o ${buildFilename} -std=c++14`;
     const targetFiles = files.map((file) => `${foldername}/${file}`);
     const command = `${compiler} ${args} ${targetFiles.join(' ')}`;
@@ -166,4 +169,105 @@ export const isCppFile = (filename: string) => {
     const extension = filename.split('.').at(-1);
 
     return extension === 'cpp' || extension === 'c' || extension === 'h'
+}
+
+export const unit = makeTry(async (buildFilePath: string, inputFilePath: string, outputFilePath: string) => {
+    const readOutputRes = await read(outputFilePath, 'utf-8');
+
+    if (readOutputRes.hasError) {
+        console.log(`test fail: because bad output file path`);
+        return {
+            input: inputFilePath,
+            output: outputFilePath,
+            result: 'fail',
+            filename: buildFilePath
+        }
+    }
+
+    const { result, err, hasError } = await run(`${buildFilePath} < ${inputFilePath}`);
+    if (hasError || result.stderr !== '') {
+        console.log(`test fail ${buildFilePath} ${inputFilePath}`);
+        console.log(err);
+        return {
+            input: inputFilePath,
+            output: outputFilePath,
+            result: 'fail',
+            filename: buildFilePath
+        }
+    }
+
+    const test = formatString(result.stdout.toString());
+    const answer = formatString(readOutputRes.result.toString())
+
+    if (test === answer) {
+        console.log(`test success ${buildFilePath} ${inputFilePath}`);
+        return {
+            input: inputFilePath,
+            output: outputFilePath,
+            result: 'success',
+            filename: buildFilePath
+        }
+    }
+
+    console.log(`test fail ${buildFilePath} ${inputFilePath}`);
+
+    return {
+        input: inputFilePath,
+        output: outputFilePath,
+        result: 'fail',
+        filename: buildFilePath
+    }
+});
+
+export const formatString = (value: string) => {
+    return value.replace(/(\s*)/g, "").replace(/\n|\r|\s*/g, "");
+}
+
+export const test = async (filePath: string) => {
+    const inputFolderPath = `./${filePath}/${config.INPUT_FOLDER_NAME}`;
+    const outputFolderPath = `./${filePath}/${config.OUTPUT_FOLDER_NAME}`;
+
+    const inputFiles = await (await readdir(inputFolderPath)).filter(path => path[0] !== '.');
+    const outputFiles = await (await readdir(outputFolderPath)).filter(path => path[0] !== '.');
+    if (inputFiles.length !== outputFiles.length) {
+        console.log(inputFiles);
+        console.log(outputFiles);
+        throw new Error('not match input and ouput');
+    }
+
+    const testFolders = (await readdir(`./${filePath}`)).map(file => {
+        return `./${filePath}/${file}/${config.BUILD_EXE_FILE}`;
+    }).filter(isAssignSubmissionFile);
+
+    return await Promise.all(testFolders.map(async (testFolder) => {
+        const result = await Promise.all(inputFiles.map(async (_, index) => {
+            return await makeTry(async () => {
+                const inputFilePath = `${inputFolderPath}/${inputFiles[index]}`;
+                const outputFilePath = `${outputFolderPath}/${outputFiles[index]}`;
+                if (inputFilePath == undefined || outputFilePath == undefined) {
+                    throw new Error('input or output file path is undefined');
+                }
+
+                return await unit(testFolder, inputFilePath, outputFilePath)
+            })();
+        }));
+
+        const isFail = result.reduce((before, res) => {
+            if (before === true) {
+                return true;
+            }
+            if (res.hasError) {
+                return true;
+            }
+            if (res.result.result?.result !== 'success') {
+                return true;
+            }
+            return false;
+        }, false);
+
+        return {
+            result: !isFail,
+            filename: testFolder
+        };
+    }));
 }

@@ -7,7 +7,8 @@ import {
     removeAllFolders,
     removeAllOnlineTextFolder,
     tryMkdir,
-    unZipAssignSubmission
+    unZipAssignSubmission,
+    test
 } from "./util";
 import { config } from './config';
 
@@ -16,14 +17,6 @@ const {
 } = config;
 
 const main = async () => {
-
-    console.log('make test fail folder');
-    const makeTestFailFolder = await tryMkdir(`${UNSAFE__FOLDER__NAME__HARD__CODE}/test-fail`)
-
-    if (makeTestFailFolder.hasError) {
-        console.log('make test file error');
-        console.log(makeTestFailFolder.err);
-    }
 
     console.log('remove all online text folder');
     await removeAllOnlineTextFolder(UNSAFE__FOLDER__NAME__HARD__CODE);
@@ -78,6 +71,37 @@ const main = async () => {
 
         console.log(`move ${filename} to ${buildFailFolderName}/${folderName}`);
         const result = await moveFile(filename, `./${buildFailFolderName}/${folderName}`)
+
+        if (result.hasError) {
+            console.log(result.err);
+        }
+    }));
+
+    console.log(`start test | target ${UNSAFE__FOLDER__NAME__HARD__CODE}`);
+    const testResult = await test(UNSAFE__FOLDER__NAME__HARD__CODE);
+
+    const failTests = testResult.filter(t => t.result === false).map(t => t.filename);
+
+    console.log('make test fail folder');
+    const testFaileFolder = `${UNSAFE__FOLDER__NAME__HARD__CODE}/test-fail`;
+    const makeTestFailFolder = await tryMkdir(`${testFaileFolder}`);
+
+    if (makeTestFailFolder.hasError) {
+        console.log('make test file error');
+        console.log(makeTestFailFolder.err);
+    }
+
+    console.log('move test fail folder');
+    await Promise.allSettled(failTests.map(async (filename) => {
+        const folderName = filename.split('/').at(-2);
+        const splitedTargetFileName = filename.split('/');
+        const targetFileName = splitedTargetFileName.slice(0, splitedTargetFileName.length - 1).join('/');
+        if (folderName === undefined) {
+            throw new Error('folderName is undefined, #e003');
+        }
+
+        console.log(`move ${targetFileName} to ${testFaileFolder}/${folderName}`);
+        const result = await moveFile(targetFileName, `./${testFaileFolder}/${folderName}`)
 
         if (result.hasError) {
             console.log(result.err);

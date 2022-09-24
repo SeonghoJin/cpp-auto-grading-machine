@@ -4,4 +4,5 @@ export const config = {
     UNSAFE__FOLDER__NAME__HARD__CODE: 'histogram.mission',
     INPUT_FOLDER_NAME: 'inputs',
     OUTPUT_FOLDER_NAME: 'outputs',
+    BUILD_EXE_FILE: 'build'
 };
