@@ -124,7 +124,18 @@ export const buildCpp = makeTry(async (foldername) => {
     const compiler = 'g++';
     const buildFilename = `${foldername}/${config.BUILD_EXE_FILE}`
     const args = `-o ${buildFilename} -std=c++14`;
-    const targetFiles = files.map((file) => `${foldername}/${file}`);
+    const targetFiles = files.filter((file) => {
+        const extension = file.split('.').at(-1);
+        if (extension === 'cpp') {
+            return true;
+        }
+
+        if (extension === 'c') {
+            return true;
+        }
+
+        return false;
+    }).map((file) => `${foldername}/${file}`);
     const command = `${compiler} ${args} ${targetFiles.join(' ')}`;
     console.log(`build ${command}`);
     const result = await run(command);
@@ -136,7 +147,7 @@ export const buildCpp = makeTry(async (foldername) => {
 
         return {
             result: 'fail',
-            filename: foldername
+            filename: foldername,
         };
     }
 
@@ -199,6 +210,11 @@ export const unit = makeTry(async (buildFilePath: string, inputFilePath: string,
     const test = formatString(result.stdout.toString());
     const answer = formatString(readOutputRes.result.toString())
 
+    console.log('test start');
+    console.log(`${buildFilePath} ${inputFilePath} ${outputFilePath}`);
+    console.log(`user output: ${test}`);
+    console.log(`answer output: ${answer}`);
+
     if (test === answer) {
         console.log(`test success ${buildFilePath} ${inputFilePath}`);
         return {
@@ -224,11 +240,12 @@ export const formatString = (value: string) => {
 }
 
 export const test = async (filePath: string) => {
-    const inputFolderPath = `./${filePath}/${config.INPUT_FOLDER_NAME}`;
-    const outputFolderPath = `./${filePath}/${config.OUTPUT_FOLDER_NAME}`;
+    const inputFolderPath = `./${config.INPUT_FOLDER_NAME}`;
+    const outputFolderPath = `./${config.OUTPUT_FOLDER_NAME}`;
 
     const inputFiles = await (await readdir(inputFolderPath)).filter(path => path[0] !== '.');
     const outputFiles = await (await readdir(outputFolderPath)).filter(path => path[0] !== '.');
+
     if (inputFiles.length !== outputFiles.length) {
         console.log(inputFiles);
         console.log(outputFiles);
@@ -270,4 +287,68 @@ export const test = async (filePath: string) => {
             filename: testFolder
         };
     }));
+}
+
+export const formatMultiTest = async (folderName: string, testFolderNames: string[]) => {
+    const folders = await (await readdir(folderName)).filter(isAssignSubmissionFile);
+
+    await Promise.all(folders.map(async (folder) => {
+        const testCasesPath = `${folderName}/${folder}`;
+
+        await Promise.all(testFolderNames.map(async (testFolderName) => {
+
+            const testCaseFolder = await findFiles(`${testCasesPath}/*/**/${testFolderName}`);
+
+            if (testCaseFolder.length !== 1) {
+                return;
+            }
+
+            console.log('move folder', testCaseFolder[0], `${testCasesPath}/${testFolderName}`);
+            moveFile(testCaseFolder[0], `${testCasesPath}/${testFolderName}`);
+        }));
+    }));
+}
+
+export const removeAllExcludeTestFolder = async (folderName: string, testFolderNames: string[]) => {
+    const folders = await (await readdir(folderName)).filter(isAssignSubmissionFile);
+
+    await Promise.all(folders.map(async (folder) => {
+        const testCasesPath = `${folderName}/${folder}`;
+        const testCaseFolders = await readdir(testCasesPath);
+
+        await Promise.all(testCaseFolders.map(async (testCaseFolder) => {
+            if (testFolderNames.includes(testCaseFolder) === false) {
+                const folder = `./${testCasesPath}/${testCaseFolder}`
+                console.log('remove folder', folder);
+
+                const result = await run(`rm -rf ${folder}`);
+                console.log(result.err);
+            }
+        }));
+    }));
+}
+
+export const checkTestCases = async (folderName: string, testFolderNames: string[]) => {
+    const folders = await (await readdir(folderName)).filter(isAssignSubmissionFile);
+
+    const result = await Promise.all(folders.map(async (folder) => {
+        const testCasesPath = `${folderName}/${folder}`;
+        const testCaseFolders = await readdir(testCasesPath);
+
+        const hasAllTestCases = testFolderNames.filter(folderName => {
+            return !testCaseFolders.includes(folderName);
+        }).length === 0;
+
+        return {
+            hasAllTestCases,
+            folderName: folder,
+            path: testCasesPath
+        }
+    }));
+
+    return result;
+}
+
+export const buildTestCases = async (path: string) => {
+    const testCasesFolders = await readdir(path);
 }

@@ -1,0 +1,1719 @@
+remove all online text folder 
+remove ./2-exercise:string/강나림_949728_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/강예람_949719_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/고범수_949746_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/구동한_949715_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/김명환_949727_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/김성현_949718_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/김유선_949738_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/김정우_949731_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/김현우_949744_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/문영상_949724_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/박근희_949717_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/박대형_949736_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/박병설_949742_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/박소형_949739_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/박준형_949743_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/박현_949725_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/배강민_949733_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/배상록_949740_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/신동연_949732_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/신찬슬_949726_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/심수연_949747_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/양희석_949714_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/윤준모_949716_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/이경민_949735_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/이민재_949741_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/이민혁_949722_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/이연주_949730_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/이창호_949737_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/임도현_949729_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/장현지_949713_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/정민석_949745_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/정우진_949734_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/정원용_949723_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/주재원_949720_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/채민_949721_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/채민아_949749_assignsubmission_onlinetext_ 
+remove ./2-exercise:string/황제빈_949748_assignsubmission_onlinetext_ 
+======================================== 
+unzip all online submission 
+unzip ./2-exercise:string/강나림_949728_assignsubmission_file_ 
+unzip ./2-exercise:string/강예람_949719_assignsubmission_file_ 
+unzip ./2-exercise:string/구동한_949715_assignsubmission_file_ 
+unzip ./2-exercise:string/고범수_949746_assignsubmission_file_ 
+unzip ./2-exercise:string/김성현_949718_assignsubmission_file_ 
+unzip ./2-exercise:string/김유선_949738_assignsubmission_file_ 
+unzip ./2-exercise:string/김정우_949731_assignsubmission_file_ 
+unzip ./2-exercise:string/김명환_949727_assignsubmission_file_ 
+unzip ./2-exercise:string/김현우_949744_assignsubmission_file_ 
+unzip ./2-exercise:string/문영상_949724_assignsubmission_file_ 
+unzip ./2-exercise:string/박근희_949717_assignsubmission_file_ 
+unzip ./2-exercise:string/박대형_949736_assignsubmission_file_ 
+unzip ./2-exercise:string/박병설_949742_assignsubmission_file_ 
+unzip ./2-exercise:string/박준형_949743_assignsubmission_file_ 
+unzip ./2-exercise:string/배강민_949733_assignsubmission_file_ 
+unzip ./2-exercise:string/배상록_949740_assignsubmission_file_ 
+unzip ./2-exercise:string/신동연_949732_assignsubmission_file_ 
+unzip ./2-exercise:string/신찬슬_949726_assignsubmission_file_ 
+unzip ./2-exercise:string/심수연_949747_assignsubmission_file_ 
+unzip ./2-exercise:string/박소형_949739_assignsubmission_file_ 
+unzip ./2-exercise:string/양희석_949714_assignsubmission_file_ 
+unzip ./2-exercise:string/박현_949725_assignsubmission_file_ 
+unzip ./2-exercise:string/윤준모_949716_assignsubmission_file_ 
+unzip ./2-exercise:string/이민재_949741_assignsubmission_file_ 
+unzip ./2-exercise:string/이연주_949730_assignsubmission_file_ 
+unzip ./2-exercise:string/이창호_949737_assignsubmission_file_ 
+unzip ./2-exercise:string/임도현_949729_assignsubmission_file_ 
+unzip ./2-exercise:string/이경민_949735_assignsubmission_file_ 
+unzip ./2-exercise:string/장현지_949713_assignsubmission_file_ 
+unzip ./2-exercise:string/정민석_949745_assignsubmission_file_ 
+unzip ./2-exercise:string/이민혁_949722_assignsubmission_file_ 
+unzip ./2-exercise:string/정원용_949723_assignsubmission_file_ 
+unzip ./2-exercise:string/정우진_949734_assignsubmission_file_ 
+unzip ./2-exercise:string/채민아_949749_assignsubmission_file_ 
+unzip ./2-exercise:string/황제빈_949748_assignsubmission_file_ 
+unzip ./2-exercise:string/주재원_949720_assignsubmission_file_ 
+unzip ./2-exercise:string/채민_949721_assignsubmission_file_ 
+remove ./2-exercise:string/강예람_949719_assignsubmission_file_ 
+remove ./2-exercise:string/구동한_949715_assignsubmission_file_ 
+remove ./2-exercise:string/김성현_949718_assignsubmission_file_ 
+remove ./2-exercise:string/김유선_949738_assignsubmission_file_ 
+remove ./2-exercise:string/고범수_949746_assignsubmission_file_ 
+remove ./2-exercise:string/김현우_949744_assignsubmission_file_ 
+remove ./2-exercise:string/문영상_949724_assignsubmission_file_ 
+remove ./2-exercise:string/박대형_949736_assignsubmission_file_ 
+remove ./2-exercise:string/김정우_949731_assignsubmission_file_ 
+remove ./2-exercise:string/박준형_949743_assignsubmission_file_ 
+remove ./2-exercise:string/박병설_949742_assignsubmission_file_ 
+remove ./2-exercise:string/신동연_949732_assignsubmission_file_ 
+remove ./2-exercise:string/배상록_949740_assignsubmission_file_ 
+remove ./2-exercise:string/배강민_949733_assignsubmission_file_ 
+remove ./2-exercise:string/신찬슬_949726_assignsubmission_file_ 
+remove ./2-exercise:string/심수연_949747_assignsubmission_file_ 
+remove ./2-exercise:string/김명환_949727_assignsubmission_file_ 
+remove ./2-exercise:string/박소형_949739_assignsubmission_file_ 
+remove ./2-exercise:string/이연주_949730_assignsubmission_file_ 
+remove ./2-exercise:string/박근희_949717_assignsubmission_file_ 
+remove ./2-exercise:string/이창호_949737_assignsubmission_file_ 
+remove ./2-exercise:string/박현_949725_assignsubmission_file_ 
+remove ./2-exercise:string/이민재_949741_assignsubmission_file_ 
+remove ./2-exercise:string/양희석_949714_assignsubmission_file_ 
+remove ./2-exercise:string/윤준모_949716_assignsubmission_file_ 
+remove ./2-exercise:string/임도현_949729_assignsubmission_file_ 
+remove ./2-exercise:string/이경민_949735_assignsubmission_file_ 
+remove ./2-exercise:string/장현지_949713_assignsubmission_file_ 
+remove ./2-exercise:string/이민혁_949722_assignsubmission_file_ 
+remove ./2-exercise:string/정원용_949723_assignsubmission_file_ 
+remove ./2-exercise:string/정민석_949745_assignsubmission_file_ 
+remove ./2-exercise:string/정우진_949734_assignsubmission_file_ 
+remove ./2-exercise:string/황제빈_949748_assignsubmission_file_ 
+remove ./2-exercise:string/채민아_949749_assignsubmission_file_ 
+remove ./2-exercise:string/주재원_949720_assignsubmission_file_ 
+remove ./2-exercise:string/채민_949721_assignsubmission_file_ 
+remove ./2-exercise:string/강나림_949728_assignsubmission_file_ 
+======================================== 
+format multi test 
+move folder 2-exercise:string/김유선_949738_assignsubmission_file_/__MACOSX/exercise1 2-exercise:string/김유선_949738_assignsubmission_file_/exercise1 
+move folder 2-exercise:string/김유선_949738_assignsubmission_file_/__MACOSX/exercise2 2-exercise:string/김유선_949738_assignsubmission_file_/exercise2 
+move folder 2-exercise:string/김유선_949738_assignsubmission_file_/__MACOSX/exercise3 2-exercise:string/김유선_949738_assignsubmission_file_/exercise3 
+move folder 2-exercise:string/김유선_949738_assignsubmission_file_/__MACOSX/exercise4 2-exercise:string/김유선_949738_assignsubmission_file_/exercise4 
+move folder 2-exercise:string/김유선_949738_assignsubmission_file_/__MACOSX/exercise5 2-exercise:string/김유선_949738_assignsubmission_file_/exercise5 
+move folder 2-exercise:string/김유선_949738_assignsubmission_file_/__MACOSX/exercise6 2-exercise:string/김유선_949738_assignsubmission_file_/exercise6 
+move folder 2-exercise:string/김유선_949738_assignsubmission_file_/__MACOSX/exercise7 2-exercise:string/김유선_949738_assignsubmission_file_/exercise7 
+move folder 2-exercise:string/채민아_949749_assignsubmission_file_/__MACOSX/exercise1 2-exercise:string/채민아_949749_assignsubmission_file_/exercise1 
+move folder 2-exercise:string/채민아_949749_assignsubmission_file_/__MACOSX/exercise2 2-exercise:string/채민아_949749_assignsubmission_file_/exercise2 
+move folder 2-exercise:string/채민아_949749_assignsubmission_file_/__MACOSX/exercise3 2-exercise:string/채민아_949749_assignsubmission_file_/exercise3 
+move folder 2-exercise:string/채민아_949749_assignsubmission_file_/__MACOSX/exercise4 2-exercise:string/채민아_949749_assignsubmission_file_/exercise4 
+move folder 2-exercise:string/채민아_949749_assignsubmission_file_/__MACOSX/exercise5 2-exercise:string/채민아_949749_assignsubmission_file_/exercise5 
+move folder 2-exercise:string/채민아_949749_assignsubmission_file_/__MACOSX/exercise6 2-exercise:string/채민아_949749_assignsubmission_file_/exercise6 
+move folder 2-exercise:string/채민아_949749_assignsubmission_file_/__MACOSX/exercise7 2-exercise:string/채민아_949749_assignsubmission_file_/exercise7 
+move folder 2-exercise:string/고범수_949746_assignsubmission_file_/182899_������_cpp02_string/exercise1 2-exercise:string/고범수_949746_assignsubmission_file_/exercise1 
+move folder 2-exercise:string/고범수_949746_assignsubmission_file_/182899_������_cpp02_string/exercise2 2-exercise:string/고범수_949746_assignsubmission_file_/exercise2 
+move folder 2-exercise:string/고범수_949746_assignsubmission_file_/182899_������_cpp02_string/exercise3 2-exercise:string/고범수_949746_assignsubmission_file_/exercise3 
+move folder 2-exercise:string/고범수_949746_assignsubmission_file_/182899_������_cpp02_string/exercise4 2-exercise:string/고범수_949746_assignsubmission_file_/exercise4 
+move folder 2-exercise:string/고범수_949746_assignsubmission_file_/182899_������_cpp02_string/exercise5 2-exercise:string/고범수_949746_assignsubmission_file_/exercise5 
+move folder 2-exercise:string/고범수_949746_assignsubmission_file_/182899_������_cpp02_string/exercise6 2-exercise:string/고범수_949746_assignsubmission_file_/exercise6 
+move folder 2-exercise:string/고범수_949746_assignsubmission_file_/182899_������_cpp02_string/exercise7 2-exercise:string/고범수_949746_assignsubmission_file_/exercise7 
+move folder 2-exercise:string/문영상_949724_assignsubmission_file_/string/exercise1 2-exercise:string/문영상_949724_assignsubmission_file_/exercise1 
+move folder 2-exercise:string/문영상_949724_assignsubmission_file_/string/exercise2 2-exercise:string/문영상_949724_assignsubmission_file_/exercise2 
+move folder 2-exercise:string/문영상_949724_assignsubmission_file_/string/exercise3 2-exercise:string/문영상_949724_assignsubmission_file_/exercise3 
+move folder 2-exercise:string/문영상_949724_assignsubmission_file_/string/exercise4 2-exercise:string/문영상_949724_assignsubmission_file_/exercise4 
+move folder 2-exercise:string/문영상_949724_assignsubmission_file_/string/exercise5 2-exercise:string/문영상_949724_assignsubmission_file_/exercise5 
+move folder 2-exercise:string/문영상_949724_assignsubmission_file_/string/exercise6 2-exercise:string/문영상_949724_assignsubmission_file_/exercise6 
+move folder 2-exercise:string/문영상_949724_assignsubmission_file_/string/exercise7 2-exercise:string/문영상_949724_assignsubmission_file_/exercise7 
+move folder 2-exercise:string/박근희_949717_assignsubmission_file_/string/exercise1 2-exercise:string/박근희_949717_assignsubmission_file_/exercise1 
+move folder 2-exercise:string/박근희_949717_assignsubmission_file_/string/exercise2 2-exercise:string/박근희_949717_assignsubmission_file_/exercise2 
+move folder 2-exercise:string/박근희_949717_assignsubmission_file_/string/exercise3 2-exercise:string/박근희_949717_assignsubmission_file_/exercise3 
+move folder 2-exercise:string/박근희_949717_assignsubmission_file_/string/exercise4 2-exercise:string/박근희_949717_assignsubmission_file_/exercise4 
+move folder 2-exercise:string/박근희_949717_assignsubmission_file_/string/exercise5 2-exercise:string/박근희_949717_assignsubmission_file_/exercise5 
+move folder 2-exercise:string/박근희_949717_assignsubmission_file_/string/exercise6 2-exercise:string/박근희_949717_assignsubmission_file_/exercise6 
+move folder 2-exercise:string/박근희_949717_assignsubmission_file_/string/exercise7 2-exercise:string/박근희_949717_assignsubmission_file_/exercise7 
+move folder 2-exercise:string/박대형_949736_assignsubmission_file_/string/exercise1 2-exercise:string/박대형_949736_assignsubmission_file_/exercise1 
+move folder 2-exercise:string/박대형_949736_assignsubmission_file_/string/exercise2 2-exercise:string/박대형_949736_assignsubmission_file_/exercise2 
+move folder 2-exercise:string/박대형_949736_assignsubmission_file_/string/exercise3 2-exercise:string/박대형_949736_assignsubmission_file_/exercise3 
+move folder 2-exercise:string/박대형_949736_assignsubmission_file_/string/exercise4 2-exercise:string/박대형_949736_assignsubmission_file_/exercise4 
+move folder 2-exercise:string/박대형_949736_assignsubmission_file_/string/exercise5 2-exercise:string/박대형_949736_assignsubmission_file_/exercise5 
+move folder 2-exercise:string/박대형_949736_assignsubmission_file_/string/exercise6 2-exercise:string/박대형_949736_assignsubmission_file_/exercise6 
+move folder 2-exercise:string/박대형_949736_assignsubmission_file_/string/exercise7 2-exercise:string/박대형_949736_assignsubmission_file_/exercise7 
+move folder 2-exercise:string/박병설_949742_assignsubmission_file_/182763_�ں���_cpp02_string/exercise1 2-exercise:string/박병설_949742_assignsubmission_file_/exercise1 
+move folder 2-exercise:string/박병설_949742_assignsubmission_file_/182763_�ں���_cpp02_string/exercise2 2-exercise:string/박병설_949742_assignsubmission_file_/exercise2 
+move folder 2-exercise:string/박병설_949742_assignsubmission_file_/182763_�ں���_cpp02_string/exercise3 2-exercise:string/박병설_949742_assignsubmission_file_/exercise3 
+move folder 2-exercise:string/박병설_949742_assignsubmission_file_/182763_�ں���_cpp02_string/exercise4 2-exercise:string/박병설_949742_assignsubmission_file_/exercise4 
+move folder 2-exercise:string/박병설_949742_assignsubmission_file_/182763_�ں���_cpp02_string/exercise5 2-exercise:string/박병설_949742_assignsubmission_file_/exercise5 
+move folder 2-exercise:string/박병설_949742_assignsubmission_file_/182763_�ں���_cpp02_string/exercise6 2-exercise:string/박병설_949742_assignsubmission_file_/exercise6 
+move folder 2-exercise:string/박병설_949742_assignsubmission_file_/182763_�ں���_cpp02_string/exercise7 2-exercise:string/박병설_949742_assignsubmission_file_/exercise7 
+move folder 2-exercise:string/박소형_949739_assignsubmission_file_/214963_�ڼ���_cpp02_string/exercise1 2-exercise:string/박소형_949739_assignsubmission_file_/exercise1 
+move folder 2-exercise:string/박소형_949739_assignsubmission_file_/214963_�ڼ���_cpp02_string/exercise2 2-exercise:string/박소형_949739_assignsubmission_file_/exercise2 
+move folder 2-exercise:string/박소형_949739_assignsubmission_file_/214963_�ڼ���_cpp02_string/exercise3 2-exercise:string/박소형_949739_assignsubmission_file_/exercise3 
+move folder 2-exercise:string/박소형_949739_assignsubmission_file_/214963_�ڼ���_cpp02_string/exercise4 2-exercise:string/박소형_949739_assignsubmission_file_/exercise4 
+move folder 2-exercise:string/박소형_949739_assignsubmission_file_/214963_�ڼ���_cpp02_string/exercise5 2-exercise:string/박소형_949739_assignsubmission_file_/exercise5 
+move folder 2-exercise:string/박소형_949739_assignsubmission_file_/214963_�ڼ���_cpp02_string/exercise6 2-exercise:string/박소형_949739_assignsubmission_file_/exercise6 
+move folder 2-exercise:string/박소형_949739_assignsubmission_file_/214963_�ڼ���_cpp02_string/exercise7 2-exercise:string/박소형_949739_assignsubmission_file_/exercise7 
+move folder 2-exercise:string/신동연_949732_assignsubmission_file_/[195458]_[�ŵ���]_cpp02_string/exercise1 2-exercise:string/신동연_949732_assignsubmission_file_/exercise1 
+move folder 2-exercise:string/신동연_949732_assignsubmission_file_/[195458]_[�ŵ���]_cpp02_string/exercise2 2-exercise:string/신동연_949732_assignsubmission_file_/exercise2 
+move folder 2-exercise:string/신동연_949732_assignsubmission_file_/[195458]_[�ŵ���]_cpp02_string/exercise3 2-exercise:string/신동연_949732_assignsubmission_file_/exercise3 
+move folder 2-exercise:string/신동연_949732_assignsubmission_file_/[195458]_[�ŵ���]_cpp02_string/exercise4 2-exercise:string/신동연_949732_assignsubmission_file_/exercise4 
+move folder 2-exercise:string/신동연_949732_assignsubmission_file_/[195458]_[�ŵ���]_cpp02_string/exercise5 2-exercise:string/신동연_949732_assignsubmission_file_/exercise5 
+move folder 2-exercise:string/신동연_949732_assignsubmission_file_/[195458]_[�ŵ���]_cpp02_string/exercise6 2-exercise:string/신동연_949732_assignsubmission_file_/exercise6 
+move folder 2-exercise:string/신동연_949732_assignsubmission_file_/[195458]_[�ŵ���]_cpp02_string/exercise7 2-exercise:string/신동연_949732_assignsubmission_file_/exercise7 
+move folder 2-exercise:string/이민재_949741_assignsubmission_file_/string/exercise1 2-exercise:string/이민재_949741_assignsubmission_file_/exercise1 
+move folder 2-exercise:string/이민재_949741_assignsubmission_file_/string/exercise2 2-exercise:string/이민재_949741_assignsubmission_file_/exercise2 
+move folder 2-exercise:string/이민재_949741_assignsubmission_file_/string/exercise3 2-exercise:string/이민재_949741_assignsubmission_file_/exercise3 
+move folder 2-exercise:string/이민재_949741_assignsubmission_file_/string/exercise4 2-exercise:string/이민재_949741_assignsubmission_file_/exercise4 
+move folder 2-exercise:string/이민재_949741_assignsubmission_file_/string/exercise5 2-exercise:string/이민재_949741_assignsubmission_file_/exercise5 
+move folder 2-exercise:string/이민재_949741_assignsubmission_file_/string/exercise6 2-exercise:string/이민재_949741_assignsubmission_file_/exercise6 
+move folder 2-exercise:string/이민재_949741_assignsubmission_file_/string/exercise7 2-exercise:string/이민재_949741_assignsubmission_file_/exercise7 
+move folder 2-exercise:string/이민혁_949722_assignsubmission_file_/213989_�̹���_cpp02_string/exercise1 2-exercise:string/이민혁_949722_assignsubmission_file_/exercise1 
+move folder 2-exercise:string/이민혁_949722_assignsubmission_file_/213989_�̹���_cpp02_string/exercise2 2-exercise:string/이민혁_949722_assignsubmission_file_/exercise2 
+move folder 2-exercise:string/이민혁_949722_assignsubmission_file_/213989_�̹���_cpp02_string/exercise3 2-exercise:string/이민혁_949722_assignsubmission_file_/exercise3 
+move folder 2-exercise:string/이민혁_949722_assignsubmission_file_/213989_�̹���_cpp02_string/exercise4 2-exercise:string/이민혁_949722_assignsubmission_file_/exercise4 
+move folder 2-exercise:string/이민혁_949722_assignsubmission_file_/213989_�̹���_cpp02_string/exercise5 2-exercise:string/이민혁_949722_assignsubmission_file_/exercise5 
+move folder 2-exercise:string/이민혁_949722_assignsubmission_file_/213989_�̹���_cpp02_string/exercise6 2-exercise:string/이민혁_949722_assignsubmission_file_/exercise6 
+move folder 2-exercise:string/이민혁_949722_assignsubmission_file_/213989_�̹���_cpp02_string/exercise7 2-exercise:string/이민혁_949722_assignsubmission_file_/exercise7 
+move folder 2-exercise:string/임도현_949729_assignsubmission_file_/string/exercise1 2-exercise:string/임도현_949729_assignsubmission_file_/exercise1 
+move folder 2-exercise:string/임도현_949729_assignsubmission_file_/string/exercise2 2-exercise:string/임도현_949729_assignsubmission_file_/exercise2 
+move folder 2-exercise:string/임도현_949729_assignsubmission_file_/string/exercise3 2-exercise:string/임도현_949729_assignsubmission_file_/exercise3 
+move folder 2-exercise:string/임도현_949729_assignsubmission_file_/string/exercise4 2-exercise:string/임도현_949729_assignsubmission_file_/exercise4 
+move folder 2-exercise:string/임도현_949729_assignsubmission_file_/string/exercise5 2-exercise:string/임도현_949729_assignsubmission_file_/exercise5 
+move folder 2-exercise:string/임도현_949729_assignsubmission_file_/string/exercise6 2-exercise:string/임도현_949729_assignsubmission_file_/exercise6 
+move folder 2-exercise:string/임도현_949729_assignsubmission_file_/string/exercise7 2-exercise:string/임도현_949729_assignsubmission_file_/exercise7 
+move folder 2-exercise:string/장현지_949713_assignsubmission_file_/213171_������_cpp02_string/exercise1 2-exercise:string/장현지_949713_assignsubmission_file_/exercise1 
+move folder 2-exercise:string/장현지_949713_assignsubmission_file_/213171_������_cpp02_string/exercise2 2-exercise:string/장현지_949713_assignsubmission_file_/exercise2 
+move folder 2-exercise:string/장현지_949713_assignsubmission_file_/213171_������_cpp02_string/exercise3 2-exercise:string/장현지_949713_assignsubmission_file_/exercise3 
+move folder 2-exercise:string/장현지_949713_assignsubmission_file_/213171_������_cpp02_string/exercise4 2-exercise:string/장현지_949713_assignsubmission_file_/exercise4 
+move folder 2-exercise:string/장현지_949713_assignsubmission_file_/213171_������_cpp02_string/exercise5 2-exercise:string/장현지_949713_assignsubmission_file_/exercise5 
+move folder 2-exercise:string/장현지_949713_assignsubmission_file_/213171_������_cpp02_string/exercise6 2-exercise:string/장현지_949713_assignsubmission_file_/exercise6 
+move folder 2-exercise:string/장현지_949713_assignsubmission_file_/213171_������_cpp02_string/exercise7 2-exercise:string/장현지_949713_assignsubmission_file_/exercise7 
+move folder 2-exercise:string/채민_949721_assignsubmission_file_/[195495]_[ä��]_cpp02_string/exercise1 2-exercise:string/채민_949721_assignsubmission_file_/exercise1 
+move folder 2-exercise:string/채민_949721_assignsubmission_file_/[195495]_[ä��]_cpp02_string/exercise2 2-exercise:string/채민_949721_assignsubmission_file_/exercise2 
+move folder 2-exercise:string/채민_949721_assignsubmission_file_/[195495]_[ä��]_cpp02_string/exercise3 2-exercise:string/채민_949721_assignsubmission_file_/exercise3 
+move folder 2-exercise:string/채민_949721_assignsubmission_file_/[195495]_[ä��]_cpp02_string/exercise4 2-exercise:string/채민_949721_assignsubmission_file_/exercise4 
+move folder 2-exercise:string/채민_949721_assignsubmission_file_/[195495]_[ä��]_cpp02_string/exercise5 2-exercise:string/채민_949721_assignsubmission_file_/exercise5 
+move folder 2-exercise:string/채민_949721_assignsubmission_file_/[195495]_[ä��]_cpp02_string/exercise6 2-exercise:string/채민_949721_assignsubmission_file_/exercise6 
+move folder 2-exercise:string/채민_949721_assignsubmission_file_/[195495]_[ä��]_cpp02_string/exercise7 2-exercise:string/채민_949721_assignsubmission_file_/exercise7 
+move folder 2-exercise:string/황제빈_949748_assignsubmission_file_/[193935]_[Ȳ����]_cpp02_string/exercise1 2-exercise:string/황제빈_949748_assignsubmission_file_/exercise1 
+move folder 2-exercise:string/황제빈_949748_assignsubmission_file_/[193935]_[Ȳ����]_cpp02_string/exercise2 2-exercise:string/황제빈_949748_assignsubmission_file_/exercise2 
+move folder 2-exercise:string/황제빈_949748_assignsubmission_file_/[193935]_[Ȳ����]_cpp02_string/exercise4 2-exercise:string/황제빈_949748_assignsubmission_file_/exercise4 
+move folder 2-exercise:string/황제빈_949748_assignsubmission_file_/[193935]_[Ȳ����]_cpp02_string/exercise5 2-exercise:string/황제빈_949748_assignsubmission_file_/exercise5 
+move folder 2-exercise:string/황제빈_949748_assignsubmission_file_/[193935]_[Ȳ����]_cpp02_string/exercise6 2-exercise:string/황제빈_949748_assignsubmission_file_/exercise6 
+move folder 2-exercise:string/황제빈_949748_assignsubmission_file_/[193935]_[Ȳ����]_cpp02_string/exercise7 2-exercise:string/황제빈_949748_assignsubmission_file_/exercise7 
+move folder 2-exercise:string/황제빈_949748_assignsubmission_file_/[193935]_[Ȳ����]_cpp02_string/exercise3 2-exercise:string/황제빈_949748_assignsubmission_file_/exercise3 
+move folder 2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise/string/exercise1 2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise1 
+move folder 2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise/string/exercise2 2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise2 
+move folder 2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise/string/exercise3 2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise3 
+move folder 2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise/string/exercise4 2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise4 
+move folder 2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise/string/exercise5 2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise5 
+move folder 2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise/string/exercise6 2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise6 
+move folder 2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise/string/exercise7 2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise7 
+move folder 2-exercise:string/이연주_949730_assignsubmission_file_/[213206]_[�̿���]_cpp02_string/string/exercise1 2-exercise:string/이연주_949730_assignsubmission_file_/exercise1 
+move folder 2-exercise:string/이연주_949730_assignsubmission_file_/[213206]_[�̿���]_cpp02_string/string/exercise2 2-exercise:string/이연주_949730_assignsubmission_file_/exercise2 
+move folder 2-exercise:string/이연주_949730_assignsubmission_file_/[213206]_[�̿���]_cpp02_string/string/exercise4 2-exercise:string/이연주_949730_assignsubmission_file_/exercise4 
+move folder 2-exercise:string/이연주_949730_assignsubmission_file_/[213206]_[�̿���]_cpp02_string/string/exercise5 2-exercise:string/이연주_949730_assignsubmission_file_/exercise5 
+move folder 2-exercise:string/이연주_949730_assignsubmission_file_/[213206]_[�̿���]_cpp02_string/string/exercise3 2-exercise:string/이연주_949730_assignsubmission_file_/exercise3 
+move folder 2-exercise:string/이연주_949730_assignsubmission_file_/[213206]_[�̿���]_cpp02_string/string/exercise6 2-exercise:string/이연주_949730_assignsubmission_file_/exercise6 
+move folder 2-exercise:string/이연주_949730_assignsubmission_file_/[213206]_[�̿���]_cpp02_string/string/exercise7 2-exercise:string/이연주_949730_assignsubmission_file_/exercise7 
+move folder 2-exercise:string/윤준모_949716_assignsubmission_file_/exercise/exercise2 2-exercise:string/윤준모_949716_assignsubmission_file_/exercise2 
+move folder 2-exercise:string/윤준모_949716_assignsubmission_file_/exercise/exercise3 2-exercise:string/윤준모_949716_assignsubmission_file_/exercise3 
+move folder 2-exercise:string/윤준모_949716_assignsubmission_file_/exercise/exercise4 2-exercise:string/윤준모_949716_assignsubmission_file_/exercise4 
+move folder 2-exercise:string/윤준모_949716_assignsubmission_file_/exercise/exercise5 2-exercise:string/윤준모_949716_assignsubmission_file_/exercise5 
+move folder 2-exercise:string/윤준모_949716_assignsubmission_file_/exercise/exercise6 2-exercise:string/윤준모_949716_assignsubmission_file_/exercise6 
+move folder 2-exercise:string/윤준모_949716_assignsubmission_file_/exercise/exercise7 2-exercise:string/윤준모_949716_assignsubmission_file_/exercise7 
+remove origin test folder 
+remove folder ./2-exercise:string/강나림_949728_assignsubmission_file_/Project1 
+remove folder ./2-exercise:string/강나림_949728_assignsubmission_file_/Project2 
+remove folder ./2-exercise:string/강나림_949728_assignsubmission_file_/Project3 
+remove folder ./2-exercise:string/강나림_949728_assignsubmission_file_/Project4 
+remove folder ./2-exercise:string/강나림_949728_assignsubmission_file_/Project5 
+remove folder ./2-exercise:string/강나림_949728_assignsubmission_file_/Project6 
+remove folder ./2-exercise:string/고범수_949746_assignsubmission_file_/182899_������_cpp02_string 
+remove folder ./2-exercise:string/문영상_949724_assignsubmission_file_/string 
+remove folder ./2-exercise:string/박근희_949717_assignsubmission_file_/string 
+remove folder ./2-exercise:string/박병설_949742_assignsubmission_file_/182763_�ں���_cpp02_string 
+remove folder ./2-exercise:string/박대형_949736_assignsubmission_file_/string 
+remove folder ./2-exercise:string/김유선_949738_assignsubmission_file_/__MACOSX 
+remove folder ./2-exercise:string/박소형_949739_assignsubmission_file_/214963_�ڼ���_cpp02_string 
+remove folder ./2-exercise:string/박현_949725_assignsubmission_file_/__MACOSX 
+remove folder ./2-exercise:string/박현_949725_assignsubmission_file_/exercise1.cpp 
+remove folder ./2-exercise:string/박현_949725_assignsubmission_file_/exercise2.cpp 
+remove folder ./2-exercise:string/박현_949725_assignsubmission_file_/exercise3.cpp 
+remove folder ./2-exercise:string/박현_949725_assignsubmission_file_/exercise4.cpp 
+remove folder ./2-exercise:string/박현_949725_assignsubmission_file_/exercise5.cpp 
+remove folder ./2-exercise:string/박현_949725_assignsubmission_file_/exercise6.cpp 
+remove folder ./2-exercise:string/박현_949725_assignsubmission_file_/exercise7.cpp 
+remove folder ./2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise 
+remove folder ./2-exercise:string/신동연_949732_assignsubmission_file_/[195458]_[�ŵ���]_cpp02_string 
+remove folder ./2-exercise:string/배강민_949733_assignsubmission_file_/2��-exercise-string 
+remove folder ./2-exercise:string/윤준모_949716_assignsubmission_file_/.vs 
+remove folder ./2-exercise:string/윤준모_949716_assignsubmission_file_/exercise 
+remove folder ./2-exercise:string/윤준모_949716_assignsubmission_file_/exercise2.cpp 
+remove folder ./2-exercise:string/윤준모_949716_assignsubmission_file_/exercise3.cpp 
+remove folder ./2-exercise:string/윤준모_949716_assignsubmission_file_/exercise4.cpp 
+remove folder ./2-exercise:string/윤준모_949716_assignsubmission_file_/exercise5.cpp 
+remove folder ./2-exercise:string/윤준모_949716_assignsubmission_file_/exercise6.cpp 
+remove folder ./2-exercise:string/윤준모_949716_assignsubmission_file_/exercise7.cpp 
+remove folder ./2-exercise:string/윤준모_949716_assignsubmission_file_/�ҽ�.cpp 
+remove folder ./2-exercise:string/이민혁_949722_assignsubmission_file_/213989_�̹���_cpp02_string 
+remove folder ./2-exercise:string/이연주_949730_assignsubmission_file_/[213206]_[�̿���]_cpp02_string 
+remove folder ./2-exercise:string/장현지_949713_assignsubmission_file_/213171_������_cpp02_string 
+remove folder ./2-exercise:string/임도현_949729_assignsubmission_file_/string 
+remove folder ./2-exercise:string/채민아_949749_assignsubmission_file_/__MACOSX 
+remove folder ./2-exercise:string/황제빈_949748_assignsubmission_file_/[193935]_[Ȳ����]_cpp02_string 
+remove folder ./2-exercise:string/채민_949721_assignsubmission_file_/[195495]_[ä��]_cpp02_string 
+remove folder ./2-exercise:string/이민재_949741_assignsubmission_file_/string 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+check test case 
+make empty test case folder 
+move empty test case folder 
+build test case 
+build g++ -o ././2-exercise:string/empty-test-case/박현_949725_assignsubmission_file_/build -std=c++14  
+build g++ -o ././2-exercise:string/empty-test-case/배강민_949733_assignsubmission_file_/build -std=c++14  
+build g++ -o ././2-exercise:string/강나림_949728_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/강나림_949728_assignsubmission_file_/exercise1/main.cpp 
+build g++ -o ././2-exercise:string/강나림_949728_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/강나림_949728_assignsubmission_file_/exercise2/main.cpp 
+build g++ -o ././2-exercise:string/강나림_949728_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/강나림_949728_assignsubmission_file_/exercise3/main.cpp 
+build g++ -o ././2-exercise:string/강나림_949728_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/강나림_949728_assignsubmission_file_/exercise4/main.cpp 
+build g++ -o ././2-exercise:string/강나림_949728_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/강나림_949728_assignsubmission_file_/exercise5/main.cpp 
+build g++ -o ././2-exercise:string/강나림_949728_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/강나림_949728_assignsubmission_file_/exercise6/main.cpp 
+build g++ -o ././2-exercise:string/강나림_949728_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/강나림_949728_assignsubmission_file_/exercise7/main.cpp 
+build g++ -o ././2-exercise:string/강예람_949719_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/강예람_949719_assignsubmission_file_/exercise1/main.cpp 
+build g++ -o ././2-exercise:string/강예람_949719_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/강예람_949719_assignsubmission_file_/exercise2/main.cpp 
+build g++ -o ././2-exercise:string/강예람_949719_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/강예람_949719_assignsubmission_file_/exercise3/main.cpp 
+build g++ -o ././2-exercise:string/강예람_949719_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/강예람_949719_assignsubmission_file_/exercise4/main.cpp 
+build g++ -o ././2-exercise:string/강예람_949719_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/강예람_949719_assignsubmission_file_/exercise5/main.cpp 
+build g++ -o ././2-exercise:string/강예람_949719_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/강예람_949719_assignsubmission_file_/exercise6/main.cpp 
+build g++ -o ././2-exercise:string/강예람_949719_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/강예람_949719_assignsubmission_file_/exercise7/main.cpp 
+build g++ -o ././2-exercise:string/고범수_949746_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/고범수_949746_assignsubmission_file_/exercise1/main.cpp 
+build g++ -o ././2-exercise:string/고범수_949746_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/고범수_949746_assignsubmission_file_/exercise2/main.cpp 
+build g++ -o ././2-exercise:string/고범수_949746_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/고범수_949746_assignsubmission_file_/exercise3/main.cpp 
+build g++ -o ././2-exercise:string/고범수_949746_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/고범수_949746_assignsubmission_file_/exercise4/main.cpp 
+build g++ -o ././2-exercise:string/고범수_949746_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/고범수_949746_assignsubmission_file_/exercise5/main.cpp 
+build g++ -o ././2-exercise:string/고범수_949746_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/고범수_949746_assignsubmission_file_/exercise6/main.cpp 
+build g++ -o ././2-exercise:string/고범수_949746_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/고범수_949746_assignsubmission_file_/exercise7/main.cpp 
+build g++ -o ././2-exercise:string/구동한_949715_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/구동한_949715_assignsubmission_file_/exercise1/main.cpp 
+build g++ -o ././2-exercise:string/구동한_949715_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/구동한_949715_assignsubmission_file_/exercise2/main.cpp 
+build g++ -o ././2-exercise:string/구동한_949715_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/구동한_949715_assignsubmission_file_/exercise3/main.cpp 
+build g++ -o ././2-exercise:string/구동한_949715_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/구동한_949715_assignsubmission_file_/exercise4/main.cpp 
+build g++ -o ././2-exercise:string/구동한_949715_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/구동한_949715_assignsubmission_file_/exercise5/main.cpp 
+build g++ -o ././2-exercise:string/구동한_949715_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/구동한_949715_assignsubmission_file_/exercise6/main.cpp 
+build g++ -o ././2-exercise:string/구동한_949715_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/구동한_949715_assignsubmission_file_/exercise7/main.cpp 
+build g++ -o ././2-exercise:string/김명환_949727_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/김명환_949727_assignsubmission_file_/exercise1/main.cpp 
+build g++ -o ././2-exercise:string/김명환_949727_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/김명환_949727_assignsubmission_file_/exercise3/main.cpp 
+build g++ -o ././2-exercise:string/김명환_949727_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/김명환_949727_assignsubmission_file_/exercise4/main.cpp 
+build g++ -o ././2-exercise:string/김명환_949727_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/김명환_949727_assignsubmission_file_/exercise6/main.cpp 
+build g++ -o ././2-exercise:string/김명환_949727_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/김명환_949727_assignsubmission_file_/exercise2/main.cpp 
+build g++ -o ././2-exercise:string/김명환_949727_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/김명환_949727_assignsubmission_file_/exercise7/main.cpp 
+build g++ -o ././2-exercise:string/김명환_949727_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/김명환_949727_assignsubmission_file_/exercise5/main.cpp 
+build g++ -o ././2-exercise:string/김성현_949718_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/김성현_949718_assignsubmission_file_/exercise1/main.cpp 
+build g++ -o ././2-exercise:string/김성현_949718_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/김성현_949718_assignsubmission_file_/exercise3/main.cpp 
+build g++ -o ././2-exercise:string/김성현_949718_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/김성현_949718_assignsubmission_file_/exercise2/main.cpp 
+build g++ -o ././2-exercise:string/김성현_949718_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/김성현_949718_assignsubmission_file_/exercise6/main.cpp 
+build g++ -o ././2-exercise:string/김성현_949718_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/김성현_949718_assignsubmission_file_/exercise7/main.cpp 
+build g++ -o ././2-exercise:string/김성현_949718_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/김성현_949718_assignsubmission_file_/exercise5/main.cpp 
+build g++ -o ././2-exercise:string/김정우_949731_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/김정우_949731_assignsubmission_file_/exercise1/main.cpp 
+build g++ -o ././2-exercise:string/김정우_949731_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/김정우_949731_assignsubmission_file_/exercise2/main.cpp 
+build g++ -o ././2-exercise:string/김정우_949731_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/김정우_949731_assignsubmission_file_/exercise3/main.cpp 
+build g++ -o ././2-exercise:string/김성현_949718_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/김성현_949718_assignsubmission_file_/exercise4/main.cpp 
+build g++ -o ././2-exercise:string/김정우_949731_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/김정우_949731_assignsubmission_file_/exercise4/main.cpp 
+build g++ -o ././2-exercise:string/김정우_949731_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/김정우_949731_assignsubmission_file_/exercise5/main.cpp 
+build g++ -o ././2-exercise:string/김정우_949731_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/김정우_949731_assignsubmission_file_/exercise6/main.cpp 
+build g++ -o ././2-exercise:string/김정우_949731_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/김정우_949731_assignsubmission_file_/exercise7/main.cpp 
+build g++ -o ././2-exercise:string/김현우_949744_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/김현우_949744_assignsubmission_file_/exercise1/main.cpp 
+build g++ -o ././2-exercise:string/김현우_949744_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/김현우_949744_assignsubmission_file_/exercise2/main.cpp 
+build g++ -o ././2-exercise:string/김현우_949744_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/김현우_949744_assignsubmission_file_/exercise3/main.cpp 
+build g++ -o ././2-exercise:string/김현우_949744_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/김현우_949744_assignsubmission_file_/exercise4/main.cpp 
+build g++ -o ././2-exercise:string/김현우_949744_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/김현우_949744_assignsubmission_file_/exercise6/main.cpp 
+build g++ -o ././2-exercise:string/김현우_949744_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/김현우_949744_assignsubmission_file_/exercise7/main.cpp 
+build g++ -o ././2-exercise:string/문영상_949724_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/문영상_949724_assignsubmission_file_/exercise1/main.cpp 
+build g++ -o ././2-exercise:string/문영상_949724_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/문영상_949724_assignsubmission_file_/exercise2/main.cpp 
+build g++ -o ././2-exercise:string/문영상_949724_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/문영상_949724_assignsubmission_file_/exercise3/main.cpp 
+build g++ -o ././2-exercise:string/문영상_949724_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/문영상_949724_assignsubmission_file_/exercise4/main.cpp 
+build g++ -o ././2-exercise:string/문영상_949724_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/문영상_949724_assignsubmission_file_/exercise5/main.cpp 
+build g++ -o ././2-exercise:string/문영상_949724_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/문영상_949724_assignsubmission_file_/exercise6/main.cpp 
+build g++ -o ././2-exercise:string/문영상_949724_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/문영상_949724_assignsubmission_file_/exercise7/main.cpp 
+build g++ -o ././2-exercise:string/박근희_949717_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/박근희_949717_assignsubmission_file_/exercise1/main.cpp 
+build g++ -o ././2-exercise:string/박근희_949717_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/박근희_949717_assignsubmission_file_/exercise2/main.cpp 
+build g++ -o ././2-exercise:string/박근희_949717_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/박근희_949717_assignsubmission_file_/exercise3/main.cpp 
+build g++ -o ././2-exercise:string/박근희_949717_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/박근희_949717_assignsubmission_file_/exercise4/main.cpp 
+build g++ -o ././2-exercise:string/박근희_949717_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/박근희_949717_assignsubmission_file_/exercise5/main.cpp 
+build g++ -o ././2-exercise:string/박근희_949717_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/박근희_949717_assignsubmission_file_/exercise6/main.cpp 
+build g++ -o ././2-exercise:string/박근희_949717_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/박근희_949717_assignsubmission_file_/exercise7/main.cpp 
+build g++ -o ././2-exercise:string/박병설_949742_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/박병설_949742_assignsubmission_file_/exercise1/main.cpp 
+build g++ -o ././2-exercise:string/박병설_949742_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/박병설_949742_assignsubmission_file_/exercise2/main.cpp 
+build g++ -o ././2-exercise:string/박병설_949742_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/박병설_949742_assignsubmission_file_/exercise3/main.cpp 
+build g++ -o ././2-exercise:string/김현우_949744_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/김현우_949744_assignsubmission_file_/exercise5/main.cpp 
+build g++ -o ././2-exercise:string/박병설_949742_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/박병설_949742_assignsubmission_file_/exercise4/main.cpp 
+build g++ -o ././2-exercise:string/박병설_949742_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/박병설_949742_assignsubmission_file_/exercise5/main.cpp 
+build g++ -o ././2-exercise:string/박병설_949742_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/박병설_949742_assignsubmission_file_/exercise6/main.cpp 
+build g++ -o ././2-exercise:string/박소형_949739_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/박소형_949739_assignsubmission_file_/exercise1/main.cpp 
+build g++ -o ././2-exercise:string/박소형_949739_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/박소형_949739_assignsubmission_file_/exercise2/main.cpp 
+build g++ -o ././2-exercise:string/박소형_949739_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/박소형_949739_assignsubmission_file_/exercise3/main.cpp 
+build g++ -o ././2-exercise:string/박소형_949739_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/박소형_949739_assignsubmission_file_/exercise4/main.cpp 
+build g++ -o ././2-exercise:string/박소형_949739_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/박소형_949739_assignsubmission_file_/exercise5/main.cpp 
+build g++ -o ././2-exercise:string/박소형_949739_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/박소형_949739_assignsubmission_file_/exercise6/main.cpp 
+build g++ -o ././2-exercise:string/박준형_949743_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/박준형_949743_assignsubmission_file_/exercise1/main.cpp 
+build g++ -o ././2-exercise:string/박소형_949739_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/박소형_949739_assignsubmission_file_/exercise7/main.cpp 
+build g++ -o ././2-exercise:string/박병설_949742_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/박병설_949742_assignsubmission_file_/exercise7/main.cpp 
+build g++ -o ././2-exercise:string/박준형_949743_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/박준형_949743_assignsubmission_file_/exercise2/main.cpp 
+build g++ -o ././2-exercise:string/박준형_949743_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/박준형_949743_assignsubmission_file_/exercise3/main.cpp 
+build g++ -o ././2-exercise:string/박준형_949743_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/박준형_949743_assignsubmission_file_/exercise4/main.cpp 
+build g++ -o ././2-exercise:string/박준형_949743_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/박준형_949743_assignsubmission_file_/exercise6/main.cpp 
+build g++ -o ././2-exercise:string/박준형_949743_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/박준형_949743_assignsubmission_file_/exercise7/main.cpp 
+build g++ -o ././2-exercise:string/신동연_949732_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/신동연_949732_assignsubmission_file_/exercise1/main.cpp 
+build g++ -o ././2-exercise:string/신동연_949732_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/신동연_949732_assignsubmission_file_/exercise2/main.cpp 
+build g++ -o ././2-exercise:string/박준형_949743_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/박준형_949743_assignsubmission_file_/exercise5/main.cpp 
+build g++ -o ././2-exercise:string/신동연_949732_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/신동연_949732_assignsubmission_file_/exercise3/main.cpp 
+build g++ -o ././2-exercise:string/신동연_949732_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/신동연_949732_assignsubmission_file_/exercise5/main.cpp 
+build g++ -o ././2-exercise:string/신동연_949732_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/신동연_949732_assignsubmission_file_/exercise4/main.cpp 
+build g++ -o ././2-exercise:string/신동연_949732_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/신동연_949732_assignsubmission_file_/exercise7/main.cpp 
+build g++ -o ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise1/main.cpp 
+build g++ -o ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise2/main.cpp 
+build g++ -o ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise3/main.cpp 
+build g++ -o ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise4/main.cpp 
+build g++ -o ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise5/main.cpp 
+build g++ -o ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise6/main.cpp 
+build g++ -o ././2-exercise:string/신동연_949732_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/신동연_949732_assignsubmission_file_/exercise6/main.cpp 
+build g++ -o ././2-exercise:string/박대형_949736_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/박대형_949736_assignsubmission_file_/exercise1/main.cpp 
+build g++ -o ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise7/main.cpp 
+build g++ -o ././2-exercise:string/박대형_949736_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/박대형_949736_assignsubmission_file_/exercise2/main.cpp 
+build g++ -o ././2-exercise:string/박대형_949736_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/박대형_949736_assignsubmission_file_/exercise6/main.cpp 
+build g++ -o ././2-exercise:string/박대형_949736_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/박대형_949736_assignsubmission_file_/exercise4/main.cpp 
+build g++ -o ././2-exercise:string/박대형_949736_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/박대형_949736_assignsubmission_file_/exercise5/main.cpp 
+build g++ -o ././2-exercise:string/박대형_949736_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/박대형_949736_assignsubmission_file_/exercise7/main.cpp 
+build g++ -o ././2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise2/main.cpp 
+build g++ -o ././2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise1/main.cpp 
+build g++ -o ././2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise3/main.cpp 
+build g++ -o ././2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise4/main.cpp 
+build g++ -o ././2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise5/main.cpp 
+build g++ -o ././2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise6/main.cpp 
+build g++ -o ././2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise7/main.cpp 
+build g++ -o ././2-exercise:string/심수연_949747_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/심수연_949747_assignsubmission_file_/exercise1/main.cpp 
+build g++ -o ././2-exercise:string/심수연_949747_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/심수연_949747_assignsubmission_file_/exercise2/main.cpp 
+build g++ -o ././2-exercise:string/심수연_949747_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/심수연_949747_assignsubmission_file_/exercise3/main.cpp 
+build g++ -o ././2-exercise:string/심수연_949747_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/심수연_949747_assignsubmission_file_/exercise4/main.cpp 
+build g++ -o ././2-exercise:string/심수연_949747_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/심수연_949747_assignsubmission_file_/exercise6/main.cpp 
+build g++ -o ././2-exercise:string/심수연_949747_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/심수연_949747_assignsubmission_file_/exercise5/main.cpp 
+build g++ -o ././2-exercise:string/심수연_949747_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/심수연_949747_assignsubmission_file_/exercise7/main.cpp 
+build g++ -o ././2-exercise:string/양희석_949714_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/양희석_949714_assignsubmission_file_/exercise1/main.cpp 
+build g++ -o ././2-exercise:string/양희석_949714_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/양희석_949714_assignsubmission_file_/exercise2/main.cpp 
+build g++ -o ././2-exercise:string/양희석_949714_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/양희석_949714_assignsubmission_file_/exercise3/main.cpp 
+build g++ -o ././2-exercise:string/양희석_949714_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/양희석_949714_assignsubmission_file_/exercise4/main.cpp 
+build g++ -o ././2-exercise:string/양희석_949714_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/양희석_949714_assignsubmission_file_/exercise5/main.cpp 
+build g++ -o ././2-exercise:string/양희석_949714_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/양희석_949714_assignsubmission_file_/exercise6/main.cpp 
+build g++ -o ././2-exercise:string/양희석_949714_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/양희석_949714_assignsubmission_file_/exercise7/main.cpp 
+build g++ -o ././2-exercise:string/박대형_949736_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/박대형_949736_assignsubmission_file_/exercise3/main.cpp 
+build g++ -o ././2-exercise:string/이민재_949741_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/이민재_949741_assignsubmission_file_/exercise1/main.cpp 
+build g++ -o ././2-exercise:string/이민재_949741_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/이민재_949741_assignsubmission_file_/exercise2/main.cpp 
+build g++ -o ././2-exercise:string/이민재_949741_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/이민재_949741_assignsubmission_file_/exercise3/main.cpp 
+build g++ -o ././2-exercise:string/이민재_949741_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/이민재_949741_assignsubmission_file_/exercise4/main.cpp 
+build g++ -o ././2-exercise:string/이민재_949741_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/이민재_949741_assignsubmission_file_/exercise5/main.cpp 
+build g++ -o ././2-exercise:string/이민재_949741_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/이민재_949741_assignsubmission_file_/exercise6/main.cpp 
+build g++ -o ././2-exercise:string/이민재_949741_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/이민재_949741_assignsubmission_file_/exercise7/main.cpp 
+build g++ -o ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise1/main.cpp 
+build g++ -o ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise2/main.cpp 
+build g++ -o ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise3/main.cpp 
+build g++ -o ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise4/main.cpp 
+build g++ -o ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise5/main.cpp 
+build g++ -o ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise6/main.cpp 
+build g++ -o ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise7/main.cpp 
+build g++ -o ././2-exercise:string/이창호_949737_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/이창호_949737_assignsubmission_file_/exercise1/main.cpp 
+build g++ -o ././2-exercise:string/이창호_949737_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/이창호_949737_assignsubmission_file_/exercise2/main.cpp 
+build g++ -o ././2-exercise:string/이창호_949737_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/이창호_949737_assignsubmission_file_/exercise3/main.cpp 
+build g++ -o ././2-exercise:string/이창호_949737_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/이창호_949737_assignsubmission_file_/exercise4/main.cpp 
+build g++ -o ././2-exercise:string/이창호_949737_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/이창호_949737_assignsubmission_file_/exercise5/main.cpp 
+build g++ -o ././2-exercise:string/이창호_949737_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/이창호_949737_assignsubmission_file_/exercise6/main.cpp 
+build g++ -o ././2-exercise:string/이창호_949737_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/이창호_949737_assignsubmission_file_/exercise7/main.cpp 
+build g++ -o ././2-exercise:string/임도현_949729_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/임도현_949729_assignsubmission_file_/exercise1/main.cpp 
+build g++ -o ././2-exercise:string/임도현_949729_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/임도현_949729_assignsubmission_file_/exercise2/main.cpp 
+build g++ -o ././2-exercise:string/임도현_949729_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/임도현_949729_assignsubmission_file_/exercise3/main.cpp 
+build g++ -o ././2-exercise:string/임도현_949729_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/임도현_949729_assignsubmission_file_/exercise4/main.cpp 
+build g++ -o ././2-exercise:string/임도현_949729_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/임도현_949729_assignsubmission_file_/exercise5/main.cpp 
+build g++ -o ././2-exercise:string/임도현_949729_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/임도현_949729_assignsubmission_file_/exercise6/main.cpp 
+build g++ -o ././2-exercise:string/임도현_949729_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/임도현_949729_assignsubmission_file_/exercise7/main.cpp 
+build g++ -o ././2-exercise:string/장현지_949713_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/장현지_949713_assignsubmission_file_/exercise1/main.cpp 
+build g++ -o ././2-exercise:string/장현지_949713_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/장현지_949713_assignsubmission_file_/exercise2/main.cpp 
+build g++ -o ././2-exercise:string/장현지_949713_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/장현지_949713_assignsubmission_file_/exercise3/main.cpp 
+build g++ -o ././2-exercise:string/장현지_949713_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/장현지_949713_assignsubmission_file_/exercise4/main.cpp 
+build g++ -o ././2-exercise:string/장현지_949713_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/장현지_949713_assignsubmission_file_/exercise5/main.cpp 
+build g++ -o ././2-exercise:string/장현지_949713_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/장현지_949713_assignsubmission_file_/exercise6/main.cpp 
+build g++ -o ././2-exercise:string/장현지_949713_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/장현지_949713_assignsubmission_file_/exercise7/main.cpp 
+build g++ -o ././2-exercise:string/정민석_949745_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/정민석_949745_assignsubmission_file_/exercise1/main.cpp 
+build g++ -o ././2-exercise:string/정민석_949745_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/정민석_949745_assignsubmission_file_/exercise2/main.cpp 
+build g++ -o ././2-exercise:string/정민석_949745_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/정민석_949745_assignsubmission_file_/exercise3/main.cpp 
+build g++ -o ././2-exercise:string/정민석_949745_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/정민석_949745_assignsubmission_file_/exercise4/main.cpp 
+build g++ -o ././2-exercise:string/정민석_949745_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/정민석_949745_assignsubmission_file_/exercise5/main.cpp 
+build g++ -o ././2-exercise:string/정민석_949745_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/정민석_949745_assignsubmission_file_/exercise6/main.cpp 
+build g++ -o ././2-exercise:string/정민석_949745_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/정민석_949745_assignsubmission_file_/exercise7/main.cpp 
+build g++ -o ././2-exercise:string/정우진_949734_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/정우진_949734_assignsubmission_file_/exercise1/main.cpp 
+build g++ -o ././2-exercise:string/정우진_949734_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/정우진_949734_assignsubmission_file_/exercise2/._main.cpp 
+build g++ -o ././2-exercise:string/정우진_949734_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/정우진_949734_assignsubmission_file_/exercise3/main.cpp 
+build g++ -o ././2-exercise:string/정우진_949734_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/정우진_949734_assignsubmission_file_/exercise4/main.cpp 
+build g++ -o ././2-exercise:string/정우진_949734_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/정우진_949734_assignsubmission_file_/exercise5/main.cpp 
+build g++ -o ././2-exercise:string/정우진_949734_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/정우진_949734_assignsubmission_file_/exercise6/main.cpp 
+build g++ -o ././2-exercise:string/정우진_949734_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/정우진_949734_assignsubmission_file_/exercise7/main.cpp 
+build g++ -o ././2-exercise:string/정원용_949723_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/정원용_949723_assignsubmission_file_/exercise1/main.cpp 
+build g++ -o ././2-exercise:string/정원용_949723_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/정원용_949723_assignsubmission_file_/exercise2/main.cpp 
+build g++ -o ././2-exercise:string/정원용_949723_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/정원용_949723_assignsubmission_file_/exercise3/main.cpp 
+build g++ -o ././2-exercise:string/정원용_949723_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/정원용_949723_assignsubmission_file_/exercise4/main.cpp 
+build g++ -o ././2-exercise:string/정원용_949723_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/정원용_949723_assignsubmission_file_/exercise5/main.cpp 
+build g++ -o ././2-exercise:string/정원용_949723_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/정원용_949723_assignsubmission_file_/exercise6/main.cpp 
+build g++ -o ././2-exercise:string/정원용_949723_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/정원용_949723_assignsubmission_file_/exercise7/main.cpp 
+build g++ -o ././2-exercise:string/채민_949721_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/채민_949721_assignsubmission_file_/exercise1/main.cpp 
+build g++ -o ././2-exercise:string/채민_949721_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/채민_949721_assignsubmission_file_/exercise2/main.cpp 
+build g++ -o ././2-exercise:string/채민_949721_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/채민_949721_assignsubmission_file_/exercise3/main.cpp 
+build g++ -o ././2-exercise:string/채민_949721_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/채민_949721_assignsubmission_file_/exercise4/main.cpp 
+build g++ -o ././2-exercise:string/채민_949721_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/채민_949721_assignsubmission_file_/exercise5/main.cpp 
+build g++ -o ././2-exercise:string/채민_949721_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/채민_949721_assignsubmission_file_/exercise6/main.cpp 
+build g++ -o ././2-exercise:string/채민_949721_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/채민_949721_assignsubmission_file_/exercise7/main.cpp 
+build g++ -o ././2-exercise:string/주재원_949720_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/주재원_949720_assignsubmission_file_/exercise1/main.cpp 
+build g++ -o ././2-exercise:string/주재원_949720_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/주재원_949720_assignsubmission_file_/exercise2/main.cpp 
+build g++ -o ././2-exercise:string/주재원_949720_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/주재원_949720_assignsubmission_file_/exercise3/main.cpp 
+build g++ -o ././2-exercise:string/주재원_949720_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/주재원_949720_assignsubmission_file_/exercise4/main.cpp 
+build g++ -o ././2-exercise:string/주재원_949720_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/주재원_949720_assignsubmission_file_/exercise5/main.cpp 
+build g++ -o ././2-exercise:string/주재원_949720_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/주재원_949720_assignsubmission_file_/exercise6/main.cpp 
+build g++ -o ././2-exercise:string/주재원_949720_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/주재원_949720_assignsubmission_file_/exercise7/main.cpp 
+build g++ -o ././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise1/main.cpp 
+build g++ -o ././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise2/main.cpp 
+build g++ -o ././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise3/main.cpp 
+build g++ -o ././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise4/main.cpp 
+build g++ -o ././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise5/main.cpp 
+build g++ -o ././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise6/main.cpp 
+build g++ -o ././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise7/main.cpp 
+build g++ -o ././2-exercise:string/이민혁_949722_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/이민혁_949722_assignsubmission_file_/exercise2/main.cpp 
+build g++ -o ././2-exercise:string/이민혁_949722_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/이민혁_949722_assignsubmission_file_/exercise1/main.cpp 
+build g++ -o ././2-exercise:string/이민혁_949722_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/이민혁_949722_assignsubmission_file_/exercise3/main.cpp 
+build g++ -o ././2-exercise:string/이민혁_949722_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/이민혁_949722_assignsubmission_file_/exercise4/main.cpp 
+build g++ -o ././2-exercise:string/이민혁_949722_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/이민혁_949722_assignsubmission_file_/exercise5/main.cpp 
+build g++ -o ././2-exercise:string/이민혁_949722_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/이민혁_949722_assignsubmission_file_/exercise7/main.cpp 
+build g++ -o ././2-exercise:string/이민혁_949722_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/이민혁_949722_assignsubmission_file_/exercise6/main.cpp 
+build success ././2-exercise:string/김정우_949731_assignsubmission_file_/exercise1 
+build success ././2-exercise:string/김명환_949727_assignsubmission_file_/exercise1 
+build success ././2-exercise:string/구동한_949715_assignsubmission_file_/exercise2 
+build success ././2-exercise:string/구동한_949715_assignsubmission_file_/exercise1 
+build success ././2-exercise:string/고범수_949746_assignsubmission_file_/exercise6 
+build success ././2-exercise:string/고범수_949746_assignsubmission_file_/exercise4 
+build success ././2-exercise:string/고범수_949746_assignsubmission_file_/exercise3 
+build success ././2-exercise:string/고범수_949746_assignsubmission_file_/exercise1 
+build success ././2-exercise:string/강예람_949719_assignsubmission_file_/exercise5 
+build success ././2-exercise:string/강예람_949719_assignsubmission_file_/exercise2 
+build success ././2-exercise:string/강예람_949719_assignsubmission_file_/exercise1 
+build success ././2-exercise:string/강나림_949728_assignsubmission_file_/exercise7 
+build success ././2-exercise:string/강나림_949728_assignsubmission_file_/exercise4 
+build success ././2-exercise:string/강나림_949728_assignsubmission_file_/exercise2 
+build success ././2-exercise:string/강나림_949728_assignsubmission_file_/exercise1 
+build success ././2-exercise:string/김현우_949744_assignsubmission_file_/exercise5 
+build success ././2-exercise:string/박준형_949743_assignsubmission_file_/exercise7 
+build success ././2-exercise:string/박병설_949742_assignsubmission_file_/exercise1 
+build success ././2-exercise:string/박소형_949739_assignsubmission_file_/exercise4 
+build success ././2-exercise:string/박병설_949742_assignsubmission_file_/exercise7 
+build success ././2-exercise:string/박근희_949717_assignsubmission_file_/exercise4 
+build success ././2-exercise:string/박병설_949742_assignsubmission_file_/exercise5 
+build success ././2-exercise:string/박소형_949739_assignsubmission_file_/exercise5 
+build success ././2-exercise:string/박준형_949743_assignsubmission_file_/exercise3 
+build success ././2-exercise:string/박소형_949739_assignsubmission_file_/exercise3 
+build success ././2-exercise:string/박근희_949717_assignsubmission_file_/exercise7 
+build success ././2-exercise:string/박소형_949739_assignsubmission_file_/exercise7 
+build success ././2-exercise:string/박준형_949743_assignsubmission_file_/exercise4 
+build success ././2-exercise:string/박준형_949743_assignsubmission_file_/exercise1 
+build success ././2-exercise:string/박근희_949717_assignsubmission_file_/exercise6 
+build success ././2-exercise:string/신동연_949732_assignsubmission_file_/exercise3 
+build success ././2-exercise:string/박소형_949739_assignsubmission_file_/exercise6 
+build success ././2-exercise:string/박병설_949742_assignsubmission_file_/exercise2 
+build success ././2-exercise:string/박준형_949743_assignsubmission_file_/exercise2 
+build success ././2-exercise:string/문영상_949724_assignsubmission_file_/exercise7 
+build success ././2-exercise:string/박근희_949717_assignsubmission_file_/exercise5 
+build success ././2-exercise:string/박근희_949717_assignsubmission_file_/exercise3 
+build success ././2-exercise:string/김정우_949731_assignsubmission_file_/exercise5 
+build success ././2-exercise:string/문영상_949724_assignsubmission_file_/exercise5 
+build success ././2-exercise:string/문영상_949724_assignsubmission_file_/exercise1 
+build success ././2-exercise:string/문영상_949724_assignsubmission_file_/exercise4 
+build success ././2-exercise:string/박병설_949742_assignsubmission_file_/exercise4 
+build success ././2-exercise:string/박소형_949739_assignsubmission_file_/exercise1 
+build success ././2-exercise:string/문영상_949724_assignsubmission_file_/exercise3 
+build success ././2-exercise:string/박병설_949742_assignsubmission_file_/exercise6 
+build success ././2-exercise:string/박근희_949717_assignsubmission_file_/exercise2 
+build success ././2-exercise:string/문영상_949724_assignsubmission_file_/exercise6 
+build success ././2-exercise:string/박소형_949739_assignsubmission_file_/exercise2 
+build success ././2-exercise:string/문영상_949724_assignsubmission_file_/exercise2 
+build success ././2-exercise:string/김현우_949744_assignsubmission_file_/exercise6 
+build success ././2-exercise:string/김현우_949744_assignsubmission_file_/exercise2 
+build success ././2-exercise:string/김현우_949744_assignsubmission_file_/exercise4 
+build success ././2-exercise:string/김정우_949731_assignsubmission_file_/exercise6 
+build success ././2-exercise:string/김정우_949731_assignsubmission_file_/exercise7 
+build success ././2-exercise:string/김성현_949718_assignsubmission_file_/exercise4 
+build success ././2-exercise:string/김명환_949727_assignsubmission_file_/exercise5 
+build success ././2-exercise:string/김현우_949744_assignsubmission_file_/exercise1 
+build success ././2-exercise:string/김정우_949731_assignsubmission_file_/exercise3 
+build success ././2-exercise:string/김명환_949727_assignsubmission_file_/exercise7 
+build success ././2-exercise:string/강예람_949719_assignsubmission_file_/exercise4 
+build success ././2-exercise:string/강예람_949719_assignsubmission_file_/exercise7 
+build success ././2-exercise:string/김명환_949727_assignsubmission_file_/exercise6 
+build success ././2-exercise:string/김정우_949731_assignsubmission_file_/exercise4 
+build success ././2-exercise:string/김성현_949718_assignsubmission_file_/exercise2 
+build success ././2-exercise:string/고범수_949746_assignsubmission_file_/exercise5 
+build success ././2-exercise:string/구동한_949715_assignsubmission_file_/exercise3 
+build success ././2-exercise:string/김성현_949718_assignsubmission_file_/exercise3 
+build success ././2-exercise:string/구동한_949715_assignsubmission_file_/exercise7 
+build success ././2-exercise:string/김성현_949718_assignsubmission_file_/exercise1 
+build success ././2-exercise:string/김명환_949727_assignsubmission_file_/exercise2 
+build success ././2-exercise:string/김성현_949718_assignsubmission_file_/exercise5 
+build success ././2-exercise:string/김정우_949731_assignsubmission_file_/exercise2 
+build success ././2-exercise:string/구동한_949715_assignsubmission_file_/exercise5 
+build success ././2-exercise:string/김성현_949718_assignsubmission_file_/exercise6 
+build success ././2-exercise:string/김성현_949718_assignsubmission_file_/exercise7 
+build success ././2-exercise:string/구동한_949715_assignsubmission_file_/exercise4 
+build success ././2-exercise:string/고범수_949746_assignsubmission_file_/exercise2 
+build success ././2-exercise:string/구동한_949715_assignsubmission_file_/exercise6 
+build success ././2-exercise:string/강예람_949719_assignsubmission_file_/exercise6 
+build success ././2-exercise:string/고범수_949746_assignsubmission_file_/exercise7 
+build fail command = g++ -o ././2-exercise:string/김명환_949727_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/김명환_949727_assignsubmission_file_/exercise4/main.cpp 
+error 
+Error: Command failed: g++ -o ././2-exercise:string/김명환_949727_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/김명환_949727_assignsubmission_file_/exercise4/main.cpp
+././2-exercise:string/김명환_949727_assignsubmission_file_/exercise4/main.cpp:13:26: error: expected ';' after expression
+        cout << "Input a line: "
+                                ^
+                                ;
+1 error generated.
+ 
+build fail command = g++ -o ././2-exercise:string/김명환_949727_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/김명환_949727_assignsubmission_file_/exercise3/main.cpp 
+error 
+Error: Command failed: g++ -o ././2-exercise:string/김명환_949727_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/김명환_949727_assignsubmission_file_/exercise3/main.cpp
+././2-exercise:string/김명환_949727_assignsubmission_file_/exercise3/main.cpp:2:84: error: expected "FILENAME" or <FILENAME>
+#include /* <BF>ϼ<BA><C7>Ͻÿ<C0> */      // string <BF><AC><BB><EA><C0><DA> ==<B8><A6> <BB><E7><BF><EB><C7>ϱ<E2> <C0><A7><C7><D8> <C7>ʿ<E4><C7><D1> <C7><EC><B4><F5> <C6><C4><C0><CF>
+                                                                                                                                                                                    ^
+1 error generated.
+ 
+build fail command = g++ -o ././2-exercise:string/강나림_949728_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/강나림_949728_assignsubmission_file_/exercise5/main.cpp 
+error 
+Error: Command failed: g++ -o ././2-exercise:string/강나림_949728_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/강나림_949728_assignsubmission_file_/exercise5/main.cpp
+././2-exercise:string/강나림_949728_assignsubmission_file_/exercise5/main.cpp:3:107: error: expected "FILENAME" or <FILENAME>
+#include /* 완성하시오 */     // istringstream, ostringstream 클래스를 사용하기 위한 헤더
+                                                                                         ^
+././2-exercise:string/강나림_949728_assignsubmission_file_/exercise5/main.cpp:19:32: error: expected expression
+        cout << /* 완성하시오 */ << endl;     // ost에 출력한 문자열을 cout에 출력
+                                 ^
+2 errors generated.
+ 
+build fail command = g++ -o ././2-exercise:string/강나림_949728_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/강나림_949728_assignsubmission_file_/exercise3/main.cpp 
+error 
+Error: Command failed: g++ -o ././2-exercise:string/강나림_949728_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/강나림_949728_assignsubmission_file_/exercise3/main.cpp
+././2-exercise:string/강나림_949728_assignsubmission_file_/exercise3/main.cpp:2:84: error: expected "FILENAME" or <FILENAME>
+#include /* <BF>ϼ<BA><C7>Ͻÿ<C0> */      // string <BF><AC><BB><EA><C0><DA> ==<B8><A6> <BB><E7><BF><EB><C7>ϱ<E2> <C0><A7><C7><D8> <C7>ʿ<E4><C7><D1> <C7><EC><B4><F5> <C6><C4><C0><CF>
+                                                                                                                                                                                    ^
+././2-exercise:string/강나림_949728_assignsubmission_file_/exercise3/main.cpp:24:24: error: expected expression
+        if ( /* <BF>ϼ<BA><C7>Ͻÿ<C0> */ ) {   // s4<BF><CD> s5<B0><A1> <B0><B0><C0><BA><C1><F6> Ȯ<C0><CE><C7>ϴ<C2> <C1><B6><B0><C7>   cf. strcmp(s4,s5)==0
+                                       ^
+2 errors generated.
+ 
+build fail command = g++ -o ././2-exercise:string/empty-test-case/배강민_949733_assignsubmission_file_/build -std=c++14  
+error 
+Error: Command failed: g++ -o ././2-exercise:string/empty-test-case/배강민_949733_assignsubmission_file_/build -std=c++14 
+clang: error: no input files
+ 
+build fail command = g++ -o ././2-exercise:string/empty-test-case/박현_949725_assignsubmission_file_/build -std=c++14  
+error 
+Error: Command failed: g++ -o ././2-exercise:string/empty-test-case/박현_949725_assignsubmission_file_/build -std=c++14 
+clang: error: no input files
+ 
+build success ././2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise3 
+build success ././2-exercise:string/신동연_949732_assignsubmission_file_/exercise5 
+build success ././2-exercise:string/박준형_949743_assignsubmission_file_/exercise5 
+build success ././2-exercise:string/박준형_949743_assignsubmission_file_/exercise6 
+build success ././2-exercise:string/박대형_949736_assignsubmission_file_/exercise1 
+build success ././2-exercise:string/신동연_949732_assignsubmission_file_/exercise7 
+build success ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise6 
+build success ././2-exercise:string/박병설_949742_assignsubmission_file_/exercise3 
+build fail command = g++ -o ././2-exercise:string/박대형_949736_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/박대형_949736_assignsubmission_file_/exercise7/main.cpp 
+error 
+Error: Command failed: g++ -o ././2-exercise:string/박대형_949736_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/박대형_949736_assignsubmission_file_/exercise7/main.cpp
+././2-exercise:string/박대형_949736_assignsubmission_file_/exercise7/main.cpp:18:16: error: expected ';' after expression
+                                wordcount++
+                                           ^
+                                           ;
+1 error generated.
+ 
+build success ././2-exercise:string/신동연_949732_assignsubmission_file_/exercise2 
+build fail command = g++ -o ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise5/main.cpp 
+error 
+Error: Command failed: g++ -o ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise5/main.cpp
+././2-exercise:string/배상록_949740_assignsubmission_file_/exercise5/main.cpp:3:107: error: expected "FILENAME" or <FILENAME>
+#include /* 완성하시오 */     // istringstream, ostringstream 클래스를 사용하기 위한 헤더
+                                                                                         ^
+././2-exercise:string/배상록_949740_assignsubmission_file_/exercise5/main.cpp:8:16: error: implicit instantiation of undefined template 'std::basic_ostringstream<char>'
+        ostringstream ost;// ostringstream
+                      ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd:136:32: note: template is declared here
+    class _LIBCPP_TEMPLATE_VIS basic_ostringstream;
+                               ^
+././2-exercise:string/배상록_949740_assignsubmission_file_/exercise5/main.cpp:15:16: error: redefinition of 'ost'
+        ostringstream ost;   // ostringstream 클래스 ost 객체를 선언
+                      ^
+././2-exercise:string/배상록_949740_assignsubmission_file_/exercise5/main.cpp:8:16: note: previous definition is here
+        ostringstream ost;// ostringstream
+                      ^
+././2-exercise:string/배상록_949740_assignsubmission_file_/exercise5/main.cpp:30:16: error: implicit instantiation of undefined template 'std::basic_istringstream<char>'
+        istringstream ist(line);    // istringstream 클래스 객체 ist를 선언하고 line을 초기화
+                      ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd:133:32: note: template is declared here
+    class _LIBCPP_TEMPLATE_VIS basic_istringstream;
+                               ^
+4 errors generated.
+ 
+build success ././2-exercise:string/신동연_949732_assignsubmission_file_/exercise1 
+build fail command = g++ -o ././2-exercise:string/김현우_949744_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/김현우_949744_assignsubmission_file_/exercise7/main.cpp 
+error 
+Error: Command failed: g++ -o ././2-exercise:string/김현우_949744_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/김현우_949744_assignsubmission_file_/exercise7/main.cpp
+././2-exercise:string/김현우_949744_assignsubmission_file_/exercise7/main.cpp:29:1: error: expected '}'
+^
+././2-exercise:string/김현우_949744_assignsubmission_file_/exercise7/main.cpp:7:12: note: to match this '{'
+int main() {
+           ^
+1 error generated.
+ 
+build fail command = g++ -o ././2-exercise:string/김현우_949744_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/김현우_949744_assignsubmission_file_/exercise3/main.cpp 
+error 
+Error: Command failed: g++ -o ././2-exercise:string/김현우_949744_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/김현우_949744_assignsubmission_file_/exercise3/main.cpp
+././2-exercise:string/김현우_949744_assignsubmission_file_/exercise3/main.cpp:2:84: error: expected "FILENAME" or <FILENAME>
+#include /* <BF>ϼ<BA><C7>Ͻÿ<C0> */      // string <BF><AC><BB><EA><C0><DA> ==<B8><A6> <BB><E7><BF><EB><C7>ϱ<E2> <C0><A7><C7><D8> <C7>ʿ<E4><C7><D1> <C7><EC><B4><F5> <C6><C4><C0><CF>
+                                                                                                                                                                                    ^
+1 error generated.
+ 
+build success ././2-exercise:string/박근희_949717_assignsubmission_file_/exercise1 
+build fail command = g++ -o ././2-exercise:string/강예람_949719_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/강예람_949719_assignsubmission_file_/exercise3/main.cpp 
+error 
+Error: Command failed: g++ -o ././2-exercise:string/강예람_949719_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/강예람_949719_assignsubmission_file_/exercise3/main.cpp
+././2-exercise:string/강예람_949719_assignsubmission_file_/exercise3/main.cpp:1:9: error: use of undeclared identifier 'iostream'
+nclude <iostream>
+        ^
+In file included from ././2-exercise:string/강예람_949719_assignsubmission_file_/exercise3/main.cpp:2:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string:510:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:857:1: error: expected unqualified-id
+_LIBCPP_BEGIN_NAMESPACE_STD _LIBCPP_END_NAMESPACE_STD
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:854:37: note: expanded from macro '_LIBCPP_BEGIN_NAMESPACE_STD'
+#define _LIBCPP_BEGIN_NAMESPACE_STD namespace std { inline namespace _LIBCPP_ABI_NAMESPACE {
+                                    ^
+././2-exercise:string/강예람_949719_assignsubmission_file_/exercise3/main.cpp:11:2: error: use of undeclared identifier 'cin'; did you mean 'min'?
+        cin >> input;                                           // input <B9><AE><C0>ڿ<AD> <BA><AF><BC><F6><BF><A1> <B4>ܾ <C0>Է<C2> <B9><DE><C0><BD>
+        ^~~
+        min
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm:2585:1: note: 'min' declared here
+min(const _Tp& __a, const _Tp& __b, _Compare __comp)
+^
+././2-exercise:string/강예람_949719_assignsubmission_file_/exercise3/main.cpp:11:2: error: reference to overloaded function could not be resolved; did you mean to call it?
+        cin >> input;                                           // input <B9><AE><C0>ڿ<AD> <BA><AF><BC><F6><BF><A1> <B4>ܾ <C0>Է<C2> <B9><DE><C0><BD>
+        ^~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm:2585:1: note: possible target for call
+min(const _Tp& __a, const _Tp& __b, _Compare __comp)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string:4430:1: note: candidate function [with _CharT = char, _Traits = std::char_traits<char>, _Allocator = std::allocator<char>] not viable: no overload of 'min' matching 'basic_istream<char> &' for 1st argument
+operator>>(basic_istream<_CharT, _Traits>& __is,
+^
+././2-exercise:string/강예람_949719_assignsubmission_file_/exercise3/main.cpp:17:2: error: use of undeclared identifier 'cout'; did you mean 'count'?
+        cout << s1 << endl;
+        ^~~~
+        count
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm:1185:1: note: 'count' declared here
+count(_InputIterator __first, _InputIterator __last, const _Tp& __value_)
+^
+././2-exercise:string/강예람_949719_assignsubmission_file_/exercise3/main.cpp:17:2: error: reference to overloaded function could not be resolved; did you mean to call it?
+        cout << s1 << endl;
+        ^~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm:1185:1: note: possible target for call
+count(_InputIterator __first, _InputIterator __last, const _Tp& __value_)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string:4425:1: note: candidate function [with _CharT = char, _Traits = std::char_traits<char>, _Allocator = std::allocator<char>] not viable: no overload of 'count' matching 'basic_ostream<char> &' for 1st argument
+operator<<(basic_ostream<_CharT, _Traits>& __os,
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/memory:3988:1: note: candidate template ignored: could not match 'shared_ptr' against 'basic_string'
+operator<<(basic_ostream<_CharT, _Traits>& __os, shared_ptr<_Yp> const& __p);
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view:813:1: note: candidate template ignored: could not match 'basic_string_view' against 'basic_string'
+operator<<(basic_ostream<_CharT, _Traits>& __os,
+^
+././2-exercise:string/강예람_949719_assignsubmission_file_/exercise3/main.cpp:17:16: error: use of undeclared identifier 'endl'
+        cout << s1 << endl;
+                      ^
+././2-exercise:string/강예람_949719_assignsubmission_file_/exercise3/main.cpp:18:2: error: use of undeclared identifier 'cout'; did you mean 'count'?
+        cout << s2 << endl;
+        ^~~~
+        count
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm:1185:1: note: 'count' declared here
+count(_InputIterator __first, _InputIterator __last, const _Tp& __value_)
+^
+././2-exercise:string/강예람_949719_assignsubmission_file_/exercise3/main.cpp:18:2: error: reference to overloaded function could not be resolved; did you mean to call it?
+        cout << s2 << endl;
+        ^~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm:1185:1: note: possible target for call
+count(_InputIterator __first, _InputIterator __last, const _Tp& __value_)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string:4425:1: note: candidate function [with _CharT = char, _Traits = std::char_traits<char>, _Allocator = std::allocator<char>] not viable: no overload of 'count' matching 'basic_ostream<char> &' for 1st argument
+operator<<(basic_ostream<_CharT, _Traits>& __os,
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/memory:3988:1: note: candidate template ignored: could not match 'shared_ptr' against 'basic_string'
+operator<<(basic_ostream<_CharT, _Traits>& __os, shared_ptr<_Yp> const& __p);
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view:813:1: note: candidate template ignored: could not match 'basic_string_view' against 'basic_string'
+operator<<(basic_ostream<_CharT, _Traits>& __os,
+^
+././2-exercise:string/강예람_949719_assignsubmission_file_/exercise3/main.cpp:18:16: error: use of undeclared identifier 'endl'
+        cout << s2 << endl;
+                      ^
+././2-exercise:string/강예람_949719_assignsubmission_file_/exercise3/main.cpp:19:2: error: use of undeclared identifier 'cout'; did you mean 'count'?
+        cout << s3 << endl;
+        ^~~~
+        count
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm:1185:1: note: 'count' declared here
+count(_InputIterator __first, _InputIterator __last, const _Tp& __value_)
+^
+././2-exercise:string/강예람_949719_assignsubmission_file_/exercise3/main.cpp:19:2: error: reference to overloaded function could not be resolved; did you mean to call it?
+        cout << s3 << endl;
+        ^~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm:1185:1: note: possible target for call
+count(_InputIterator __first, _InputIterator __last, const _Tp& __value_)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string:4425:1: note: candidate function [with _CharT = char, _Traits = std::char_traits<char>, _Allocator = std::allocator<char>] not viable: no overload of 'count' matching 'basic_ostream<char> &' for 1st argument
+operator<<(basic_ostream<_CharT, _Traits>& __os,
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/memory:3988:1: note: candidate template ignored: could not match 'shared_ptr' against 'basic_string'
+operator<<(basic_ostream<_CharT, _Traits>& __os, shared_ptr<_Yp> const& __p);
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view:813:1: note: candidate template ignored: could not match 'basic_string_view' against 'basic_string'
+operator<<(basic_ostream<_CharT, _Traits>& __os,
+^
+././2-exercise:string/강예람_949719_assignsubmission_file_/exercise3/main.cpp:19:16: error: use of undeclared identifier 'endl'
+        cout << s3 << endl;
+                      ^
+././2-exercise:string/강예람_949719_assignsubmission_file_/exercise3/main.cpp:25:3: error: use of undeclared identifier 'cout'; did you mean 'count'?
+                cout << "s4 == s5" << endl;
+                ^~~~
+                count
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm:1185:1: note: 'count' declared here
+count(_InputIterator __first, _InputIterator __last, const _Tp& __value_)
+^
+././2-exercise:string/강예람_949719_assignsubmission_file_/exercise3/main.cpp:25:3: error: reference to overloaded function could not be resolved; did you mean to call it?
+                cout << "s4 == s5" << endl;
+                ^~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm:1185:1: note: possible target for call
+count(_InputIterator __first, _InputIterator __last, const _Tp& __value_)
+^
+././2-exercise:string/강예람_949719_assignsubmission_file_/exercise3/main.cpp:25:25: error: use of undeclared identifier 'endl'
+                cout << "s4 == s5" << endl;
+                                      ^
+16 errors generated.
+ 
+build fail command = g++ -o ././2-exercise:string/강나림_949728_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/강나림_949728_assignsubmission_file_/exercise6/main.cpp 
+error 
+Error: Command failed: g++ -o ././2-exercise:string/강나림_949728_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/강나림_949728_assignsubmission_file_/exercise6/main.cpp
+././2-exercise:string/강나림_949728_assignsubmission_file_/exercise6/main.cpp:9:13: warning: result of comparison against a string literal is unspecified (use an explicit string comparison function instead) [-Wstring-compare]
+        while (cin == "") cin >> word;
+                   ^  ~~
+././2-exercise:string/강나림_949728_assignsubmission_file_/exercise6/main.cpp:9:13: error: invalid operands to binary expression ('std::istream' (aka 'basic_istream<char>') and 'const char [1]')
+        while (cin == "") cin >> word;
+               ~~~ ^  ~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/system_error:390:1: note: candidate function not viable: no known conversion from 'std::istream' (aka 'basic_istream<char>') to 'const std::error_code' for 1st argument
+operator==(const error_code& __x, const error_code& __y) _NOEXCEPT
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/system_error:397:1: note: candidate function not viable: no known conversion from 'std::istream' (aka 'basic_istream<char>') to 'const std::error_code' for 1st argument
+operator==(const error_code& __x, const error_condition& __y) _NOEXCEPT
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/system_error:405:1: note: candidate function not viable: no known conversion from 'std::istream' (aka 'basic_istream<char>') to 'const std::error_condition' for 1st argument
+operator==(const error_condition& __x, const error_code& __y) _NOEXCEPT
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/system_error:412:1: note: candidate function not viable: no known conversion from 'std::istream' (aka 'basic_istream<char>') to 'const std::error_condition' for 1st argument
+operator==(const error_condition& __x, const error_condition& __y) _NOEXCEPT
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/utility:576:1: note: candidate template ignored: could not match 'pair' against 'basic_istream'
+operator==(const pair<_T1,_T2>& __x, const pair<_T1,_T2>& __y)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iterator:803:1: note: candidate template ignored: could not match 'reverse_iterator' against 'basic_istream'
+operator==(const reverse_iterator<_Iter1>& __x, const reverse_iterator<_Iter2>& __y)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iterator:1032:1: note: candidate template ignored: could not match 'istream_iterator' against 'basic_istream'
+operator==(const istream_iterator<_Tp, _CharT, _Traits, _Distance>& __x,
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iterator:1146:6: note: candidate template ignored: could not match 'istreambuf_iterator' against 'basic_istream'
+bool operator==(const istreambuf_iterator<_CharT,_Traits>& __a,
+     ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iterator:1259:1: note: candidate template ignored: could not match 'move_iterator' against 'basic_istream'
+operator==(const move_iterator<_Iter1>& __x, const move_iterator<_Iter2>& __y)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iterator:1631:1: note: candidate template ignored: could not match '__wrap_iter' against 'basic_istream'
+operator==(const __wrap_iter<_Iter1>& __x, const __wrap_iter<_Iter2>& __y) _NOEXCEPT
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/tuple:1176:1: note: candidate template ignored: could not match 'tuple' against 'basic_istream'
+operator==(const tuple<_Tp...>& __x, const tuple<_Up...>& __y)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/memory:1006:6: note: candidate template ignored: could not match 'allocator' against 'basic_istream'
+bool operator==(const allocator<_Tp>&, const allocator<_Up>&) _NOEXCEPT {return true;}
+     ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/memory:1943:1: note: candidate template ignored: could not match 'unique_ptr' against 'basic_istream'
+operator==(const unique_ptr<_T1, _D1>& __x, const unique_ptr<_T2, _D2>& __y) {return __x.get() == __y.get();}
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/memory:1979:1: note: candidate template ignored: could not match 'unique_ptr' against 'basic_istream'
+operator==(const unique_ptr<_T1, _D1>& __x, nullptr_t) _NOEXCEPT
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/memory:1987:1: note: candidate template ignored: could not match 'unique_ptr<type-parameter-0-0, type-parameter-0-1>' against 'char const[1]'
+operator==(nullptr_t, const unique_ptr<_T1, _D1>& __x) _NOEXCEPT
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/memory:3400:1: note: candidate template ignored: could not match 'shared_ptr' against 'basic_istream'
+operator==(const shared_ptr<_Tp>& __x, const shared_ptr<_Up>& __y) _NOEXCEPT
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/memory:3454:1: note: candidate template ignored: could not match 'shared_ptr' against 'basic_istream'
+operator==(const shared_ptr<_Tp>& __x, nullptr_t) _NOEXCEPT
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/memory:3462:1: note: candidate template ignored: could not match 'shared_ptr<type-parameter-0-0>' against 'char const[1]'
+operator==(nullptr_t, const shared_ptr<_Tp>& __x) _NOEXCEPT
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/functional:2593:1: note: candidate template ignored: could not match 'function' against 'basic_istream'
+operator==(const function<_Rp(_ArgTypes...)>& __f, nullptr_t) _NOEXCEPT {return !__f;}
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/functional:2598:1: note: candidate template ignored: could not match 'function<type-parameter-0-0 (type-parameter-0-1...)>' against 'char const[1]'
+operator==(nullptr_t, const function<_Rp(_ArgTypes...)>& __f) _NOEXCEPT {return !__f;}
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view:653:6: note: candidate template ignored: could not match 'basic_string_view' against 'basic_istream'
+bool operator==(basic_string_view<_CharT, _Traits> __lhs,
+     ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view:662:6: note: candidate template ignored: could not match 'basic_string_view' against 'basic_istream'
+bool operator==(basic_string_view<_CharT, _Traits> __lhs,
+     ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view:671:6: note: candidate template ignored: could not match 'basic_string_view<type-parameter-0-0, type-parameter-0-1>' against 'const char *'
+bool operator==(typename common_type<basic_string_view<_CharT, _Traits> >::type __lhs,
+     ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string:570:6: note: candidate template ignored: could not match 'fpos' against 'basic_istream'
+bool operator==(const fpos<_StateT>& __x, const fpos<_StateT>& __y)
+     ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string:4033:1: note: candidate template ignored: could not match 'basic_string' against 'basic_istream'
+operator==(const basic_string<_CharT, _Traits, _Allocator>& __lhs,
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string:4045:1: note: candidate template ignored: could not match 'basic_string' against 'basic_istream'
+operator==(const basic_string<char, char_traits<char>, _Allocator>& __lhs,
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string:4064:1: note: candidate template ignored: could not match 'const _CharT *' against 'std::istream' (aka 'basic_istream<char>')
+operator==(const _CharT* __lhs,
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string:4077:1: note: candidate template ignored: could not match 'basic_string' against 'basic_istream'
+operator==(const basic_string<_CharT,_Traits,_Allocator>& __lhs,
+^
+1 warning and 1 error generated.
+ 
+build success ././2-exercise:string/박대형_949736_assignsubmission_file_/exercise2 
+build success ././2-exercise:string/양희석_949714_assignsubmission_file_/exercise2 
+build success ././2-exercise:string/신동연_949732_assignsubmission_file_/exercise6 
+build success ././2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise6 
+build success ././2-exercise:string/박대형_949736_assignsubmission_file_/exercise6 
+build success ././2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise4 
+build success ././2-exercise:string/신동연_949732_assignsubmission_file_/exercise4 
+build success ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise2 
+build fail command = g++ -o ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise4/main.cpp 
+error 
+Error: Command failed: g++ -o ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise4/main.cpp
+././2-exercise:string/배상록_949740_assignsubmission_file_/exercise4/main.cpp:13:9: error: redefinition of 'line'
+        string line;
+               ^
+././2-exercise:string/배상록_949740_assignsubmission_file_/exercise4/main.cpp:7:9: note: previous definition is here
+        string line; // string word;
+               ^
+1 error generated.
+ 
+build fail command = g++ -o ././2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise1/main.cpp 
+error 
+Error: Command failed: g++ -o ././2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise1/main.cpp
+././2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise1/main.cpp:12:62: error: expected ';' after expression
+        cout << width << " × " << height << " = " << width * height
+                                                                   ^
+                                                                   ;
+1 error generated.
+ 
+build fail command = g++ -o ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise3/main.cpp 
+error 
+Error: Command failed: g++ -o ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise3/main.cpp
+././2-exercise:string/배상록_949740_assignsubmission_file_/exercise3/main.cpp:2:84: error: expected "FILENAME" or <FILENAME>
+#include /* <BF>ϼ<BA><C7>Ͻÿ<C0> */      // string <BF><AC><BB><EA><C0><DA> ==<B8><A6> <BB><E7><BF><EB><C7>ϱ<E2> <C0><A7><C7><D8> <C7>ʿ<E4><C7><D1> <C7><EC><B4><F5> <C6><C4><C0><CF>
+                                                                                                                                                                                    ^
+1 error generated.
+ 
+build fail command = g++ -o ././2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise2/main.cpp 
+error 
+Error: Command failed: g++ -o ././2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise2/main.cpp
+././2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise2/main.cpp:15:13: error: expected ';' at end of declaration
+        int res = 0
+                   ^
+                   ;
+1 error generated.
+ 
+build fail command = g++ -o ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise1/main.cpp 
+error 
+Error: Command failed: g++ -o ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise1/main.cpp
+././2-exercise:string/배상록_949740_assignsubmission_file_/exercise1/main.cpp:8:28: error: reference to overloaded function could not be resolved; did you mean to call it?
+        cin >> width >> height >> endl;
+                                  ^~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:1003:1: note: possible target for call
+endl(basic_ostream<_CharT, _Traits>& __os)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:615:1: note: candidate function [with _CharT = char, _Traits = std::char_traits<char>] not viable: no overload of 'endl' matching 'char *' for 2nd argument
+operator>>(basic_istream<_CharT, _Traits>& __is, _CharT* __s)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:626:1: note: candidate function template not viable: no overload of 'endl' matching 'unsigned char *' for 2nd argument
+operator>>(basic_istream<char, _Traits>& __is, unsigned char* __s)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:634:1: note: candidate function template not viable: no overload of 'endl' matching 'signed char *' for 2nd argument
+operator>>(basic_istream<char, _Traits>& __is, signed char* __s)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:643:1: note: candidate function [with _CharT = char, _Traits = std::char_traits<char>] not viable: no overload of 'endl' matching 'char &' for 2nd argument
+operator>>(basic_istream<_CharT, _Traits>& __is, _CharT& __c)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:678:1: note: candidate function template not viable: no overload of 'endl' matching 'unsigned char &' for 2nd argument
+operator>>(basic_istream<char, _Traits>& __is, unsigned char& __c)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:686:1: note: candidate function template not viable: no overload of 'endl' matching 'signed char &' for 2nd argument
+operator>>(basic_istream<char, _Traits>& __is, signed char& __c)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:1394:11: note: candidate template ignored: couldn't infer template argument '_Tp'
+_Stream&& operator>>(_Stream&& __is, _Tp&& __x)
+          ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:1461:1: note: candidate template ignored: couldn't infer template argument '_Allocator'
+operator>>(basic_istream<_CharT, _Traits>& __is,
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:1601:1: note: candidate template ignored: couldn't infer template argument '_Size'
+operator>>(basic_istream<_CharT, _Traits>& __is, bitset<_Size>& __x)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:220:20: note: candidate function not viable: no overload of 'endl' matching 'std::istream &(*)(std::istream &)' for 1st argument
+    basic_istream& operator>>(basic_istream& (*__pf)(basic_istream&))
+                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:224:20: note: candidate function not viable: no overload of 'endl' matching 'basic_ios<std::basic_istream<char>::char_type> &(*)(basic_ios<std::basic_istream<char>::char_type> &)' (aka 'basic_ios<char> &(*)(basic_ios<char> &)') for 1st argument
+    basic_istream& operator>>(basic_ios<char_type, traits_type>&
+                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:229:20: note: candidate function not viable: no overload of 'endl' matching 'std::ios_base &(*)(std::ios_base &)' for 1st argument
+    basic_istream& operator>>(ios_base& (*__pf)(ios_base&))
+                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:232:20: note: candidate function not viable: no overload of 'endl' matching 'basic_streambuf<std::basic_istream<char>::char_type> *' (aka 'basic_streambuf<char> *') for 1st argument
+    basic_istream& operator>>(basic_streambuf<char_type, traits_type>* __sb);
+                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:233:20: note: candidate function not viable: no overload of 'endl' matching 'bool &' for 1st argument
+    basic_istream& operator>>(bool& __n);
+                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:234:20: note: candidate function not viable: no overload of 'endl' matching 'short &' for 1st argument
+    basic_istream& operator>>(short& __n);
+                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:235:20: note: candidate function not viable: no overload of 'endl' matching 'unsigned short &' for 1st argument
+    basic_istream& operator>>(unsigned short& __n);
+                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:236:20: note: candidate function not viable: no overload of 'endl' matching 'int &' for 1st argument
+    basic_istream& operator>>(int& __n);
+                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:237:20: note: candidate function not viable: no overload of 'endl' matching 'unsigned int &' for 1st argument
+    basic_istream& operator>>(unsigned int& __n);
+                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:238:20: note: candidate function not viable: no overload of 'endl' matching 'long &' for 1st argument
+    basic_istream& operator>>(long& __n);
+                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:239:20: note: candidate function not viable: no overload of 'endl' matching 'unsigned long &' for 1st argument
+    basic_istream& operator>>(unsigned long& __n);
+                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:240:20: note: candidate function not viable: no overload of 'endl' matching 'long long &' for 1st argument
+    basic_istream& operator>>(long long& __n);
+                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:241:20: note: candidate function not viable: no overload of 'endl' matching 'unsigned long long &' for 1st argument
+    basic_istream& operator>>(unsigned long long& __n);
+                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:242:20: note: candidate function not viable: no overload of 'endl' matching 'float &' for 1st argument
+    basic_istream& operator>>(float& __f);
+                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:243:20: note: candidate function not viable: no overload of 'endl' matching 'double &' for 1st argument
+    basic_istream& operator>>(double& __f);
+                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:244:20: note: candidate function not viable: no overload of 'endl' matching 'long double &' for 1st argument
+    basic_istream& operator>>(long double& __f);
+                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:245:20: note: candidate function not viable: no overload of 'endl' matching 'void *&' for 1st argument
+    basic_istream& operator>>(void*& __p);
+                   ^
+1 error generated.
+ 
+build success ././2-exercise:string/박대형_949736_assignsubmission_file_/exercise5 
+build success ././2-exercise:string/박대형_949736_assignsubmission_file_/exercise4 
+build success ././2-exercise:string/심수연_949747_assignsubmission_file_/exercise1 
+build success ././2-exercise:string/이민재_949741_assignsubmission_file_/exercise1 
+build success ././2-exercise:string/심수연_949747_assignsubmission_file_/exercise4 
+build success ././2-exercise:string/양희석_949714_assignsubmission_file_/exercise4 
+build success ././2-exercise:string/양희석_949714_assignsubmission_file_/exercise6 
+build success ././2-exercise:string/양희석_949714_assignsubmission_file_/exercise3 
+build success ././2-exercise:string/양희석_949714_assignsubmission_file_/exercise1 
+build success ././2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise7 
+build success ././2-exercise:string/임도현_949729_assignsubmission_file_/exercise3 
+build success ././2-exercise:string/심수연_949747_assignsubmission_file_/exercise2 
+build fail command = g++ -o ././2-exercise:string/이민재_949741_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/이민재_949741_assignsubmission_file_/exercise5/main.cpp 
+error 
+Error: Command failed: g++ -o ././2-exercise:string/이민재_949741_assignsubmission_file_/exercise5/build -std=c++14 ././2-exercise:string/이민재_949741_assignsubmission_file_/exercise5/main.cpp
+././2-exercise:string/이민재_949741_assignsubmission_file_/exercise5/main.cpp:3:107: error: expected "FILENAME" or <FILENAME>
+#include /* 완성하시오 */     // istringstream, ostringstream 클래스를 사용하기 위한 헤더
+                                                                                         ^
+././2-exercise:string/이민재_949741_assignsubmission_file_/exercise5/main.cpp:16:16: error: implicit instantiation of undefined template 'std::basic_ostringstream<char>'
+        ostringstream ost;
+                      ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd:136:32: note: template is declared here
+    class _LIBCPP_TEMPLATE_VIS basic_ostringstream;
+                               ^
+././2-exercise:string/이민재_949741_assignsubmission_file_/exercise5/main.cpp:31:16: error: implicit instantiation of undefined template 'std::basic_istringstream<char>'
+        istringstream ist(line);
+                      ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd:133:32: note: template is declared here
+    class _LIBCPP_TEMPLATE_VIS basic_istringstream;
+                               ^
+3 errors generated.
+ 
+build success ././2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise5 
+build success ././2-exercise:string/심수연_949747_assignsubmission_file_/exercise7 
+build success ././2-exercise:string/심수연_949747_assignsubmission_file_/exercise5 
+build success ././2-exercise:string/이민재_949741_assignsubmission_file_/exercise4 
+build success ././2-exercise:string/이민재_949741_assignsubmission_file_/exercise2 
+build success ././2-exercise:string/심수연_949747_assignsubmission_file_/exercise6 
+build success ././2-exercise:string/이창호_949737_assignsubmission_file_/exercise1 
+build fail command = g++ -o ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise6/main.cpp 
+error 
+Error: Command failed: g++ -o ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise6/build -std=c++14 ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise6/main.cpp
+././2-exercise:string/이연주_949730_assignsubmission_file_/exercise6/main.cpp:10:6: error: redefinition of 'count'
+        int count=0;
+            ^
+././2-exercise:string/이연주_949730_assignsubmission_file_/exercise6/main.cpp:8:6: note: previous definition is here
+        int count;
+            ^
+././2-exercise:string/이연주_949730_assignsubmission_file_/exercise6/main.cpp:12:10: error: expected ';' after expression
+                count++
+                       ^
+                       ;
+2 errors generated.
+ 
+build success ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise7 
+build fail command = g++ -o ././2-exercise:string/장현지_949713_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/장현지_949713_assignsubmission_file_/exercise1/main.cpp 
+error 
+Error: Command failed: g++ -o ././2-exercise:string/장현지_949713_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/장현지_949713_assignsubmission_file_/exercise1/main.cpp
+././2-exercise:string/장현지_949713_assignsubmission_file_/exercise1/main.cpp:9:7: error: invalid operands to binary expression ('std::ostream' (aka 'basic_ostream<char>') and 'const char [44]')
+        cout >> "직사각형의 너비를 입력하세요: ";
+        ~~~~ ^  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:615:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is, _CharT* __s)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:626:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, unsigned char* __s)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:634:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, signed char* __s)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:643:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is, _CharT& __c)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:678:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, unsigned char& __c)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:686:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, signed char& __c)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:1461:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is,
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:1601:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is, bitset<_Size>& __x)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:1394:11: note: candidate template ignored: requirement 'is_base_of<std::ios_base, std::ostream &>::value' was not satisfied [with _Stream = std::ostream &, _Tp = char const (&)[44]]
+_Stream&& operator>>(_Stream&& __is, _Tp&& __x)
+          ^
+././2-exercise:string/장현지_949713_assignsubmission_file_/exercise1/main.cpp:10:6: error: invalid operands to binary expression ('std::istream' (aka 'basic_istream<char>') and 'int')
+        cin << width;
+        ~~~ ^  ~~~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:752:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os, _CharT __c)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:759:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os, char __cn)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:792:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<char, _Traits>& __os, char __c)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:799:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<char, _Traits>& __os, signed char __c)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:806:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<char, _Traits>& __os, unsigned char __c)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:813:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os, const _CharT* __str)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:820:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os, const char* __strn)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:866:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<char, _Traits>& __os, const char* __str)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:873:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<char, _Traits>& __os, const signed char* __str)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:881:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<char, _Traits>& __os, const unsigned char* __str)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:1053:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os,
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:1061:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os,
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:1078:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os, shared_ptr<_Yp> const& __p)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:1097:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os, const bitset<_Size>& __x)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:1043:11: note: candidate template ignored: requirement 'is_base_of<std::ios_base, std::istream &>::value' was not satisfied [with _Stream = std::istream &, _Tp = int]
+_Stream&& operator<<(_Stream&& __os, const _Tp& __x)
+          ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:1070:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __ec)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:1090:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os, unique_ptr<_Yp, _Dp> const& __p)
+^
+././2-exercise:string/장현지_949713_assignsubmission_file_/exercise1/main.cpp:11:7: error: invalid operands to binary expression ('std::ostream' (aka 'basic_ostream<char>') and 'const char [44]')
+        cout >> "직사각형의 높이를 입력하세요: ";
+        ~~~~ ^  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:615:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is, _CharT* __s)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:626:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, unsigned char* __s)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:634:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, signed char* __s)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:643:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is, _CharT& __c)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:678:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, unsigned char& __c)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:686:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, signed char& __c)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:1461:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is,
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:1601:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is, bitset<_Size>& __x)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:1394:11: note: candidate template ignored: requirement 'is_base_of<std::ios_base, std::ostream &>::value' was not satisfied [with _Stream = std::ostream &, _Tp = char const (&)[44]]
+_Stream&& operator>>(_Stream&& __is, _Tp&& __x)
+          ^
+././2-exercise:string/장현지_949713_assignsubmission_file_/exercise1/main.cpp:12:6: error: invalid operands to binary expression ('std::istream' (aka 'basic_istream<char>') and 'int')
+        cin << height;
+        ~~~ ^  ~~~~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:752:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os, _CharT __c)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:759:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os, char __cn)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:792:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<char, _Traits>& __os, char __c)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:799:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<char, _Traits>& __os, signed char __c)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:806:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<char, _Traits>& __os, unsigned char __c)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:813:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os, const _CharT* __str)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:820:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os, const char* __strn)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:866:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<char, _Traits>& __os, const char* __str)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:873:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<char, _Traits>& __os, const signed char* __str)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:881:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<char, _Traits>& __os, const unsigned char* __str)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:1053:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os,
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:1061:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os,
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:1078:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os, shared_ptr<_Yp> const& __p)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:1097:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os, const bitset<_Size>& __x)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:1043:11: note: candidate template ignored: requirement 'is_base_of<std::ios_base, std::istream &>::value' was not satisfied [with _Stream = std::istream &, _Tp = int]
+_Stream&& operator<<(_Stream&& __os, const _Tp& __x)
+          ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:1070:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __ec)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:1090:1: note: candidate template ignored: could not match 'basic_ostream' against 'basic_istream'
+operator<<(basic_ostream<_CharT, _Traits>& __os, unique_ptr<_Yp, _Dp> const& __p)
+^
+././2-exercise:string/장현지_949713_assignsubmission_file_/exercise1/main.cpp:14:7: error: invalid operands to binary expression ('std::ostream' (aka 'basic_ostream<char>') and 'int')
+        cout >> width >> "*" >> height >> "=" >> width * height >> "입니다.";
+        ~~~~ ^  ~~~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:615:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is, _CharT* __s)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:626:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, unsigned char* __s)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:634:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, signed char* __s)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:643:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is, _CharT& __c)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:678:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, unsigned char& __c)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:686:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, signed char& __c)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:1461:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is,
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:1601:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is, bitset<_Size>& __x)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:1394:11: note: candidate template ignored: requirement 'is_base_of<std::ios_base, std::ostream &>::value' was not satisfied [with _Stream = std::ostream &, _Tp = int &]
+_Stream&& operator>>(_Stream&& __is, _Tp&& __x)
+          ^
+5 errors generated.
+ 
+build success ././2-exercise:string/양희석_949714_assignsubmission_file_/exercise7 
+build fail command = g++ -o ././2-exercise:string/이민재_949741_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/이민재_949741_assignsubmission_file_/exercise7/main.cpp 
+error 
+Error: Command failed: g++ -o ././2-exercise:string/이민재_949741_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/이민재_949741_assignsubmission_file_/exercise7/main.cpp
+././2-exercise:string/이민재_949741_assignsubmission_file_/exercise7/main.cpp:15:4: error: use of undeclared identifier 'linecount'
+                        linecount++;
+                        ^
+././2-exercise:string/이민재_949741_assignsubmission_file_/exercise7/main.cpp:24:29: error: use of undeclared identifier 'linecount'
+        cout << "Total lines: " << linecount << endl
+                                   ^
+2 errors generated.
+ 
+build success ././2-exercise:string/박대형_949736_assignsubmission_file_/exercise3 
+build success ././2-exercise:string/이창호_949737_assignsubmission_file_/exercise4 
+build success ././2-exercise:string/심수연_949747_assignsubmission_file_/exercise3 
+build success ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise7 
+build fail command = g++ -o ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise1/main.cpp 
+error 
+Error: Command failed: g++ -o ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise1/build -std=c++14 ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise1/main.cpp
+././2-exercise:string/이연주_949730_assignsubmission_file_/exercise1/main.cpp:8:49: error: use of undeclared identifier 'heigh'; did you mean 'height'?
+        cout << width << "*" << height << "=" << width*heigh << endl;
+                                                       ^~~~~
+                                                       height
+././2-exercise:string/이연주_949730_assignsubmission_file_/exercise1/main.cpp:6:13: note: 'height' declared here
+        int width, height;
+                   ^
+1 error generated.
+ 
+build success ././2-exercise:string/이민재_949741_assignsubmission_file_/exercise6 
+build success ././2-exercise:string/이민재_949741_assignsubmission_file_/exercise3 
+build success ././2-exercise:string/정민석_949745_assignsubmission_file_/exercise5 
+build success ././2-exercise:string/장현지_949713_assignsubmission_file_/exercise6 
+build success ././2-exercise:string/정민석_949745_assignsubmission_file_/exercise1 
+build success ././2-exercise:string/이창호_949737_assignsubmission_file_/exercise2 
+build success ././2-exercise:string/이창호_949737_assignsubmission_file_/exercise3 
+build success ././2-exercise:string/임도현_949729_assignsubmission_file_/exercise4 
+build fail command = g++ -o ././2-exercise:string/장현지_949713_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/장현지_949713_assignsubmission_file_/exercise3/main.cpp 
+error 
+Error: Command failed: g++ -o ././2-exercise:string/장현지_949713_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/장현지_949713_assignsubmission_file_/exercise3/main.cpp
+././2-exercise:string/장현지_949713_assignsubmission_file_/exercise3/main.cpp:2:84: error: expected "FILENAME" or <FILENAME>
+#include /* <BF>ϼ<BA><C7>Ͻÿ<C0> */      // string <BF><AC><BB><EA><C0><DA> ==<B8><A6> <BB><E7><BF><EB><C7>ϱ<E2> <C0><A7><C7><D8> <C7>ʿ<E4><C7><D1> <C7><EC><B4><F5> <C6><C4><C0><CF>
+                                                                                                                                                                                    ^
+1 error generated.
+ 
+build success ././2-exercise:string/정민석_949745_assignsubmission_file_/exercise6 
+build success ././2-exercise:string/양희석_949714_assignsubmission_file_/exercise5 
+build success ././2-exercise:string/장현지_949713_assignsubmission_file_/exercise4 
+build success ././2-exercise:string/이창호_949737_assignsubmission_file_/exercise6 
+build fail command = g++ -o ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise4/main.cpp 
+error 
+Error: Command failed: g++ -o ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise4/build -std=c++14 ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise4/main.cpp
+././2-exercise:string/이연주_949730_assignsubmission_file_/exercise4/main.cpp:15:6: error: invalid operands to binary expression ('std::istream' (aka 'basic_istream<char>') and 'basic_istream<char>')
+        cin >> getline(cin, line);
+        ~~~ ^  ~~~~~~~~~~~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:626:1: note: candidate function template not viable: no known conversion from 'basic_istream<char>' to 'unsigned char *' for 2nd argument
+operator>>(basic_istream<char, _Traits>& __is, unsigned char* __s)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:634:1: note: candidate function template not viable: no known conversion from 'basic_istream<char>' to 'signed char *' for 2nd argument
+operator>>(basic_istream<char, _Traits>& __is, signed char* __s)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:678:1: note: candidate function template not viable: no known conversion from 'basic_istream<char>' to 'unsigned char &' for 2nd argument
+operator>>(basic_istream<char, _Traits>& __is, unsigned char& __c)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:686:1: note: candidate function template not viable: no known conversion from 'basic_istream<char>' to 'signed char &' for 2nd argument
+operator>>(basic_istream<char, _Traits>& __is, signed char& __c)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:643:1: note: candidate template ignored: deduced conflicting types for parameter '_CharT' ('char' vs. 'std::istream')
+operator>>(basic_istream<_CharT, _Traits>& __is, _CharT& __c)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:615:1: note: candidate template ignored: could not match '_CharT *' against 'basic_istream<char>'
+operator>>(basic_istream<_CharT, _Traits>& __is, _CharT* __s)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:1461:1: note: candidate template ignored: could not match 'basic_string' against 'basic_istream'
+operator>>(basic_istream<_CharT, _Traits>& __is,
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:1601:1: note: candidate template ignored: could not match 'bitset' against 'basic_istream'
+operator>>(basic_istream<_CharT, _Traits>& __is, bitset<_Size>& __x)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:1394:11: note: candidate template ignored: requirement 'is_base_of<std::ios_base, std::istream &>::value' was not satisfied [with _Stream = std::istream &, _Tp = std::istream &]
+_Stream&& operator>>(_Stream&& __is, _Tp&& __x)
+          ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:220:20: note: candidate function not viable: no known conversion from 'basic_istream<char>' to 'std::istream &(*)(std::istream &)' for 1st argument
+    basic_istream& operator>>(basic_istream& (*__pf)(basic_istream&))
+                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:224:20: note: candidate function not viable: no known conversion from 'basic_istream<char>' to 'basic_ios<std::basic_istream<char>::char_type> &(*)(basic_ios<std::basic_istream<char>::char_type> &)' (aka 'basic_ios<char> &(*)(basic_ios<char> &)') for 1st argument
+    basic_istream& operator>>(basic_ios<char_type, traits_type>&
+                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:229:20: note: candidate function not viable: no known conversion from 'basic_istream<char>' to 'std::ios_base &(*)(std::ios_base &)' for 1st argument
+    basic_istream& operator>>(ios_base& (*__pf)(ios_base&))
+                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:232:20: note: candidate function not viable: no known conversion from 'basic_istream<char>' to 'basic_streambuf<std::basic_istream<char>::char_type> *' (aka 'basic_streambuf<char> *') for 1st argument
+    basic_istream& operator>>(basic_streambuf<char_type, traits_type>* __sb);
+                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:233:20: note: candidate function not viable: no known conversion from 'basic_istream<char>' to 'bool &' for 1st argument
+    basic_istream& operator>>(bool& __n);
+                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:234:20: note: candidate function not viable: no known conversion from 'basic_istream<char>' to 'short &' for 1st argument
+    basic_istream& operator>>(short& __n);
+                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:235:20: note: candidate function not viable: no known conversion from 'basic_istream<char>' to 'unsigned short &' for 1st argument
+    basic_istream& operator>>(unsigned short& __n);
+                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:236:20: note: candidate function not viable: no known conversion from 'basic_istream<char>' to 'int &' for 1st argument
+    basic_istream& operator>>(int& __n);
+                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:237:20: note: candidate function not viable: no known conversion from 'basic_istream<char>' to 'unsigned int &' for 1st argument
+    basic_istream& operator>>(unsigned int& __n);
+                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:238:20: note: candidate function not viable: no known conversion from 'basic_istream<char>' to 'long &' for 1st argument
+    basic_istream& operator>>(long& __n);
+                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:239:20: note: candidate function not viable: no known conversion from 'basic_istream<char>' to 'unsigned long &' for 1st argument
+    basic_istream& operator>>(unsigned long& __n);
+                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:240:20: note: candidate function not viable: no known conversion from 'basic_istream<char>' to 'long long &' for 1st argument
+    basic_istream& operator>>(long long& __n);
+                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:241:20: note: candidate function not viable: no known conversion from 'basic_istream<char>' to 'unsigned long long &' for 1st argument
+    basic_istream& operator>>(unsigned long long& __n);
+                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:242:20: note: candidate function not viable: no known conversion from 'basic_istream<char>' to 'float &' for 1st argument
+    basic_istream& operator>>(float& __f);
+                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:243:20: note: candidate function not viable: no known conversion from 'basic_istream<char>' to 'double &' for 1st argument
+    basic_istream& operator>>(double& __f);
+                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:244:20: note: candidate function not viable: no known conversion from 'basic_istream<char>' to 'long double &' for 1st argument
+    basic_istream& operator>>(long double& __f);
+                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:245:20: note: candidate function not viable: no known conversion from 'basic_istream<char>' to 'void *&' for 1st argument
+    basic_istream& operator>>(void*& __p);
+                   ^
+1 error generated.
+ 
+build success ././2-exercise:string/임도현_949729_assignsubmission_file_/exercise6 
+build success ././2-exercise:string/정우진_949734_assignsubmission_file_/exercise1 
+build fail command = g++ -o ././2-exercise:string/장현지_949713_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/장현지_949713_assignsubmission_file_/exercise7/main.cpp 
+error 
+Error: Command failed: g++ -o ././2-exercise:string/장현지_949713_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/장현지_949713_assignsubmission_file_/exercise7/main.cpp
+././2-exercise:string/장현지_949713_assignsubmission_file_/exercise7/main.cpp:22:7: error: invalid operands to binary expression ('std::ostream' (aka 'basic_ostream<char>') and 'const char [13]')
+        cout >> "Total line: " >> count;
+        ~~~~ ^  ~~~~~~~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:615:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is, _CharT* __s)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:626:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, unsigned char* __s)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:634:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, signed char* __s)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:643:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is, _CharT& __c)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:678:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, unsigned char& __c)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:686:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, signed char& __c)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:1461:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is,
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:1601:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is, bitset<_Size>& __x)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:1394:11: note: candidate template ignored: requirement 'is_base_of<std::ios_base, std::ostream &>::value' was not satisfied [with _Stream = std::ostream &, _Tp = char const (&)[13]]
+_Stream&& operator>>(_Stream&& __is, _Tp&& __x)
+          ^
+././2-exercise:string/장현지_949713_assignsubmission_file_/exercise7/main.cpp:23:7: error: invalid operands to binary expression ('std::ostream' (aka 'basic_ostream<char>') and 'const char [13]')
+        cout >> "Total word: " >> wordcount;
+        ~~~~ ^  ~~~~~~~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:615:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is, _CharT* __s)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:626:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, unsigned char* __s)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:634:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, signed char* __s)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:643:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is, _CharT& __c)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:678:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, unsigned char& __c)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:686:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, signed char& __c)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:1461:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is,
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:1601:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is, bitset<_Size>& __x)
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:1394:11: note: candidate template ignored: requirement 'is_base_of<std::ios_base, std::ostream &>::value' was not satisfied [with _Stream = std::ostream &, _Tp = char const (&)[13]]
+_Stream&& operator>>(_Stream&& __is, _Tp&& __x)
+          ^
+2 errors generated.
+ 
+build success ././2-exercise:string/임도현_949729_assignsubmission_file_/exercise2 
+build success ././2-exercise:string/정민석_949745_assignsubmission_file_/exercise2 
+build success ././2-exercise:string/임도현_949729_assignsubmission_file_/exercise1 
+build fail command = g++ -o ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise3/main.cpp 
+error 
+Error: Command failed: g++ -o ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise3/main.cpp
+././2-exercise:string/이연주_949730_assignsubmission_file_/exercise3/main.cpp:13:12: error: expected ';' after expression
+        s1="hello"    // s1<BF><A1> "hello"<B8><A6> <B4><EB><C0><D4>.      cf. strcpy(s1, "hello")
+                  ^
+                  ;
+././2-exercise:string/이연주_949730_assignsubmission_file_/exercise3/main.cpp:14:10: error: expected ';' after expression
+        s2=input     // s2<BF><A1> input<C0><BB> <B4><EB><C0><D4>.        cf. strcpy(s2, input)
+                ^
+                ;
+././2-exercise:string/이연주_949730_assignsubmission_file_/exercise3/main.cpp:15:18: error: expected ';' after expression
+        s3="hello"+input     // s1<B0><FA> s2<B8><A6> <BA>ٿ<A9> s3<BF><A1> <B4><EB><C0><D4>.  cf. strcat(s1, s2, s3) <B9><AE><C0>ڿ<AD> <C1><A2><C7><D5>(concatenation)
+                        ^
+                        ;
+3 errors generated.
+ 
+build fail command = g++ -o ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise2/main.cpp 
+error 
+Error: Command failed: g++ -o ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise2/main.cpp
+././2-exercise:string/이연주_949730_assignsubmission_file_/exercise2/main.cpp:16:24: error: expected ';' after expression
+                        result=oprnd1+oprnd2
+                                            ^
+                                            ;
+././2-exercise:string/이연주_949730_assignsubmission_file_/exercise2/main.cpp:19:24: error: expected ';' after expression
+                        result=oprnd1-oprnd2
+                                            ^
+                                            ;
+././2-exercise:string/이연주_949730_assignsubmission_file_/exercise2/main.cpp:22:12: error: expected ';' after expression
+                        result=0
+                                ^
+                                ;
+3 errors generated.
+ 
+build success ././2-exercise:string/이창호_949737_assignsubmission_file_/exercise5 
+build success ././2-exercise:string/장현지_949713_assignsubmission_file_/exercise5 
+build success ././2-exercise:string/장현지_949713_assignsubmission_file_/exercise2 
+build success ././2-exercise:string/정우진_949734_assignsubmission_file_/exercise6 
+build success ././2-exercise:string/정우진_949734_assignsubmission_file_/exercise2 
+build success ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise5 
+build success ././2-exercise:string/정민석_949745_assignsubmission_file_/exercise3 
+build success ././2-exercise:string/정우진_949734_assignsubmission_file_/exercise3 
+build success ././2-exercise:string/채민_949721_assignsubmission_file_/exercise1 
+build success ././2-exercise:string/정원용_949723_assignsubmission_file_/exercise6 
+build success ././2-exercise:string/임도현_949729_assignsubmission_file_/exercise7 
+build success ././2-exercise:string/정민석_949745_assignsubmission_file_/exercise4 
+build success ././2-exercise:string/이창호_949737_assignsubmission_file_/exercise7 
+build success ././2-exercise:string/임도현_949729_assignsubmission_file_/exercise5 
+build success ././2-exercise:string/정우진_949734_assignsubmission_file_/exercise4 
+build success ././2-exercise:string/정원용_949723_assignsubmission_file_/exercise4 
+build fail command = g++ -o ././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise2/main.cpp 
+error 
+Error: Command failed: g++ -o ././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise2/build -std=c++14 ././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise2/main.cpp
+././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise2/main.cpp:14:26: error: use of undeclared identifier 'oprnd'
+        if (op == "+") result = oprnd + oprnd2;
+                                ^
+1 error generated.
+ 
+build success ././2-exercise:string/정원용_949723_assignsubmission_file_/exercise3 
+build success ././2-exercise:string/정원용_949723_assignsubmission_file_/exercise1 
+build success ././2-exercise:string/주재원_949720_assignsubmission_file_/exercise4 
+build success ././2-exercise:string/정원용_949723_assignsubmission_file_/exercise5 
+build success ././2-exercise:string/정원용_949723_assignsubmission_file_/exercise2 
+build success ././2-exercise:string/정민석_949745_assignsubmission_file_/exercise7 
+build success ././2-exercise:string/채민_949721_assignsubmission_file_/exercise4 
+build success ././2-exercise:string/채민_949721_assignsubmission_file_/exercise3 
+build success ././2-exercise:string/주재원_949720_assignsubmission_file_/exercise2 
+build fail command = g++ -o ././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise3/main.cpp 
+error 
+Error: Command failed: g++ -o ././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise3/build -std=c++14 ././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise3/main.cpp
+././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise3/main.cpp:2:84: error: expected "FILENAME" or <FILENAME>
+#include /* <BF>ϼ<BA><C7>Ͻÿ<C0> */      // string <BF><AC><BB><EA><C0><DA> ==<B8><A6> <BB><E7><BF><EB><C7>ϱ<E2> <C0><A7><C7><D8> <C7>ʿ<E4><C7><D1> <C7><EC><B4><F5> <C6><C4><C0><CF>
+                                                                                                                                                                                    ^
+1 error generated.
+ 
+build success ././2-exercise:string/정원용_949723_assignsubmission_file_/exercise7 
+build success ././2-exercise:string/채민_949721_assignsubmission_file_/exercise2 
+build success ././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise1 
+build success ././2-exercise:string/정우진_949734_assignsubmission_file_/exercise7 
+build success ././2-exercise:string/채민_949721_assignsubmission_file_/exercise6 
+build success ././2-exercise:string/주재원_949720_assignsubmission_file_/exercise7 
+build success ././2-exercise:string/주재원_949720_assignsubmission_file_/exercise1 
+build success ././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise4 
+build success ././2-exercise:string/주재원_949720_assignsubmission_file_/exercise6 
+build success ././2-exercise:string/정우진_949734_assignsubmission_file_/exercise5 
+build success ././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise6 
+build success ././2-exercise:string/이민혁_949722_assignsubmission_file_/exercise2 
+build fail command = g++ -o ././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise7/main.cpp 
+error 
+Error: Command failed: g++ -o ././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise7/build -std=c++14 ././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise7/main.cpp
+././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise7/main.cpp:14:4: error: use of undeclared identifier 'linecount'
+                        linecount = linecount + 1;
+                        ^
+././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise7/main.cpp:14:16: error: use of undeclared identifier 'linecount'
+                        linecount = linecount + 1;
+                                    ^
+././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise7/main.cpp:25:29: error: use of undeclared identifier 'linecount'
+        cout << "Total lines: " << linecount << endl
+                                   ^
+3 errors generated.
+ 
+build success ././2-exercise:string/이민혁_949722_assignsubmission_file_/exercise6 
+build success ././2-exercise:string/채민_949721_assignsubmission_file_/exercise5 
+build success ././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise5 
+build success ././2-exercise:string/주재원_949720_assignsubmission_file_/exercise3 
+build success ././2-exercise:string/이민혁_949722_assignsubmission_file_/exercise3 
+build success ././2-exercise:string/이민혁_949722_assignsubmission_file_/exercise4 
+build success ././2-exercise:string/이민혁_949722_assignsubmission_file_/exercise5 
+build success ././2-exercise:string/채민_949721_assignsubmission_file_/exercise7 
+build success ././2-exercise:string/이민혁_949722_assignsubmission_file_/exercise7 
+build success ././2-exercise:string/주재원_949720_assignsubmission_file_/exercise5 
+build success ././2-exercise:string/이민혁_949722_assignsubmission_file_/exercise1 
+make build fail folder 
+move ././2-exercise:string/empty-test-case/배강민_949733_assignsubmission_file_ ./2-exercise:string/build-fail/empty-test-case/배강민_949733_assignsubmission_file_ 
+move ././2-exercise:string/empty-test-case/윤준모_949716_assignsubmission_file_ ./2-exercise:string/build-fail/empty-test-case/윤준모_949716_assignsubmission_file_ 
+move ././2-exercise:string/empty-test-case/박현_949725_assignsubmission_file_ ./2-exercise:string/build-fail/empty-test-case/박현_949725_assignsubmission_file_ 
+move ././2-exercise:string/강나림_949728_assignsubmission_file_/exercise5 ./2-exercise:string/build-fail/강나림_949728_assignsubmission_file_/exercise5 
+move ././2-exercise:string/강나림_949728_assignsubmission_file_/exercise3 ./2-exercise:string/build-fail/강나림_949728_assignsubmission_file_/exercise3 
+move ././2-exercise:string/강나림_949728_assignsubmission_file_/exercise6 ./2-exercise:string/build-fail/강나림_949728_assignsubmission_file_/exercise6 
+move ././2-exercise:string/강예람_949719_assignsubmission_file_/exercise3 ./2-exercise:string/build-fail/강예람_949719_assignsubmission_file_/exercise3 
+move ././2-exercise:string/김명환_949727_assignsubmission_file_/exercise4 ./2-exercise:string/build-fail/김명환_949727_assignsubmission_file_/exercise4 
+move ././2-exercise:string/김명환_949727_assignsubmission_file_/exercise3 ./2-exercise:string/build-fail/김명환_949727_assignsubmission_file_/exercise3 
+move ././2-exercise:string/김유선_949738_assignsubmission_file_/exercise3 ./2-exercise:string/build-fail/김유선_949738_assignsubmission_file_/exercise3 
+move ././2-exercise:string/김유선_949738_assignsubmission_file_/exercise4 ./2-exercise:string/build-fail/김유선_949738_assignsubmission_file_/exercise4 
+move ././2-exercise:string/김유선_949738_assignsubmission_file_/exercise5 ./2-exercise:string/build-fail/김유선_949738_assignsubmission_file_/exercise5 
+move ././2-exercise:string/김유선_949738_assignsubmission_file_/exercise6 ./2-exercise:string/build-fail/김유선_949738_assignsubmission_file_/exercise6 
+move ././2-exercise:string/김유선_949738_assignsubmission_file_/exercise2 ./2-exercise:string/build-fail/김유선_949738_assignsubmission_file_/exercise2 
+move ././2-exercise:string/김유선_949738_assignsubmission_file_/exercise7 ./2-exercise:string/build-fail/김유선_949738_assignsubmission_file_/exercise7 
+move ././2-exercise:string/김유선_949738_assignsubmission_file_/exercise1 ./2-exercise:string/build-fail/김유선_949738_assignsubmission_file_/exercise1 
+move ././2-exercise:string/김현우_949744_assignsubmission_file_/exercise7 ./2-exercise:string/build-fail/김현우_949744_assignsubmission_file_/exercise7 
+move ././2-exercise:string/김현우_949744_assignsubmission_file_/exercise3 ./2-exercise:string/build-fail/김현우_949744_assignsubmission_file_/exercise3 
+move ././2-exercise:string/박대형_949736_assignsubmission_file_/exercise7 ./2-exercise:string/build-fail/박대형_949736_assignsubmission_file_/exercise7 
+move ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise1 ./2-exercise:string/build-fail/배상록_949740_assignsubmission_file_/exercise1 
+move ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise3 ./2-exercise:string/build-fail/배상록_949740_assignsubmission_file_/exercise3 
+move ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise4 ./2-exercise:string/build-fail/배상록_949740_assignsubmission_file_/exercise4 
+move ././2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise2 ./2-exercise:string/build-fail/신찬슬_949726_assignsubmission_file_/exercise2 
+move ././2-exercise:string/이경민_949735_assignsubmission_file_/exercise2 ./2-exercise:string/build-fail/이경민_949735_assignsubmission_file_/exercise2 
+move ././2-exercise:string/신찬슬_949726_assignsubmission_file_/exercise1 ./2-exercise:string/build-fail/신찬슬_949726_assignsubmission_file_/exercise1 
+move ././2-exercise:string/이경민_949735_assignsubmission_file_/exercise3 ./2-exercise:string/build-fail/이경민_949735_assignsubmission_file_/exercise3 
+move ././2-exercise:string/이경민_949735_assignsubmission_file_/exercise4 ./2-exercise:string/build-fail/이경민_949735_assignsubmission_file_/exercise4 
+move ././2-exercise:string/이경민_949735_assignsubmission_file_/exercise5 ./2-exercise:string/build-fail/이경민_949735_assignsubmission_file_/exercise5 
+move ././2-exercise:string/이경민_949735_assignsubmission_file_/exercise6 ./2-exercise:string/build-fail/이경민_949735_assignsubmission_file_/exercise6 
+move ././2-exercise:string/이경민_949735_assignsubmission_file_/exercise7 ./2-exercise:string/build-fail/이경민_949735_assignsubmission_file_/exercise7 
+move ././2-exercise:string/배상록_949740_assignsubmission_file_/exercise5 ./2-exercise:string/build-fail/배상록_949740_assignsubmission_file_/exercise5 
+move ././2-exercise:string/이경민_949735_assignsubmission_file_/exercise1 ./2-exercise:string/build-fail/이경민_949735_assignsubmission_file_/exercise1 
+move ././2-exercise:string/이민재_949741_assignsubmission_file_/exercise7 ./2-exercise:string/build-fail/이민재_949741_assignsubmission_file_/exercise7 
+move ././2-exercise:string/이민재_949741_assignsubmission_file_/exercise5 ./2-exercise:string/build-fail/이민재_949741_assignsubmission_file_/exercise5 
+move ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise1 ./2-exercise:string/build-fail/이연주_949730_assignsubmission_file_/exercise1 
+move ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise6 ./2-exercise:string/build-fail/이연주_949730_assignsubmission_file_/exercise6 
+move ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise4 ./2-exercise:string/build-fail/이연주_949730_assignsubmission_file_/exercise4 
+move ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise2 ./2-exercise:string/build-fail/이연주_949730_assignsubmission_file_/exercise2 
+move ././2-exercise:string/이연주_949730_assignsubmission_file_/exercise3 ./2-exercise:string/build-fail/이연주_949730_assignsubmission_file_/exercise3 
+move ././2-exercise:string/장현지_949713_assignsubmission_file_/exercise3 ./2-exercise:string/build-fail/장현지_949713_assignsubmission_file_/exercise3 
+move ././2-exercise:string/장현지_949713_assignsubmission_file_/exercise7 ./2-exercise:string/build-fail/장현지_949713_assignsubmission_file_/exercise7 
+move ././2-exercise:string/장현지_949713_assignsubmission_file_/exercise1 ./2-exercise:string/build-fail/장현지_949713_assignsubmission_file_/exercise1 
+move ././2-exercise:string/채민아_949749_assignsubmission_file_/exercise3 ./2-exercise:string/build-fail/채민아_949749_assignsubmission_file_/exercise3 
+move ././2-exercise:string/채민아_949749_assignsubmission_file_/exercise2 ./2-exercise:string/build-fail/채민아_949749_assignsubmission_file_/exercise2 
+move ././2-exercise:string/채민아_949749_assignsubmission_file_/exercise1 ./2-exercise:string/build-fail/채민아_949749_assignsubmission_file_/exercise1 
+move ././2-exercise:string/채민아_949749_assignsubmission_file_/exercise4 ./2-exercise:string/build-fail/채민아_949749_assignsubmission_file_/exercise4 
+move ././2-exercise:string/채민아_949749_assignsubmission_file_/exercise5 ./2-exercise:string/build-fail/채민아_949749_assignsubmission_file_/exercise5 
+move ././2-exercise:string/채민아_949749_assignsubmission_file_/exercise6 ./2-exercise:string/build-fail/채민아_949749_assignsubmission_file_/exercise6 
+move ././2-exercise:string/채민아_949749_assignsubmission_file_/exercise7 ./2-exercise:string/build-fail/채민아_949749_assignsubmission_file_/exercise7 
+move ././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise2 ./2-exercise:string/build-fail/황제빈_949748_assignsubmission_file_/exercise2 
+move ././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise7 ./2-exercise:string/build-fail/황제빈_949748_assignsubmission_file_/exercise7 
+move ././2-exercise:string/황제빈_949748_assignsubmission_file_/exercise3 ./2-exercise:string/build-fail/황제빈_949748_assignsubmission_file_/exercise3 

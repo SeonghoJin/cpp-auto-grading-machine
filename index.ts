@@ -8,24 +8,23 @@ import {
     removeAllOnlineTextFolder,
     tryMkdir,
     unZipAssignSubmission,
-    test
+    test,
+    formatMultiTest,
+    removeAllExcludeTestFolder,
+    checkTestCases,
+    buildTestCases
 } from "./util";
+import { readdir } from 'fs/promises';
 import { config } from './config';
+import './monkyPatch';
 
 const {
     UNSAFE__FOLDER__NAME__HARD__CODE
 } = config;
 
-const main = async () => {
+const isMulti = config.MULTI.length !== 0;
 
-    console.log('remove all online text folder');
-    await removeAllOnlineTextFolder(UNSAFE__FOLDER__NAME__HARD__CODE);
-    br();
-
-    console.log('unzip all online submission');
-    await unZipAssignSubmission(UNSAFE__FOLDER__NAME__HARD__CODE);
-    br();
-
+const checkSingleTest = async () => {
     console.log('extract all cpp files');
     await moveAllCppFiles(UNSAFE__FOLDER__NAME__HARD__CODE);
     br();
@@ -107,7 +106,104 @@ const main = async () => {
             console.log(result.err);
         }
     }));
+}
 
+const checkMultiTest = async () => {
+    const testFolderNames = config.MULTI;
+
+    console.log('format multi test');
+    await formatMultiTest(UNSAFE__FOLDER__NAME__HARD__CODE, testFolderNames);
+
+    console.log('remove origin test folder');
+    await removeAllExcludeTestFolder(UNSAFE__FOLDER__NAME__HARD__CODE, testFolderNames);
+
+    console.log('check test case');
+    const checkTestCaseResult = await checkTestCases(UNSAFE__FOLDER__NAME__HARD__CODE, testFolderNames);
+
+    console.log('make empty test case folder');
+    const testCaseFolder = `${UNSAFE__FOLDER__NAME__HARD__CODE}/empty-test-case`;
+    const makeEmptyTestCaseFolder = await tryMkdir(`${testCaseFolder}`);
+
+    if (makeEmptyTestCaseFolder.hasError) {
+        console.log('make empty test case folder error');
+        console.log(makeEmptyTestCaseFolder.err);
+    }
+
+    console.log('move empty test case folder');
+    await Promise.all(checkTestCaseResult.filter((item) => item.hasAllTestCases === false)
+        .map(async (item) => {
+            await moveFile(item.path, `./${testCaseFolder}/${item.folderName}`);
+        }));
+
+    console.log('build test case');
+
+    const userFolders = await readdir(UNSAFE__FOLDER__NAME__HARD__CODE);
+
+    const result = await Promise.all(userFolders.map(async userFolder => {
+        return await buildFiles(`./${UNSAFE__FOLDER__NAME__HARD__CODE}/${userFolder}`);
+    }));
+
+    console.log('make build fail folder');
+    const buildFailFolderName = `${UNSAFE__FOLDER__NAME__HARD__CODE}/build-fail`;
+    const makeBuildFailFolderResult = await tryMkdir(buildFailFolderName);
+
+    if (makeBuildFailFolderResult.hasError) {
+        console.log('make build file error');
+        console.log(makeBuildFailFolderResult.err);
+    }
+
+    await Promise.all(result.map(async (item) => {
+        await Promise.all(item.result?.map(async (innerItem) => {
+            if (innerItem.result === 'fail') {
+                const splitedFilename = innerItem.filename.split('/');
+                const newPath = `./${UNSAFE__FOLDER__NAME__HARD__CODE}/build-fail/${splitedFilename.at(-2)}/${splitedFilename.at(-1)}`
+                await tryMkdir(`./${UNSAFE__FOLDER__NAME__HARD__CODE}/build-fail/${splitedFilename.at(-2)}`);
+
+                console.log('move', innerItem.filename, newPath);
+                const moveResult = await moveFile(innerItem.filename, newPath);
+                if (moveResult.hasError) {
+                    console.log(moveResult.err);
+                }
+            }
+        }) ?? []);
+    }));
+
+    const testResult = await Promise.all(userFolders.map(async (user) => {
+        const testFolder = `${UNSAFE__FOLDER__NAME__HARD__CODE}/${user}`;
+        const result = await test(testFolder);
+    }));
+
+    console.log(testResult);
+
+    console.log('make test fail folder');
+    const testFaileFolder = `${UNSAFE__FOLDER__NAME__HARD__CODE}/test-fail`;
+    const makeTestFailFolder = await tryMkdir(`${testFaileFolder}`);
+
+    if (makeTestFailFolder.hasError) {
+        console.log('make test file error');
+        console.log(makeTestFailFolder.err);
+    }
+
+
+}
+
+
+const main = async () => {
+
+    console.log('remove all online text folder');
+    await removeAllOnlineTextFolder(UNSAFE__FOLDER__NAME__HARD__CODE);
+    br();
+
+    console.log('unzip all online submission');
+    await unZipAssignSubmission(UNSAFE__FOLDER__NAME__HARD__CODE);
+    br();
+
+    if (isMulti) {
+        checkMultiTest();
+        return;
+    }
+
+    checkSingleTest();
 };
 
 main();
