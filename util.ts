@@ -6,6 +6,7 @@ import { promisify } from "node:util";
 import { config } from './config';
 import AdmZip from 'adm-zip';
 import glob from 'glob';
+import { execFile } from "child_process";
 
 export const run = makeTry(promisify(exec));
 export const findFiles = promisify(glob);
@@ -239,10 +240,7 @@ export const formatString = (value: string) => {
     return value.replace(/(\s*)/g, "").replace(/\n|\r|\s*/g, "");
 }
 
-export const test = async (filePath: string) => {
-    const inputFolderPath = `./${config.INPUT_FOLDER_NAME}`;
-    const outputFolderPath = `./${config.OUTPUT_FOLDER_NAME}`;
-
+export const runTestCase = async (exeFilePath: string, inputFolderPath: string, outputFolderPath: string) => {
     const inputFiles = await (await readdir(inputFolderPath)).filter(path => path[0] !== '.');
     const outputFiles = await (await readdir(outputFolderPath)).filter(path => path[0] !== '.');
 
@@ -252,40 +250,46 @@ export const test = async (filePath: string) => {
         throw new Error('not match input and ouput');
     }
 
+    const result = await Promise.all(inputFiles.map(async (_, index) => {
+        return await makeTry(async () => {
+            const inputFilePath = `${inputFolderPath}/${inputFiles[index]}`;
+            const outputFilePath = `${outputFolderPath}/${outputFiles[index]}`;
+            if (inputFilePath == undefined || outputFilePath == undefined) {
+                throw new Error('input or output file path is undefined');
+            }
+            return await unit(exeFilePath, inputFilePath, outputFilePath)
+        })();
+    }));
+
+    const isFail = result.reduce((before, res) => {
+        if (before === true) {
+            return true;
+        }
+        if (res.hasError) {
+            return true;
+        }
+        if (res.result.result?.result !== 'success') {
+            return true;
+        }
+        return false;
+    }, false);
+
+    return {
+        result: !isFail,
+        filename: exeFilePath
+    };
+}
+
+export const test = async (filePath: string) => {
+    const inputFolderPath = `./${config.INPUT_FOLDER_NAME}`;
+    const outputFolderPath = `./${config.OUTPUT_FOLDER_NAME}`;
+
     const testFolders = (await readdir(`./${filePath}`)).map(file => {
         return `./${filePath}/${file}/${config.BUILD_EXE_FILE}`;
     }).filter(isAssignSubmissionFile);
 
     return await Promise.all(testFolders.map(async (testFolder) => {
-        const result = await Promise.all(inputFiles.map(async (_, index) => {
-            return await makeTry(async () => {
-                const inputFilePath = `${inputFolderPath}/${inputFiles[index]}`;
-                const outputFilePath = `${outputFolderPath}/${outputFiles[index]}`;
-                if (inputFilePath == undefined || outputFilePath == undefined) {
-                    throw new Error('input or output file path is undefined');
-                }
-
-                return await unit(testFolder, inputFilePath, outputFilePath)
-            })();
-        }));
-
-        const isFail = result.reduce((before, res) => {
-            if (before === true) {
-                return true;
-            }
-            if (res.hasError) {
-                return true;
-            }
-            if (res.result.result?.result !== 'success') {
-                return true;
-            }
-            return false;
-        }, false);
-
-        return {
-            result: !isFail,
-            filename: testFolder
-        };
+        return await runTestCase(testFolder, inputFolderPath, outputFolderPath);
     }));
 }
 

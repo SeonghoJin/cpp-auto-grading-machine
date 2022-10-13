@@ -12,7 +12,9 @@ import {
     formatMultiTest,
     removeAllExcludeTestFolder,
     checkTestCases,
-    buildTestCases
+    buildTestCases,
+    unit,
+    runTestCase,
 } from "./util";
 import { readdir } from 'fs/promises';
 import { config } from './config';
@@ -132,12 +134,13 @@ const checkMultiTest = async () => {
     console.log('move empty test case folder');
     await Promise.all(checkTestCaseResult.filter((item) => item.hasAllTestCases === false)
         .map(async (item) => {
+            console.log('move file', item.path, `./${testCaseFolder}/${item.folderName}`);
             await moveFile(item.path, `./${testCaseFolder}/${item.folderName}`);
         }));
 
     console.log('build test case');
 
-    const userFolders = await readdir(UNSAFE__FOLDER__NAME__HARD__CODE);
+    const userFolders = await (await readdir(UNSAFE__FOLDER__NAME__HARD__CODE)).filter(isAssignSubmissionFile);
 
     const result = await Promise.all(userFolders.map(async userFolder => {
         return await buildFiles(`./${UNSAFE__FOLDER__NAME__HARD__CODE}/${userFolder}`);
@@ -168,12 +171,23 @@ const checkMultiTest = async () => {
         }) ?? []);
     }));
 
-    const testResult = await Promise.all(userFolders.map(async (user) => {
+    const testFolders = await (await Promise.all(userFolders.map(async (user) => {
         const testFolder = `${UNSAFE__FOLDER__NAME__HARD__CODE}/${user}`;
-        const result = await test(testFolder);
+        try {
+            return (await readdir(testFolder)).map(folder => `${testFolder}/${folder}`);
+        } catch (e) {
+            return [];
+        }
+    }))).flat();
+
+    const testResult = await Promise.all(testFolders.map(async (folder) => {
+        const testCase = folder.split('/').at(-1);
+        const inputTestCase = `./${config.INPUT_FOLDER_NAME}/${testCase}`;
+        const outputTestCase = `./${config.OUTPUT_FOLDER_NAME}/${testCase}`;
+        return await runTestCase(`${folder}/${config.BUILD_EXE_FILE}`, inputTestCase, outputTestCase);
     }));
 
-    console.log(testResult);
+    const failes = testResult.filter(result => !result.result);
 
     console.log('make test fail folder');
     const testFaileFolder = `${UNSAFE__FOLDER__NAME__HARD__CODE}/test-fail`;
@@ -184,6 +198,20 @@ const checkMultiTest = async () => {
         console.log(makeTestFailFolder.err);
     }
 
+    console.log('move test faile files');
+
+    await Promise.all(failes.map(async fail => {
+        const splitedFailFilename = fail.filename.split('/');
+        splitedFailFilename.pop();
+        const oldPath = splitedFailFilename.join('/');
+
+        await tryMkdir(`${UNSAFE__FOLDER__NAME__HARD__CODE}/test-fail/${splitedFailFilename.at(-2)}`);
+
+        const newPath = `${UNSAFE__FOLDER__NAME__HARD__CODE}/test-fail/${splitedFailFilename.at(-2)}/${splitedFailFilename.at(-1)}`;
+
+        console.log('move file', oldPath, newPath);
+        await moveFile(oldPath, newPath);
+    }));
 
 }
 
