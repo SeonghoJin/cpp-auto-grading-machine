@@ -15,10 +15,17 @@ import {
     buildTestCases,
     unit,
     runTestCase,
+    extractHangul,
+    makeBuildFailLog,
+    makeTestFailLog,
+    makeEmptyTestCaseLog,
 } from "./util";
 import { readdir } from 'fs/promises';
 import { config } from './config';
 import './monkyPatch';
+import { attendance } from "./attendance";
+import { appendFileSync } from "fs";
+
 
 const {
     UNSAFE__FOLDER__NAME__HARD__CODE
@@ -38,13 +45,13 @@ const checkSingleTest = async () => {
     console.log('build start');
     const allBuildResult = await buildFiles(UNSAFE__FOLDER__NAME__HARD__CODE);
     br();
-
     if (allBuildResult.hasError) {
         console.log('all build fail');
         console.log(allBuildResult.err);
         console.log('exit');
         return;
     }
+
 
     const buildFailFolders = allBuildResult.result.filter((res) => {
         if (!isAssignSubmissionFile(res.filename)) {
@@ -53,6 +60,7 @@ const checkSingleTest = async () => {
 
         return res.result === 'fail';
     });
+
 
     console.log('make build fail folder');
     const buildFailFolderName = `${UNSAFE__FOLDER__NAME__HARD__CODE}/build-fail`;
@@ -64,7 +72,7 @@ const checkSingleTest = async () => {
     }
 
     console.log('move build fail folder');
-    await Promise.allSettled(buildFailFolders.map(async ({ filename }) => {
+    await Promise.all(buildFailFolders.map(async ({ filename }) => {
         const folderName = filename.split('/').at(-1);
         if (folderName === undefined) {
             throw new Error('folderName is undefined, #e002');
@@ -80,7 +88,6 @@ const checkSingleTest = async () => {
 
     console.log(`start test | target ${UNSAFE__FOLDER__NAME__HARD__CODE}`);
     const testResult = await test(UNSAFE__FOLDER__NAME__HARD__CODE);
-
     const failTests = testResult.filter(t => t.result === false).map(t => t.filename);
 
     console.log('make test fail folder');
@@ -93,7 +100,7 @@ const checkSingleTest = async () => {
     }
 
     console.log('move test fail folder');
-    await Promise.allSettled(failTests.map(async (filename) => {
+    await Promise.all(failTests.map(async (filename) => {
         const folderName = filename.split('/').at(-2);
         const splitedTargetFileName = filename.split('/');
         const targetFileName = splitedTargetFileName.slice(0, splitedTargetFileName.length - 1).join('/');
@@ -108,6 +115,12 @@ const checkSingleTest = async () => {
             console.log(result.err);
         }
     }));
+
+    // @ts-ignore;
+    makeBuildFailLog(buildFailFolders);
+
+    // @ts-ignore;
+    makeTestFailLog(testResult.filter(result => result.result === false));
 }
 
 const checkMultiTest = async () => {
@@ -119,9 +132,7 @@ const checkMultiTest = async () => {
     console.log('remove origin test folder');
     await removeAllExcludeTestFolder(UNSAFE__FOLDER__NAME__HARD__CODE, testFolderNames);
 
-    console.log('check test case');
     const checkTestCaseResult = await checkTestCases(UNSAFE__FOLDER__NAME__HARD__CODE, testFolderNames);
-
     console.log('make empty test case folder');
     const testCaseFolder = `${UNSAFE__FOLDER__NAME__HARD__CODE}/empty-test-case`;
     const makeEmptyTestCaseFolder = await tryMkdir(`${testCaseFolder}`);
@@ -139,13 +150,11 @@ const checkMultiTest = async () => {
         }));
 
     console.log('build test case');
-
     const userFolders = await (await readdir(UNSAFE__FOLDER__NAME__HARD__CODE)).filter(isAssignSubmissionFile);
 
     const result = await Promise.all(userFolders.map(async userFolder => {
         return await buildFiles(`./${UNSAFE__FOLDER__NAME__HARD__CODE}/${userFolder}`);
     }));
-
     console.log('make build fail folder');
     const buildFailFolderName = `${UNSAFE__FOLDER__NAME__HARD__CODE}/build-fail`;
     const makeBuildFailFolderResult = await tryMkdir(buildFailFolderName);
@@ -198,7 +207,7 @@ const checkMultiTest = async () => {
         console.log(makeTestFailFolder.err);
     }
 
-    console.log('move test faile files');
+    console.log('move test fail files');
 
     await Promise.all(failes.map(async fail => {
         const splitedFailFilename = fail.filename.split('/');
@@ -213,6 +222,14 @@ const checkMultiTest = async () => {
         await moveFile(oldPath, newPath);
     }));
 
+
+    console.log(checkTestCaseResult);
+    console.log(result.map(item => item.result).flat().filter(item => item?.result === 'fail'));
+    makeEmptyTestCaseLog(checkTestCaseResult.filter(item => !item.hasAllTestCases));
+    makeTestFailLog(failes)
+
+    // @ts-ignore
+    makeBuildFailLog(result.map(item => item.result).flat().filter(item => item?.result === 'fail'))
 }
 
 

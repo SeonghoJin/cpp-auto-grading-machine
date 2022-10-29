@@ -10,6 +10,7 @@ const logFileName = `${UNSAFE__FOLDER__NAME__HARD__CODE}/log`;
 try {
     writeFileSync(logFileName, '');
 } catch (e) {
+    console.log(e);
     appendFileSync(logFileName, e as unknown as string);
 }
 

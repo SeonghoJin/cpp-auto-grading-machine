@@ -6,7 +6,8 @@ import { promisify } from "node:util";
 import { config } from './config';
 import AdmZip from 'adm-zip';
 import glob from 'glob';
-import { execFile } from "child_process";
+import { attendance } from "./attendance";
+import { writeFileSync } from "fs";
 
 export const run = makeTry(promisify(exec));
 export const findFiles = promisify(glob);
@@ -17,6 +18,9 @@ export const moveFile = makeTry(rename);
 export const tryRm = makeTry(rm);
 export const read = makeTry(readFile);
 export const br = () => console.log('========================================');
+const BUILD_FAIL_LOG = 'build-fail.log';
+const TEST_FAIL_LOG = 'test-fail.log';
+const EMPTY_TEST_CASE_LOG = 'empty-test-case.log';
 
 export const isOnlineTextFolder = (filename: string) => {
     return filename.includes('onlinetext')
@@ -33,7 +37,7 @@ export const hasCodeProperty = (obj: any): obj is { code: string } => {
 export const removeAllOnlineTextFolder = makeTry(async (foldername: string) => {
     const folders = await readdir(foldername);
 
-    await Promise.allSettled(folders.map(async (folder) => {
+    await Promise.all(folders.map(async (folder) => {
         if (isOnlineTextFolder(folder)) {
             await makeTry(async () => {
                 const path = `./${foldername}/${folder}`;
@@ -49,17 +53,17 @@ export const removeAllOnlineTextFolder = makeTry(async (foldername: string) => {
 export const unZipAssignSubmission = makeTry(async (foldername) => {
     const folders = await readdir(foldername);
 
-    await Promise.allSettled(folders.map(async (folder) => {
+    await Promise.all(folders.map(async (folder) => {
         const folderPath = `./${foldername}/${folder}`;
         if (isAssignSubmissionFile(folder)) {
             await makeTry(async () => {
                 const file = await readdir(`${folderPath}`);
                 const filePath = `${folderPath}/${file}`;
                 const zip = new AdmZip(filePath);
-                await zip.extractAllTo(folderPath);
+                zip.extractAllTo(folderPath);
                 console.log(`unzip ${folderPath}`);;
                 await rm(filePath);
-                console.log(`remove ${folderPath}`);
+                console.log(`remove ${filePath}`);
             })();
         }
     }))
@@ -68,7 +72,7 @@ export const unZipAssignSubmission = makeTry(async (foldername) => {
 export const moveAllCppFiles = makeTry(async (foldername) => {
     const folders = await readdir(foldername);
 
-    await Promise.allSettled(folders.map(async (folder) => {
+    await Promise.all(folders.map(async (folder) => {
         const folderPath = `./${foldername}/${folder}`;
         const files = [
             ...await findFiles(`${folderPath}/**/*.cpp`),
@@ -76,7 +80,7 @@ export const moveAllCppFiles = makeTry(async (foldername) => {
             ...await findFiles(`${folderPath}/**/*.c`)
         ];
 
-        await Promise.allSettled(files.map(async (file) => {
+        await Promise.all(files.map(async (file) => {
             const filename = file.split('/').at(-1);
             if (filename == undefined) {
                 console.error(`filename is undefinend #e001`);
@@ -92,12 +96,12 @@ export const moveAllCppFiles = makeTry(async (foldername) => {
 export const removeAllFolders = makeTry(async (foldername) => {
     const folders = await readdir(foldername);
 
-    await Promise.allSettled(folders.map(async (folder) => {
+    await Promise.all(folders.map(async (folder) => {
         const folderPath = `./${foldername}/${folder}`;
 
         const items = await readdir(folderPath);
 
-        await Promise.allSettled(items.map(async (item) => {
+        await Promise.all(items.map(async (item) => {
             if (!isCppFile(item) && isAssignSubmissionFile(folderPath)) {
                 const path = `${folderPath}/${item}`;
                 console.log('remove ' + path);
@@ -117,10 +121,6 @@ export const removeAllFolders = makeTry(async (foldername) => {
 
 export const buildCpp = makeTry(async (foldername) => {
     const files = await readdir(foldername);
-    const hasNotCppFile = files.map(isCppFile).filter(isCpp => !isCpp).length > 0;
-    if (hasNotCppFile) {
-        throw new Error(`${foldername} has not cpp file`);
-    }
 
     const compiler = 'g++';
     const buildFilename = `${foldername}/${config.BUILD_EXE_FILE}`
@@ -149,6 +149,7 @@ export const buildCpp = makeTry(async (foldername) => {
         return {
             result: 'fail',
             filename: foldername,
+            reason: (result.err as any).stderr ?? ''
         };
     }
 
@@ -169,7 +170,8 @@ export const buildFiles = makeTry(async (foldername) => {
         if (result.hasError) {
             return {
                 result: 'fail',
-                filename: path
+                filename: path,
+                reason: result.err
             }
         }
 
@@ -187,12 +189,12 @@ export const unit = makeTry(async (buildFilePath: string, inputFilePath: string,
     const readOutputRes = await read(outputFilePath, 'utf-8');
 
     if (readOutputRes.hasError) {
-        console.log(`test fail: because bad output file path`);
         return {
             input: inputFilePath,
             output: outputFilePath,
             result: 'fail',
-            filename: buildFilePath
+            filename: buildFilePath,
+            reason: `test fail: because bad output file path`
         }
     }
 
@@ -204,7 +206,8 @@ export const unit = makeTry(async (buildFilePath: string, inputFilePath: string,
             input: inputFilePath,
             output: outputFilePath,
             result: 'fail',
-            filename: buildFilePath
+            filename: buildFilePath,
+            reason: `test fail ${buildFilePath} ${inputFilePath}\n${err}`
         }
     }
 
@@ -232,22 +235,31 @@ export const unit = makeTry(async (buildFilePath: string, inputFilePath: string,
         input: inputFilePath,
         output: outputFilePath,
         result: 'fail',
-        filename: buildFilePath
+        filename: buildFilePath,
+        reason: `input: ${inputFilePath}\noutput: ${outputFilePath}\n__user: ${test}\nanswer: ${answer}\n\n`
     }
 });
 
 export const formatString = (value: string) => {
-    return value.replace(/(\s*)/g, "").replace(/\n|\r|\s*/g, "");
+    return value.replace(/(\s*)/g, "").replace(/\n|\r|\s*/g, "").toLowerCase();
+}
+
+export const extractHangul = (value: string) => {
+    return value.replace(/[^\uAC00-\uD7AF\u1100-\u11FF\u3130-\u318F]/gi, "");
+}
+
+export const removeHangul = (value: string) => {
+    return value.replace(/[ㄱ-ㅎ|ㅏ-ㅣ|가-힣]/g, '');
 }
 
 export const runTestCase = async (exeFilePath: string, inputFolderPath: string, outputFolderPath: string) => {
-    const inputFiles = await (await readdir(inputFolderPath)).filter(path => path[0] !== '.');
-    const outputFiles = await (await readdir(outputFolderPath)).filter(path => path[0] !== '.');
+    const inputFiles = (await readdir(inputFolderPath)).filter(path => path[0] !== '.');
+    const outputFiles = (await readdir(outputFolderPath)).filter(path => path[0] !== '.');
 
     if (inputFiles.length !== outputFiles.length) {
         console.log(inputFiles);
         console.log(outputFiles);
-        throw new Error('not match input and ouput');
+        throw 'not match input and ouput';
     }
 
     const result = await Promise.all(inputFiles.map(async (_, index) => {
@@ -255,7 +267,7 @@ export const runTestCase = async (exeFilePath: string, inputFolderPath: string, 
             const inputFilePath = `${inputFolderPath}/${inputFiles[index]}`;
             const outputFilePath = `${outputFolderPath}/${outputFiles[index]}`;
             if (inputFilePath == undefined || outputFilePath == undefined) {
-                throw new Error('input or output file path is undefined');
+                throw 'input or output file path is undefined';
             }
             return await unit(exeFilePath, inputFilePath, outputFilePath)
         })();
@@ -276,7 +288,8 @@ export const runTestCase = async (exeFilePath: string, inputFolderPath: string, 
 
     return {
         result: !isFail,
-        filename: exeFilePath
+        filename: exeFilePath,
+        reason: result.map(res => res.result?.result?.reason).join('\n\n')
     };
 }
 
@@ -308,7 +321,7 @@ export const formatMultiTest = async (folderName: string, testFolderNames: strin
             }
 
             console.log('move folder', testCaseFolder[0], `${testCasesPath}/${testFolderName}`);
-            moveFile(testCaseFolder[0], `${testCasesPath}/${testFolderName}`);
+            await moveFile(testCaseFolder[0], `${testCasesPath}/${testFolderName}`);
         }));
     }));
 }
@@ -322,10 +335,11 @@ export const removeAllExcludeTestFolder = async (folderName: string, testFolderN
 
         await Promise.all(testCaseFolders.map(async (testCaseFolder) => {
             if (testFolderNames.includes(testCaseFolder) === false) {
-                const folder = `./${testCasesPath}/${testCaseFolder}`
+                const folder = `./${testCasesPath}/"${testCaseFolder}"`
                 console.log('remove folder', folder);
-
-                const result = await run(`rm -rf ${folder}`);
+                const command = `rm -rf ${folder}`;
+                const result = await run(command);
+                console.log(command);
                 console.log(result.err);
             }
         }));
@@ -341,11 +355,12 @@ export const checkTestCases = async (folderName: string, testFolderNames: string
 
         const hasAllTestCases = testFolderNames.filter(folderName => {
             return !testCaseFolders.includes(folderName);
-        }).length === 0;
+        });
 
         return {
-            hasAllTestCases,
+            hasAllTestCases: hasAllTestCases.length === 0,
             folderName: folder,
+            emptyTestCases: hasAllTestCases,
             path: testCasesPath
         }
     }));
@@ -355,4 +370,110 @@ export const checkTestCases = async (folderName: string, testFolderNames: string
 
 export const buildTestCases = async (path: string) => {
     const testCasesFolders = await readdir(path);
+}
+
+export const makeBuildFailLog = (buildFails: {
+    result: string;
+    filename: any;
+    reason?: undefined;
+}[]) => {
+    const buffer: string[] = [];
+    try {
+        buildFails.forEach(fail => {
+            const studentName = extractHangul(fail.filename).normalize('NFC');
+            const maskedStudentName = maskingName(studentName);
+            const studentNumber = maskingStudentNumber(attendance?.[studentName] ?? 123456);
+
+            buffer.push(`학생이름: ${maskedStudentName}\n학번: ${studentNumber}`);
+            buffer.push(`빌드 실패 이유:`);
+            buffer.push(removeHangul((fail?.reason ?? '').normalize('NFC')));
+            buffer.push('---------------------------');
+        })
+        writeFileSync(`${config.UNSAFE__FOLDER__NAME__HARD__CODE}/${BUILD_FAIL_LOG}`, buffer.join('\n'));
+    } catch (e) {
+        console.log(e);
+    }
+}
+
+export const maskingNameIfLengthIsThree = (name: string) => {
+    if (name.length !== 3) {
+        console.log([...name]);
+        console.log(name.trim());
+        console.log(name.length);
+        throw 'length is not three';
+    }
+
+    const maskedName = [...name];
+    maskedName[0] = '*';
+    maskedName[2] = '*';
+    return maskedName.join('');
+}
+
+export const maskingName = (name: string) => {
+
+    if (name.length == 2) {
+        name += '*';
+    }
+
+    return maskingNameIfLengthIsThree(name);
+}
+
+export const maskingStudentNumber = (studentNumber: number) => {
+    const str = studentNumber.toString();
+    const maskedStr = [...str];
+
+    maskedStr[0] = '*';
+    maskedStr[1] = '*';
+    maskedStr[5] = '*';
+
+    return maskedStr.join('');
+}
+
+export const makeTestFailLog = async (testFails: {
+    result: boolean;
+    filename: string;
+    reason: string;
+}[]) => {
+    const buffer: string[] = [];
+    try {
+        testFails.forEach(fail => {
+            const studentName = extractHangul(fail.filename).normalize('NFC');
+            const maskedStudentName = maskingName(studentName);
+            const studentNumber = maskingStudentNumber(attendance?.[studentName] ?? 123456);
+
+            buffer.push(`학생이름: ${maskedStudentName}\n학번: ${studentNumber}`);
+            buffer.push(`테스트 실패 이유:`);
+            buffer.push(removeHangul((fail?.reason ?? '').normalize('NFC')));
+            buffer.push('---------------------------');
+        })
+
+        writeFileSync(`${config.UNSAFE__FOLDER__NAME__HARD__CODE}/${TEST_FAIL_LOG}`, buffer.join('\n'));
+    } catch (e) {
+        console.log(e);
+    }
+}
+
+export const makeEmptyTestCaseLog = async (emptyTestCases: {
+    hasAllTestCases: boolean;
+    folderName: string;
+    emptyTestCases: string[];
+    path: string;
+}[]) => {
+    const buffer: string[] = [];
+    try {
+        emptyTestCases.forEach(empty => {
+            const studentName = extractHangul(empty.folderName).normalize('NFC');
+            const maskedStudentName = maskingName(studentName);
+            const studentNumber = maskingStudentNumber(attendance?.[studentName] ?? 123456);
+
+            buffer.push(`학생이름: ${maskedStudentName}\n학번: ${studentNumber}`);
+            buffer.push(`없는 테스트 케이스: `);
+            buffer.push(removeHangul((empty.emptyTestCases.join('\n')).normalize('NFC')));
+            buffer.push('---------------------------');
+        })
+
+        writeFileSync(`${config.UNSAFE__FOLDER__NAME__HARD__CODE}/${EMPTY_TEST_CASE_LOG}`, buffer.join('\n'));
+    } catch (e) {
+        console.log(e);
+    }
 }

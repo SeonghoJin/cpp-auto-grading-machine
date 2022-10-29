@@ -2,3 +2,6 @@ node_modules
 *.mission
 *.mission.zip
 .DS_Store
+attendance.ts
+*outputs
+*inputs
