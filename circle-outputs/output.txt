@@ -1,0 +1,21 @@
+A constructor is called: 15
+706.5
+706.5
+The copy constructor is called
+cir1: 706.5
+The copy constructor is called
+cir2: 706.5
+A constructor is called: 0
+The basic constructor is called
+The assignment operator is called
+cir3: 706.5
+The copy constructor is called
+The copy constructor is called
+The deconstructor is called
+The deconstructor is called
+&ref == &donut
+ptr == &donut
+The deconstructor is called
+The deconstructor is called
+The deconstructor is called
+The deconstructor is called

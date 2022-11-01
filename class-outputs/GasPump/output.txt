@@ -1,0 +1,9 @@
+25gallons:0		   $0
+gallons:0.1		   $0.15
+gallons:0.2		   $0.3
+gallons:0.3		   $0.45
+gallons:0.4		   $0.6
+gallons:0.5		   $0.75
+gallons:0.6		   $0.9
+gallons:0.7		   $1.05
+gallons:0.8		   $1.2

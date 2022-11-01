@@ -1,0 +1,11 @@
+pump1
+yes
+yes
+no
+pump2
+yes
+yes
+yes
+yes
+no
+quit

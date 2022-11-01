@@ -3,5 +3,3 @@ node_modules
 *.mission.zip
 .DS_Store
 attendance.ts
-*outputs
-*inputs

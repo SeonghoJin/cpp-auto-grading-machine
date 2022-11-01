@@ -1,0 +1,21 @@
+Gas in the main tank: 25
+Cost per gallon: 1.5
+Enter gas pump name (pump1 or pump2 or quit): Gas fuled : 0 gallons,  $0
+Gas in the main tank: 25
+Fuel up more (Enter yes or no)? Gas fuled : 0.1 gallons,  $0.15
+Gas in the main tank: 24.9
+Fuel up more (Enter yes or no)? Gas fuled : 0.2 gallons,  $0.3
+Gas in the main tank: 24.8
+Fuel up more (Enter yes or no)? Gas in the main tank: 24.8
+Enter gas pump name (pump1 or pump2 or quit): Gas fuled : 0 gallons,  $0
+Gas in the main tank: 24.8
+Fuel up more (Enter yes or no)? Gas fuled : 0.1 gallons,  $0.15
+Gas in the main tank: 24.7
+Fuel up more (Enter yes or no)? Gas fuled : 0.2 gallons,  $0.3
+Gas in the main tank: 24.6
+Fuel up more (Enter yes or no)? Gas fuled : 0.3 gallons,  $0.45
+Gas in the main tank: 24.5
+Fuel up more (Enter yes or no)? Gas fuled : 0.4 gallons,  $0.6
+Gas in the main tank: 24.4
+Fuel up more (Enter yes or no)? Gas in the main tank: 24.4
+Enter gas pump name (pump1 or pump2 or quit): 

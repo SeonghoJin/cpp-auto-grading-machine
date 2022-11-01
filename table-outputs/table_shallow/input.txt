@@ -1,0 +1,7 @@
+Table(10)
+Table copy constructor is called
+Table copy constructor is called
+Table(10)
+Table(10)
+Table(10)
+Table(10)

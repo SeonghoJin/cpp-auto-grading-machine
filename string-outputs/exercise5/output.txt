@@ -1,0 +1,3 @@
+Enter two numbers: cout: 123,456
+ost: 123,456
+Enter the first and last name (choi kwanghoon): ist: choi,kwanghoon

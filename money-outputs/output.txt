@@ -1,0 +1,4 @@
+m1 ( $10.20 ) + m2 ( $30.40 ) = $40.60
+m3 == $40.60
+m1 (Enter one number for dollars and another number for cents): m2 (Enter one number for dollars and another number for cents): m1 ( $10.20 ) + m2 ( $30.40 ) = $40.60
+m3 == $40.60
