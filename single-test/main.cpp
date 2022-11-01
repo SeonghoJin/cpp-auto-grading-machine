@@ -10,11 +10,11 @@ void printCycle(Node* list) {
 		list = list->getNext();
 	} while (list->getName() != a);
 	cout << endl;
-	// ¿øÇü »çÀÌÅ¬ ¸®½ºÆ®¸¦ list°¡ °¡¸£Å°´Â ³ëµåºÎÅÍ Â÷·Ê´ë·Î ÀÌ¸§À» ÇÑ ÁÙ Ãâ·Â
+	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Å¬ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ listï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Å°ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ê´ï¿½ï¿½ ï¿½Ì¸ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½
 }
 
 int main() {
-	cout << "How many our forces? ";
+	cout << "How many our forces?";
 	int N;
 	cin >> N;
 

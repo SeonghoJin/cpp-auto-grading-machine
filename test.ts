@@ -10,9 +10,10 @@ const main = async () => {
 
     const buildResult = await buildCpp(builtFolder);
 
-    if (buildResult.hasError) {
+    if (buildResult.result?.result === 'fail') {
         console.log('build 실패');
-        console.log(buildResult.err);
+        console.log('build 실패 이유');
+        console.log(buildResult.result.reason);
         return;
     }
 
