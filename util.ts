@@ -6,8 +6,9 @@ import { promisify } from "node:util";
 import { config } from './config';
 import AdmZip from 'adm-zip';
 import glob from 'glob';
-import { attendance } from "./attendance";
 import { writeFileSync } from "fs";
+import { buildCpp } from "./buildCpp";
+import { runTestCase } from "./runTestCase";
 
 export const run = makeTry(promisify(exec));
 export const findFiles = promisify(glob);
@@ -119,47 +120,6 @@ export const removeAllFolders = makeTry(async (foldername) => {
     }));
 });
 
-export const buildCpp = makeTry(async (foldername) => {
-    const files = await readdir(foldername);
-
-    const compiler = 'g++';
-    const buildFilename = `${foldername}/${config.BUILD_EXE_FILE}`
-    const args = `-o ${buildFilename} -std=c++14`;
-    const targetFiles = files.filter((file) => {
-        const extension = file.split('.').at(-1);
-        if (extension === 'cpp') {
-            return true;
-        }
-
-        if (extension === 'c') {
-            return true;
-        }
-
-        return false;
-    }).map((file) => `${foldername}/${file}`);
-    const command = `${compiler} ${args} ${targetFiles.join(' ')}`;
-    console.log(`build ${command}`);
-    const result = await run(command);
-
-    if (result.hasError) {
-        console.log(`build fail command = ${command}`);
-        console.log(`error`);
-        console.log(result.err);
-
-        return {
-            result: 'fail',
-            filename: foldername,
-            reason: (result.err as any).stderr ?? ''
-        };
-    }
-
-    console.log(`build success ${foldername}`);
-    return {
-        result: 'success',
-        filename: foldername
-    }
-})
-
 export const buildFiles = makeTry(async (foldername) => {
     const folders = await readdir(foldername);
 
@@ -185,113 +145,9 @@ export const isCppFile = (filename: string) => {
     return extension === 'cpp' || extension === 'c' || extension === 'h'
 }
 
-export const unit = makeTry(async (buildFilePath: string, inputFilePath: string, outputFilePath: string) => {
-    const readOutputRes = await read(outputFilePath, 'utf-8');
 
-    if (readOutputRes.hasError) {
-        return {
-            input: inputFilePath,
-            output: outputFilePath,
-            result: 'fail',
-            filename: buildFilePath,
-            reason: `test fail: because bad output file path`
-        }
-    }
 
-    const { result, err, hasError } = await run(`${buildFilePath} < ${inputFilePath}`);
-    if (hasError || result.stderr !== '') {
-        console.log(`test fail ${buildFilePath} ${inputFilePath}`);
-        console.log(err);
-        return {
-            input: inputFilePath,
-            output: outputFilePath,
-            result: 'fail',
-            filename: buildFilePath,
-            reason: `test fail ${buildFilePath} ${inputFilePath}\n${err}`
-        }
-    }
 
-    const test = formatString(result.stdout.toString());
-    const answer = formatString(readOutputRes.result.toString())
-
-    console.log('test start');
-    console.log(`${buildFilePath} ${inputFilePath} ${outputFilePath}`);
-    console.log(`user output: ${test}`);
-    console.log(`answer output: ${answer}`);
-
-    if (test === answer) {
-        console.log(`test success ${buildFilePath} ${inputFilePath}`);
-        return {
-            input: inputFilePath,
-            output: outputFilePath,
-            result: 'success',
-            filename: buildFilePath
-        }
-    }
-
-    console.log(`test fail ${buildFilePath} ${inputFilePath}`);
-
-    return {
-        input: inputFilePath,
-        output: outputFilePath,
-        result: 'fail',
-        filename: buildFilePath,
-        reason: `input: ${inputFilePath}\noutput: ${outputFilePath}\n__user: ${test}\nanswer: ${answer}\n\n`
-    }
-});
-
-export const formatString = (value: string) => {
-    return value.replace(/(\s*)/g, "").replace(/\n|\r|\s*/g, "").toLowerCase();
-}
-
-export const extractHangul = (value: string) => {
-    return value.replace(/[^\uAC00-\uD7AF\u1100-\u11FF\u3130-\u318F]/gi, "");
-}
-
-export const removeHangul = (value: string) => {
-    return value.replace(/[ㄱ-ㅎ|ㅏ-ㅣ|가-힣]/g, '');
-}
-
-export const runTestCase = async (exeFilePath: string, inputFolderPath: string, outputFolderPath: string) => {
-    const inputFiles = (await readdir(inputFolderPath)).filter(path => path[0] !== '.');
-    const outputFiles = (await readdir(outputFolderPath)).filter(path => path[0] !== '.');
-
-    if (inputFiles.length !== outputFiles.length) {
-        console.log(inputFiles);
-        console.log(outputFiles);
-        throw 'not match input and ouput';
-    }
-
-    const result = await Promise.all(inputFiles.map(async (_, index) => {
-        return await makeTry(async () => {
-            const inputFilePath = `${inputFolderPath}/${inputFiles[index]}`;
-            const outputFilePath = `${outputFolderPath}/${outputFiles[index]}`;
-            if (inputFilePath == undefined || outputFilePath == undefined) {
-                throw 'input or output file path is undefined';
-            }
-            return await unit(exeFilePath, inputFilePath, outputFilePath)
-        })();
-    }));
-
-    const isFail = result.reduce((before, res) => {
-        if (before === true) {
-            return true;
-        }
-        if (res.hasError) {
-            return true;
-        }
-        if (res.result.result?.result !== 'success') {
-            return true;
-        }
-        return false;
-    }, false);
-
-    return {
-        result: !isFail,
-        filename: exeFilePath,
-        reason: result.map(res => res.result?.result?.reason).join('\n\n')
-    };
-}
 
 export const test = async (filePath: string) => {
     const inputFolderPath = `./${config.INPUT_FOLDER_NAME}`;
@@ -372,108 +228,3 @@ export const buildTestCases = async (path: string) => {
     const testCasesFolders = await readdir(path);
 }
 
-export const makeBuildFailLog = (buildFails: {
-    result: string;
-    filename: any;
-    reason?: undefined;
-}[]) => {
-    const buffer: string[] = [];
-    try {
-        buildFails.forEach(fail => {
-            const studentName = extractHangul(fail.filename).normalize('NFC');
-            const maskedStudentName = maskingName(studentName);
-            const studentNumber = maskingStudentNumber(attendance?.[studentName] ?? 123456);
-
-            buffer.push(`학생이름: ${maskedStudentName}\n학번: ${studentNumber}`);
-            buffer.push(`빌드 실패 이유:`);
-            buffer.push(removeHangul((fail?.reason ?? '').normalize('NFC')));
-            buffer.push('---------------------------');
-        })
-        writeFileSync(`${config.UNSAFE__FOLDER__NAME__HARD__CODE}/${BUILD_FAIL_LOG}`, buffer.join('\n'));
-    } catch (e) {
-        console.log(e);
-    }
-}
-
-export const maskingNameIfLengthIsThree = (name: string) => {
-    if (name.length !== 3) {
-        console.log([...name]);
-        console.log(name.trim());
-        console.log(name.length);
-        throw 'length is not three';
-    }
-
-    const maskedName = [...name];
-    maskedName[0] = '*';
-    maskedName[2] = '*';
-    return maskedName.join('');
-}
-
-export const maskingName = (name: string) => {
-
-    if (name.length == 2) {
-        name += '*';
-    }
-
-    return maskingNameIfLengthIsThree(name);
-}
-
-export const maskingStudentNumber = (studentNumber: number) => {
-    const str = studentNumber.toString();
-    const maskedStr = [...str];
-
-    maskedStr[0] = '*';
-    maskedStr[1] = '*';
-    maskedStr[5] = '*';
-
-    return maskedStr.join('');
-}
-
-export const makeTestFailLog = async (testFails: {
-    result: boolean;
-    filename: string;
-    reason: string;
-}[]) => {
-    const buffer: string[] = [];
-    try {
-        testFails.forEach(fail => {
-            const studentName = extractHangul(fail.filename).normalize('NFC');
-            const maskedStudentName = maskingName(studentName);
-            const studentNumber = maskingStudentNumber(attendance?.[studentName] ?? 123456);
-
-            buffer.push(`학생이름: ${maskedStudentName}\n학번: ${studentNumber}`);
-            buffer.push(`테스트 실패 이유:`);
-            buffer.push(removeHangul((fail?.reason ?? '').normalize('NFC')));
-            buffer.push('---------------------------');
-        })
-
-        writeFileSync(`${config.UNSAFE__FOLDER__NAME__HARD__CODE}/${TEST_FAIL_LOG}`, buffer.join('\n'));
-    } catch (e) {
-        console.log(e);
-    }
-}
-
-export const makeEmptyTestCaseLog = async (emptyTestCases: {
-    hasAllTestCases: boolean;
-    folderName: string;
-    emptyTestCases: string[];
-    path: string;
-}[]) => {
-    const buffer: string[] = [];
-    try {
-        emptyTestCases.forEach(empty => {
-            const studentName = extractHangul(empty.folderName).normalize('NFC');
-            const maskedStudentName = maskingName(studentName);
-            const studentNumber = maskingStudentNumber(attendance?.[studentName] ?? 123456);
-
-            buffer.push(`학생이름: ${maskedStudentName}\n학번: ${studentNumber}`);
-            buffer.push(`없는 테스트 케이스: `);
-            buffer.push(removeHangul((empty.emptyTestCases.join('\n')).normalize('NFC')));
-            buffer.push('---------------------------');
-        })
-
-        writeFileSync(`${config.UNSAFE__FOLDER__NAME__HARD__CODE}/${EMPTY_TEST_CASE_LOG}`, buffer.join('\n'));
-    } catch (e) {
-        console.log(e);
-    }
-}

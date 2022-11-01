@@ -1,8 +1,7 @@
-import { ResetTvOutlined } from '@mui/icons-material';
+import { buildCpp } from './buildCpp';
 import { config } from './config';
-import {
-    buildCpp, runTestCase
-} from './util';
+import { runTestCase } from './runTestCase';
+
 const { UNSAFE__FOLDER__NAME__HARD__CODE, INPUT_FOLDER_NAME, OUTPUT_FOLDER_NAME } = config;
 
 const main = async () => {
