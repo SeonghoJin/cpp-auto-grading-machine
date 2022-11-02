@@ -91,4 +91,3 @@ https://github.com/SeonghoJin/cpp-auto-grading-machine 에 접속.
 ------------
 
 이해가 안되거나, 해보시다가 안되는 부분이 있다면 저에게 말해주세요!
-web app으로 만들면 참 좋을 것 같은데,, 
