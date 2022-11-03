@@ -20,5 +20,8 @@
     "adm-zip": "^0.5.9",
     "glob": "^8.0.3",
     "ts-try-catch-wrap": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
