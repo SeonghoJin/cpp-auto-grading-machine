@@ -1,6 +1,7 @@
 import { readdir } from "node:fs/promises";
 import { makeTry } from "ts-try-catch-wrap";
 import { read, run } from "./util";
+import cppRunner from './CppRunner';
 
 export const formatString = (value: string) => {
     return value.replace(/(\s*)/g, "").replace(/\n|\r|\s*/g, "").toLowerCase();
@@ -19,7 +20,7 @@ export const unit = makeTry(async (buildFilePath: string, inputFilePath: string,
         }
     }
 
-    const { result, err, hasError } = await run(`${buildFilePath} < ${inputFilePath}`);
+    const { result, err, hasError } = await cppRunner.run(buildFilePath, inputFilePath);
     if (hasError || result.stderr !== '') {
         console.log(`test fail ${buildFilePath} ${inputFilePath}`);
         console.log(err);

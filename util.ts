@@ -226,4 +226,3 @@ export const checkTestCases = async (folderName: string, testFolderNames: string
 export const buildTestCases = async (path: string) => {
     const testCasesFolders = await readdir(path);
 }
-
