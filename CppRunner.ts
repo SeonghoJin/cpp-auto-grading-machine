@@ -3,7 +3,7 @@ import { PromiseWithChild } from 'child_process';
 import { MakeReturnPayload } from 'ts-try-catch-wrap';
 import { Runner } from './Runner';
 import { MacCppRunner } from './MacCppRunner';
-import { WindowCppRunner } from './WindowCppRunner copy';
+import { WindowCppRunner } from './WindowCppRunner';
 
 export class CppRunner implements Runner {
 
