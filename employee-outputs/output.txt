@@ -1,0 +1,49 @@
+ERROR: Employee::printCheck
+ERROR: Employee::printCheck
+
+--------------------------
+Pay to the order of A
+Check Stub Not Negotiable
+Employee Number: 1
+Hourly Employee. 
+Hours worked: 54 Rate: 10 Pay: 540
+
+--------------------------
+
+--------------------------
+Pay to the order of No name yet
+Check Stub Not Negotiable
+Employee Number: No number yet
+Hourly Employee. 
+Hours worked: 0 Rate: 0 Pay: 0
+
+--------------------------
+
+--------------------------
+Pay to the order of B
+The sum of 160 Dollars
+Check Stub Not Negotiable
+Employee Number: 2
+Salaried Employee. Regular Pay: 160
+
+--------------------------
+
+--------------------------
+Pay to the order of No name yet
+The sum of 0 Dollars
+Check Stub Not Negotiable
+Employee Number: No number yet
+Salaried Employee. Regular Pay: 0
+
+--------------------------
+ERROR: Employee::printCheck
+
+--------------------------
+Pay to the order of No name yet
+Check Stub Not Negotiable
+Employee Number: No number yet
+Hourly Employee. 
+Hours worked: 0 Rate: 0 Pay: 0
+
+--------------------------
+ERROR: Employee::printCheck

@@ -1,5 +1,8 @@
 
+import { writeFileSync } from 'fs';
 import { attendance } from './attendance';
+import { config } from './config';
+import { BUILD_FAIL_LOG, TEST_FAIL_LOG, EMPTY_TEST_CASE_LOG } from './util';
 
 export const extractHangul = (value: string) => {
     return value.replace(/[^\uAC00-\uD7AF\u1100-\u11FF\u3130-\u318F]/gi, "");

@@ -6,7 +6,6 @@ import { promisify } from "node:util";
 import { config } from './config';
 import AdmZip from 'adm-zip';
 import glob from 'glob';
-import { writeFileSync } from "fs";
 import { buildCpp } from "./buildCpp";
 import { runTestCase } from "./runTestCase";
 
@@ -19,9 +18,9 @@ export const moveFile = makeTry(rename);
 export const tryRm = makeTry(rm);
 export const read = makeTry(readFile);
 export const br = () => console.log('========================================');
-const BUILD_FAIL_LOG = 'build-fail.log';
-const TEST_FAIL_LOG = 'test-fail.log';
-const EMPTY_TEST_CASE_LOG = 'empty-test-case.log';
+export const BUILD_FAIL_LOG = 'build-fail.log';
+export const TEST_FAIL_LOG = 'test-fail.log';
+export const EMPTY_TEST_CASE_LOG = 'empty-test-case.log';
 
 export const isOnlineTextFolder = (filename: string) => {
     return filename.includes('onlinetext')

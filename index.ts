@@ -12,19 +12,14 @@ import {
     formatMultiTest,
     removeAllExcludeTestFolder,
     checkTestCases,
-    buildTestCases,
-    unit,
-    runTestCase,
-    extractHangul,
-    makeBuildFailLog,
-    makeTestFailLog,
-    makeEmptyTestCaseLog,
 } from "./util";
 import { readdir } from 'fs/promises';
 import { config } from './config';
 import './monkyPatch';
 import { attendance } from "./attendance";
 import { appendFileSync } from "fs";
+import { makeBuildFailLog, makeEmptyTestCaseLog, makeTestFailLog } from "./logUtils";
+import { runTestCase } from "./runTestCase";
 
 
 const {
@@ -116,7 +111,6 @@ const checkSingleTest = async () => {
         }
     }));
 
-    // @ts-ignore;
     makeBuildFailLog(buildFailFolders);
 
     // @ts-ignore;
