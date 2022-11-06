@@ -221,11 +221,11 @@ export const checkTestCases = async (folderName: string, testFolderNames: string
 
     const result = await Promise.all(folders.map(async (folder) => {
         const testCasesPath = `${folderName}/${folder}`;
-        const testCaseResult = checkTestCase(testCasesPath, testFolderNames);
+        const testCaseResult = await checkTestCase(testCasesPath, testFolderNames);
 
         return {
+            ...testCaseResult,
             folderName: folder,
-            ...testCaseResult
         }
     }));
 

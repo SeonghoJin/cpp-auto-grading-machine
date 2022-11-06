@@ -27,7 +27,6 @@ const main = async () => {
         console.log(`${testCaseSearchResult.emptyTestCases.join(" ")} 가 없습니다.`);
         return;
     }
-
     const buildResult = await buildFiles(UNSAFE__FOLDER__NAME__HARD__CODE);
 
     if (buildResult.hasError) {
