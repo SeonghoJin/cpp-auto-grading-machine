@@ -1,5 +1,3 @@
-import { readdir } from 'fs';
-import { buildCpp } from './buildCpp';
 import { mutliTestConfig } from './mutli-test.config';
 
 import { runTestCase } from './runTestCase';
@@ -39,20 +37,24 @@ const main = async () => {
 
     const result = await Promise.all(testFolders.map(async (folder) => {
         const testCase = folder.split('/').at(-1);
-        const inputTestCase = `./${INPUT_FOLDER_NAME}/${testCase}`;
-        const outputTestCase = `./${OUTPUT_FOLDER_NAME}/${testCase}`;
+        const inputTestCase = `${INPUT_FOLDER_NAME}/${testCase}`;
+        const outputTestCase = `${OUTPUT_FOLDER_NAME}/${testCase}`;
         return await runTestCase(`${folder}/${BUILD_EXE_FILE}`, inputTestCase, outputTestCase);
     }));
 
+
     result.forEach(item => {
         if (item.result === false) {
-            console.log(`${item.filename} test 성공`);
+            console.log(`${item.filename} test 실패`);
             console.log(item.reason);
         } else {
             console.log(`${item.filename} test 성공`);
         }
         console.log(' ');
+
     })
+
+    console.log(result);
 }
 
 main();

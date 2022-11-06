@@ -20,8 +20,8 @@ export class WindowCppRunner implements Runner {
             .map(path => `cd ${path}`);
 
 
-        const cmd = cdCmds.concat(`build < ../${inputFilePath}`).join(' & ');
-
+        const cmd = cdCmds.concat(`build < ${splitedPath.slice(0, pathLen - 1).map((_) => '..').join('/')}/${inputFilePath}`).join(' & ');
+        console.log(cmd);
         return await run(cmd);
     }
 }
