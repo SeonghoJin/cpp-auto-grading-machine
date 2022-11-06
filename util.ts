@@ -201,22 +201,31 @@ export const removeAllExcludeTestFolder = async (folderName: string, testFolderN
     }));
 }
 
+export const checkTestCase = async (testCasePath: string, testFolderNames: string[]) => {
+    const testCaseFolders = await readdir(testCasePath);
+
+    const hasAllTestCases = testFolderNames.filter(folderName => {
+        return !testCaseFolders.includes(folderName);
+    });
+
+    return {
+        hasAllTestCases: hasAllTestCases.length === 0,
+        emptyTestCases: hasAllTestCases,
+        path: testCasePath
+    }
+}
+
+
 export const checkTestCases = async (folderName: string, testFolderNames: string[]) => {
     const folders = await (await readdir(folderName)).filter(isAssignSubmissionFile);
 
     const result = await Promise.all(folders.map(async (folder) => {
         const testCasesPath = `${folderName}/${folder}`;
-        const testCaseFolders = await readdir(testCasesPath);
-
-        const hasAllTestCases = testFolderNames.filter(folderName => {
-            return !testCaseFolders.includes(folderName);
-        });
+        const testCaseResult = await checkTestCase(testCasesPath, testFolderNames);
 
         return {
-            hasAllTestCases: hasAllTestCases.length === 0,
+            ...testCaseResult,
             folderName: folder,
-            emptyTestCases: hasAllTestCases,
-            path: testCasesPath
         }
     }));
 

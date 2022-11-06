@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "start": "ts-node index.ts",
-    "single-test": "ts-node test.ts"
+    "single-test": "ts-node single-test.ts",
+    "multi-test": "ts-node multi-test.ts"
   },
   "author": "",
   "private": true,
