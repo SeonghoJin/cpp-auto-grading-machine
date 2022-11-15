@@ -1,0 +1,6 @@
+sum from cin: 5245
+sum from infile.txt: 5245
+sum from string stream: 1368
+sayHello to cout: HelloHello
+sayHello to outfile.txt: Hello
+sayHello to string stream: Hello

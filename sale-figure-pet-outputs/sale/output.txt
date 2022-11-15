@@ -1,0 +1,6 @@
+Sale price: 10
+DiscountSale price and discount rate: 11, 10
+Discounted item is cheaper.
+Savings is $0.1
+Enter Sale price: Enter DiscountSale price: Enter a discount rate: Discounted item is cheaper.
+Savings is $1

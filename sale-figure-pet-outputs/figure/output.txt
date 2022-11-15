@@ -1,0 +1,4 @@
+Enter a radius of circle: Circle of radius 10 is created at 0 and 0
+Enter a width and a height of rectangle: Rectangle of width 50 and  height 30 is created at 0 and 0
+Circle of radius 10 is drawn at (320, 240)
+Rectangle of width 50 and height 30 is drawn at (320, 240)

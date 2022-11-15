@@ -1,0 +1,7 @@
+t3[0] = hello, t3[1] = world
+tb3[0] = hello, tb3[1] = world
+tb3[0] = Nice to, tb3[1] = meet you
+backup tb3
+tb3[0] = Write this, tb3[1] = with something new
+restore the backup table in tb3
+tb3[0] = Nice to, tb3[1] = meet you

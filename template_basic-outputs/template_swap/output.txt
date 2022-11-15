@@ -1,0 +1,8 @@
+Given
+integer1=1, integer2=2
+After swap(integer1,integer2)
+integer1=2, integer2=1
+Given
+symbol1=A, symbol2=B
+After swap(symbol1,symbol2)
+symbol1=B, symbol2=A

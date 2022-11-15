@@ -1,0 +1,12 @@
+Given
+(3, 0)
+addUp returns 3
+Given
+(7, 5)
+addUp returns 12
+Given
+(A, B)
+addUp returns ƒ
+Given
+(Z, K)
+addUp returns ¥

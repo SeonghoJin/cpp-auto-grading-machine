@@ -1,0 +1,31 @@
+remove all online text folder 
+======================================== 
+unzip all online submission 
+======================================== 
+extract all cpp files 
+======================================== 
+remove all trash folder 
+======================================== 
+build start 
+build g++ -o ./single-test/build-fail/build -std=c++14  
+build g++ -o ./single-test/test-fail/build -std=c++14  
+build fail command = g++ -o ./single-test/build-fail/build -std=c++14  
+error 
+Error: Command failed: g++ -o ./single-test/build-fail/build -std=c++14 
+clang: error: no input files
+ 
+build fail command = g++ -o ./single-test/test-fail/build -std=c++14  
+error 
+Error: Command failed: g++ -o ./single-test/test-fail/build -std=c++14 
+clang: error: no input files
+ 
+======================================== 
+make build fail folder 
+make build file error 
+Error: EEXIST: file already exists, mkdir 'single-test/build-fail' 
+move build fail folder 
+start test | target single-test 
+make test fail folder 
+make test file error 
+Error: EEXIST: file already exists, mkdir 'single-test/test-fail' 
+move test fail folder 
